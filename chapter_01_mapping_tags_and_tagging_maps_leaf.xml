@@ -851,6 +851,87 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162227055",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-29T20:22:27.055Z",
+	"dcterms:modified": "2026-09-29T20:22:27.055Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162227055#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162227055#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/figure[4]/p[13]/placeName[5]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/6255148",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -1159,7 +1240,7 @@
                             </ref>
                         </p>
                         <p xml:id="p1066">
-                            Figure 1.7 shows at a glance how widely these intrepid women penetrated the eastern seaboard of colonial <placeName key="North America" ref="https://sws.geonames.org/6255149" ana="webannotation:http://temp.lincsproject.ca/9rKn1wZFJk4">North America</placeName>, travelled from <placeName key="Newfoundland and Labrador" ref="https://sws.geonames.org/6354959" ana="webannotation:http://temp.lincsproject.ca/aiDJtDrP92X">Newfoundland</placeName> in the north to <placeName key="Jamaica" ref="https://sws.geonames.org/3489940" ana="webannotation:http://temp.lincsproject.ca/SX0LNA4pQ3r">Jamaica</placeName> and <placeName key="Barbados" ref="https://sws.geonames.org/3374084" ana="webannotation:http://temp.lincsproject.ca/GcXrbE3y2hi">Barbados</placeName> in the south. It also shows their travels in <orgName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/hwFHXJZsiMR">Europe</orgName> and eastwards to <placeName key="Hellenic Republic" ref="https://sws.geonames.org/390903" ana="webannotation:http://temp.lincsproject.ca/gFRGNWpN3kM">Greece</placeName>, <placeName key="Republic of Turkey" ref="https://sws.geonames.org/298795" ana="webannotation:http://temp.lincsproject.ca/cPpsQOJX4hs">Turkey</placeName>, and <placeName key="Jerusalem" ref="https://sws.geonames.org/281184" ana="webannotation:http://temp.lincsproject.ca/eE9yBGnaIGd">Jerusalem</placeName>, as well as all over <placeName key="England" ref="https://sws.geonames.org/6269131" ana="webannotation:http://temp.lincsproject.ca/0sj3Q7dPtpE">England</placeName> and <placeName key="Ireland" ref="https://sws.geonames.org/2963597" ana="webannotation:http://temp.lincsproject.ca/kwsvyKgmeAC">Ireland</placeName>. <ref target="#religion">Like <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/gy9hkNb05hd">Mary Ward</persName>, these members of <orgName key="Society of Friends" ref="http://viaf.org/viaf/3829151474904900490007" ana="webannotation:http://temp.lincsproject.ca/jv7BxG6e0mH">the Society of Friends</orgName> were driven by the determination to spread their faith worldwide.</ref>
+                            Figure 1.7 shows at a glance how widely these intrepid women penetrated the eastern seaboard of colonial <placeName key="North America" ref="https://sws.geonames.org/6255149" ana="webannotation:http://temp.lincsproject.ca/9rKn1wZFJk4">North America</placeName>, travelled from <placeName key="Newfoundland and Labrador" ref="https://sws.geonames.org/6354959" ana="webannotation:http://temp.lincsproject.ca/aiDJtDrP92X">Newfoundland</placeName> in the north to <placeName key="Jamaica" ref="https://sws.geonames.org/3489940" ana="webannotation:http://temp.lincsproject.ca/SX0LNA4pQ3r">Jamaica</placeName> and <placeName key="Barbados" ref="https://sws.geonames.org/3374084" ana="webannotation:http://temp.lincsproject.ca/GcXrbE3y2hi">Barbados</placeName> in the south. It also shows their travels in <placeName key="Europe" ref="https://sws.geonames.org/6255148" cert="high">Europe<precision match="@ref" precision="high"/></placeName> and eastwards to <placeName key="Hellenic Republic" ref="https://sws.geonames.org/390903" ana="webannotation:http://temp.lincsproject.ca/gFRGNWpN3kM">Greece</placeName>, <placeName key="Republic of Turkey" ref="https://sws.geonames.org/298795" ana="webannotation:http://temp.lincsproject.ca/cPpsQOJX4hs">Turkey</placeName>, and <placeName key="Jerusalem" ref="https://sws.geonames.org/281184" ana="webannotation:http://temp.lincsproject.ca/eE9yBGnaIGd">Jerusalem</placeName>, as well as all over <placeName key="England" ref="https://sws.geonames.org/6269131" ana="webannotation:http://temp.lincsproject.ca/0sj3Q7dPtpE">England</placeName> and <placeName key="Ireland" ref="https://sws.geonames.org/2963597" ana="webannotation:http://temp.lincsproject.ca/kwsvyKgmeAC">Ireland</placeName>. <ref target="#religion">Like <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/gy9hkNb05hd">Mary Ward</persName>, these members of <orgName key="Society of Friends" ref="http://viaf.org/viaf/3829151474904900490007" ana="webannotation:http://temp.lincsproject.ca/jv7BxG6e0mH">the Society of Friends</orgName> were driven by the determination to spread their faith worldwide.</ref>
                             
                         </p>
                         <p xml:id="p1067">
