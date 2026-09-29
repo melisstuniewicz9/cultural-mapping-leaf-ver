@@ -406,10 +406,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807",
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-14T16:56:37.807Z",
-	"dcterms:modified": "2026-05-14T16:56:37.807Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -420,10 +419,10 @@
 	},
 	"oa:motivatedBy": "oa:linking",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807#Target",
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml",
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -431,10 +430,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.2.0"
+			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807#Selector",
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div[2]/p/ref/ref/ref/ref"
 		}
@@ -448,7 +447,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.2.0"
+		"schema:softwareVersion": "4.3.2"
 	}
 }]]>
         </rdf:Description>
@@ -515,7 +514,7 @@
                                     <bibl><persName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/fSV1PsH8UI3">Prickman</persName></bibl>
                                 </note>; an analysis of the impact of railway development <note place="inline">
                                     <bibl><persName key="Thomas, William G., 1964-...." ref="http://viaf.org/viaf/29822258" ana="webannotation:http://temp.lincsproject.ca/ZP672z6E85J">Thomas</persName>, <persName key="Healey, Richard G." ref="http://viaf.org/viaf/222743171" ana="webannotation:http://temp.lincsproject.ca/DPCmZIu18GH">Healey</persName>, and Cottingham</bibl>
-                                </note>; and a study of the circulation of letters in early modern <placeName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/QLGPEamJXd0">Europe</placeName> <note place="inline">
+                                </note>; and a study of the circulation of letters in early modern <placeName>Europe</placeName> <note place="inline">
                                     <bibl><persName key="Mullen, Nicole C." ref="http://viaf.org/viaf/4597810" ana="webannotation:http://temp.lincsproject.ca/Pq2dnKgKuQT">Coleman</persName>, <persName key="Edelstein, Dan." ref="http://viaf.org/viaf/45481065" ana="webannotation:http://temp.lincsproject.ca/7j9cvKA5kny">Edelstein</persName>, and <persName key="Findlen, Paula." ref="http://viaf.org/viaf/9957596" ana="webannotation:http://temp.lincsproject.ca/pDRMjMY4xDH">Findlen</persName></bibl>
                                 </note>.</ref>
                         </ref>
@@ -906,11 +905,13 @@
             </div>
         </body>
     </text>
-	<standOff type="annotation">
+	
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="annotation">
 		
 <xenoData>
 			
-<rdf:RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/l38EjyOiqAC">
 <![CDATA[{
@@ -28640,6 +28641,4 @@
 		
 </xenoData>
 	
-	</standOff>
-
-</TEI>
+	</standOff></TEI>
