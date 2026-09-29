@@ -406,9 +406,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807",
+	"id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-14T16:56:37.807Z",
+	"dcterms:modified": "2026-05-14T16:56:37.807Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -419,10 +420,10 @@
 	},
 	"oa:motivatedBy": "oa:linking",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807#Target",
+		"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
+			"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -430,10 +431,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
+			"schema:softwareVersion": "4.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807#Selector",
+			"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div[2]/p/ref/ref/ref/ref"
 		}
@@ -447,489 +448,8 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
+		"schema:softwareVersion": "4.2.0"
 	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?person_annotation_20260929155809541",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-09-29T19:58:09.541Z",
-	"dcterms:modified": "2026-09-29T19:58:09.541Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/melisstuniewicz9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Melissa Tuniewicz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?person_annotation_20260929155809541#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?person_annotation_20260929155809541#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[2]/ref/note/bibl/orgName/persName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/305283540",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	},
-	"cwrc:hasCertainty": "cwrc:high"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929161833190",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-09-29T20:18:33.190Z",
-	"dcterms:modified": "2026-09-29T20:18:33.190Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/melisstuniewicz9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Melissa Tuniewicz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929161833190#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929161833190#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[3]/figure[4]/p/ref/placeName[2]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://sws.geonames.org/6255148",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	},
-	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:highCertainty"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929161929775",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-09-29T20:19:29.775Z",
-	"dcterms:modified": "2026-09-29T20:19:29.775Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/melisstuniewicz9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Melissa Tuniewicz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929161929775#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929161929775#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p[2]/ref/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://sws.geonames.org/6255148",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162003106",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-09-29T20:20:03.106Z",
-	"dcterms:modified": "2026-09-29T20:20:03.106Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/melisstuniewicz9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Melissa Tuniewicz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162003106#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162003106#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[3]/figure[4]/p[2]/ref/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://sws.geonames.org/6255148",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	},
-	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:unknownCertainty"
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162035773",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-09-29T20:20:35.773Z",
-	"dcterms:modified": "2026-09-29T20:20:35.773Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/melisstuniewicz9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Melissa Tuniewicz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162035773#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162035773#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[3]/figure[4]/p[5]/figure/figDesc/placeName"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://sws.geonames.org/6255148",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	}
-}]]>
-        </rdf:Description>
-      
-        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
-          <![CDATA[{
-	"@context": {
-		"dcterms:created": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:created"
-		},
-		"dcterms:issued": {
-			"@type": "xsd:dateTime",
-			"@id": "dcterms:issued"
-		},
-		"oa:motivatedBy": {
-			"@type": "oa:Motivation"
-		},
-		"@language": "en",
-		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-		"as": "http://www.w3.org/ns/activitystreams#",
-		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
-		"dc": "http://purl.org/dc/elements/1.1/",
-		"dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"geo": "http://www.geonames.org/ontology#",
-		"oa": "http://www.w3.org/ns/oa#",
-		"schema": "http://schema.org/",
-		"xsd": "http://www.w3.org/2001/XMLSchema#",
-		"fabio": "https://purl.org/spar/fabio#",
-		"bf": "http://www.openlinksw.com/schemas/bif#",
-		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
-		"org": "http://www.w3.org/ns/org#"
-	},
-	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162227055",
-	"type": "oa:Annotation",
-	"dcterms:created": "2026-09-29T20:22:27.055Z",
-	"dcterms:modified": "2026-09-29T20:22:27.055Z",
-	"dcterms:creator": {
-		"@id": "https://github.com/melisstuniewicz9",
-		"@type": [
-			"cwrc:NaturalPerson",
-			"schema:Person"
-		],
-		"cwrc:hasName": "Melissa Tuniewicz"
-	},
-	"oa:motivatedBy": "oa:identifying",
-	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162227055#Target",
-		"@type": "oa:SpecificResource",
-		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
-			"@type": "dctypes:Text",
-			"dc:format": "text/xml"
-		},
-		"oa:renderedVia": {
-			"@id": "https://leaf-writer.leaf-vre.org",
-			"@type": "as:Application",
-			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
-		},
-		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?place_annotation_20260929162227055#Selector",
-			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[3]/figure[4]/p[13]/placeName[5]"
-		}
-	},
-	"oa:hasBody": {
-		"@type": "cwrc:RealPlace",
-		"@id": "https://sws.geonames.org/6255148",
-		"dc:format": "text/plain"
-	},
-	"as:generator": {
-		"@id": "https://leaf-writer.leaf-vre.org",
-		"@type": "as:Application",
-		"rdfs:label": "LEAF-Writer",
-		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
-	},
-	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:highCertainty"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -989,15 +509,15 @@
                     </q>
                     <p xml:id="p1038">
                         <ref target="#theme_or_topic">
-                            
+                            <ref target="#spatiality">
                                 <ref target="#technology">There are always complex reasons for an intensifying interest in space as a topic or analytical category</ref>, but there is no question that the current interest is fuelled by the greater accessibility of spatial technologies such as plotting tools and geographic information systems (<abbr>GIS</abbr>), made possible by the World Wide Web, that put a dazzling array of maps at our fingertips. These maps allow us to explore digital representations of space by interactively zooming in and out, experimenting with various layers of information, and <ref target="#close_reading">gathering granular analysis of a vast range of materials.</ref>
                                 <ref target="#methodology">The application of computational spatial analysis in literary studies is relatively new, but the results are already evident in a number of impressive projects.</ref> These projects include an overview of the development of printing technologies <note place="inline">
-                                    <bibl><orgName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/fSV1PsH8UI3"><persName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" cert="high" type="real">Prickman</persName></orgName></bibl>
+                                    <bibl><persName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/fSV1PsH8UI3">Prickman</persName></bibl>
                                 </note>; an analysis of the impact of railway development <note place="inline">
-                                    <bibl><orgName key="Augustine, of Hippo, Saint, 354-430." ref="http://viaf.org/viaf/66806872" ana="webannotation:http://temp.lincsproject.ca/DksxzB6SP2k">Thomas</orgName>, <persName key="Healey, Richard G." ref="http://viaf.org/viaf/222743171" ana="webannotation:http://temp.lincsproject.ca/DPCmZIu18GH">Healey</persName>, and Cottingham</bibl>
-                                </note>; and a study of the circulation of letters in early modern <placeName key="Europe" ref="https://sws.geonames.org/6255148">Europe</placeName> <note place="inline">
-                                    <bibl><orgName key="Mullen, Nicole C." ref="http://viaf.org/viaf/4597810" ana="webannotation:http://temp.lincsproject.ca/Pq2dnKgKuQT">Coleman</orgName>, <persName key="Edelstein, Dan." ref="http://viaf.org/viaf/45481065" ana="webannotation:http://temp.lincsproject.ca/7j9cvKA5kny">Edelstein</persName>, and <persName key="Findlen, Paula." ref="http://viaf.org/viaf/9957596" ana="webannotation:http://temp.lincsproject.ca/pDRMjMY4xDH">Findlen</persName></bibl>
-                                </note>.
+                                    <bibl><persName key="Augustine, of Hippo, Saint, 354-430." ref="http://viaf.org/viaf/66806872" ana="webannotation:http://temp.lincsproject.ca/DksxzB6SP2k">Thomas</persName>, <persName key="Healey, Richard G." ref="http://viaf.org/viaf/222743171" ana="webannotation:http://temp.lincsproject.ca/DPCmZIu18GH">Healey</persName>, and Cottingham</bibl>
+                                </note>; and a study of the circulation of letters in early modern <placeName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/QLGPEamJXd0">Europe</placeName> <note place="inline">
+                                    <bibl><persName key="Mullen, Nicole C." ref="http://viaf.org/viaf/4597810" ana="webannotation:http://temp.lincsproject.ca/Pq2dnKgKuQT">Coleman</persName>, <persName key="Edelstein, Dan." ref="http://viaf.org/viaf/45481065" ana="webannotation:http://temp.lincsproject.ca/7j9cvKA5kny">Edelstein</persName>, and <persName key="Findlen, Paula." ref="http://viaf.org/viaf/9957596" ana="webannotation:http://temp.lincsproject.ca/pDRMjMY4xDH">Findlen</persName></bibl>
+                                </note>.</ref>
                         </ref>
                     </p>
                     <p xml:id="p1039">
@@ -1153,10 +673,10 @@
                             <figDesc>Figure 1.1e: Biographies of writers born between 1900-2000.</figDesc>
                         </figure>
                         <p xml:id="p1054">
-                            <ref target="#spatiality">This map produced many hits in <placeName key="England" ref="https://sws.geonames.org/6269131" ana="webannotation:http://temp.lincsproject.ca/l1aSV0nBqba">England</placeName>, numerous hits in continental <placeName key="Europe" ref="https://sws.geonames.org/6255148" cert="high">Europe<precision match="@ref" precision="high"/></placeName>, and a few hits worldwide (see Figure 1.2).</ref>
+                            <ref target="#spatiality">This map produced many hits in <placeName key="England" ref="https://sws.geonames.org/6269131" ana="webannotation:http://temp.lincsproject.ca/l1aSV0nBqba">England</placeName>, numerous hits in continental <placeName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/OBTMgZyJEAw">Europe</placeName>, and a few hits worldwide (see Figure 1.2).</ref>
                         </p>
                         <p xml:id="p1055">
-                            <ref target="#representation_of_women">Figure 1.3 shows <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/GFcGBxUkU1q">Ward</persName>’s extensive travels around <placeName key="Europe" ref="https://sws.geonames.org/6255148" cert="high">Europe<precision match="@ref" precision="unknown"/></placeName>: an extraordinary testimony to one woman’s influence at a time when travel was slow and dangerous.</ref>
+                            <ref target="#representation_of_women">Figure 1.3 shows <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/GFcGBxUkU1q">Ward</persName>’s extensive travels around <placeName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/wDKh5eMlG8i">Europe</placeName>: an extraordinary testimony to one woman’s influence at a time when travel was slow and dangerous.</ref>
                         </p>
                         <p xml:id="p1056">Figure 1.4 indicates a concentration of hits in northern <placeName key="England" ref="https://sws.geonames.org/6269131" ana="webannotation:http://temp.lincsproject.ca/C6LP5xxoAlK">England</placeName> (which reflects <ref target="#religion">the semi-underground life lived by Catholics</ref> during the time of <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/5yeaYgnUevi">Ward</persName>’s adolescence) and a cluster of hits in <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/KSKuYmgPR6D">London</placeName>.</p>
                         <p xml:id="p1057">
@@ -1169,7 +689,7 @@
                             <figure>
                                 <head>Figure 1.3</head>
                                 <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A577eae57-b584-4fcf-9fde-a5ba94d0f78b/datastream/JPG-DToC/view"/>
-                                <figDesc>Places related to <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/6qOSQL3MrVf">Mary Ward's</persName> travels and influence in <placeName key="Europe" ref="https://sws.geonames.org/6255148">Europe</placeName>.</figDesc>
+                                <figDesc>Places related to <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/6qOSQL3MrVf">Mary Ward's</persName> travels and influence in <placeName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/Baf8XDdplwE">Europe</placeName>.</figDesc>
                             </figure>
                             <figure>
                                 <head>Figure 1.4</head>
@@ -1240,8 +760,8 @@
                             </ref>
                         </p>
                         <p xml:id="p1066">
-                            Figure 1.7 shows at a glance how widely these intrepid women penetrated the eastern seaboard of colonial <placeName key="North America" ref="https://sws.geonames.org/6255149" ana="webannotation:http://temp.lincsproject.ca/9rKn1wZFJk4">North America</placeName>, travelled from <placeName key="Newfoundland and Labrador" ref="https://sws.geonames.org/6354959" ana="webannotation:http://temp.lincsproject.ca/aiDJtDrP92X">Newfoundland</placeName> in the north to <placeName key="Jamaica" ref="https://sws.geonames.org/3489940" ana="webannotation:http://temp.lincsproject.ca/SX0LNA4pQ3r">Jamaica</placeName> and <placeName key="Barbados" ref="https://sws.geonames.org/3374084" ana="webannotation:http://temp.lincsproject.ca/GcXrbE3y2hi">Barbados</placeName> in the south. It also shows their travels in <placeName key="Europe" ref="https://sws.geonames.org/6255148" cert="high">Europe<precision match="@ref" precision="high"/></placeName> and eastwards to <placeName key="Hellenic Republic" ref="https://sws.geonames.org/390903" ana="webannotation:http://temp.lincsproject.ca/gFRGNWpN3kM">Greece</placeName>, <placeName key="Republic of Turkey" ref="https://sws.geonames.org/298795" ana="webannotation:http://temp.lincsproject.ca/cPpsQOJX4hs">Turkey</placeName>, and <placeName key="Jerusalem" ref="https://sws.geonames.org/281184" ana="webannotation:http://temp.lincsproject.ca/eE9yBGnaIGd">Jerusalem</placeName>, as well as all over <placeName key="England" ref="https://sws.geonames.org/6269131" ana="webannotation:http://temp.lincsproject.ca/0sj3Q7dPtpE">England</placeName> and <placeName key="Ireland" ref="https://sws.geonames.org/2963597" ana="webannotation:http://temp.lincsproject.ca/kwsvyKgmeAC">Ireland</placeName>. <ref target="#religion">Like <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/gy9hkNb05hd">Mary Ward</persName>, these members of <orgName key="Society of Friends" ref="http://viaf.org/viaf/3829151474904900490007" ana="webannotation:http://temp.lincsproject.ca/jv7BxG6e0mH">the Society of Friends</orgName> were driven by the determination to spread their faith worldwide.</ref>
-                            
+                            <ref target="#representation_of_women">Figure 1.7 shows at a glance how widely these intrepid women penetrated the eastern seaboard of colonial <placeName key="North America" ref="https://sws.geonames.org/6255149" ana="webannotation:http://temp.lincsproject.ca/9rKn1wZFJk4">North America</placeName>, travelled from <placeName key="Newfoundland and Labrador" ref="https://sws.geonames.org/6354959" ana="webannotation:http://temp.lincsproject.ca/aiDJtDrP92X">Newfoundland</placeName> in the north to <placeName key="Jamaica" ref="https://sws.geonames.org/3489940" ana="webannotation:http://temp.lincsproject.ca/SX0LNA4pQ3r">Jamaica</placeName> and <placeName key="Barbados" ref="https://sws.geonames.org/3374084" ana="webannotation:http://temp.lincsproject.ca/GcXrbE3y2hi">Barbados</placeName> in the south. It also shows their travels in <placeName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/hwFHXJZsiMR">Europe</placeName> and eastwards to <placeName key="Hellenic Republic" ref="https://sws.geonames.org/390903" ana="webannotation:http://temp.lincsproject.ca/gFRGNWpN3kM">Greece</placeName>, <placeName key="Republic of Turkey" ref="https://sws.geonames.org/298795" ana="webannotation:http://temp.lincsproject.ca/cPpsQOJX4hs">Turkey</placeName>, and <placeName key="Jerusalem" ref="https://sws.geonames.org/281184" ana="webannotation:http://temp.lincsproject.ca/eE9yBGnaIGd">Jerusalem</placeName>, as well as all over <placeName key="England" ref="https://sws.geonames.org/6269131" ana="webannotation:http://temp.lincsproject.ca/0sj3Q7dPtpE">England</placeName> and <placeName key="Ireland" ref="https://sws.geonames.org/2963597" ana="webannotation:http://temp.lincsproject.ca/kwsvyKgmeAC">Ireland</placeName>. <ref target="#religion">Like <persName key="Ward, Mary" ref="http://viaf.org/viaf/62341746" ana="webannotation:http://temp.lincsproject.ca/gy9hkNb05hd">Mary Ward</persName>, these members of <orgName key="Society of Friends" ref="http://viaf.org/viaf/3829151474904900490007" ana="webannotation:http://temp.lincsproject.ca/jv7BxG6e0mH">the Society of Friends</orgName> were driven by the determination to spread their faith worldwide.</ref>
+                            </ref>
                         </p>
                         <p xml:id="p1067">
                             <ref target="#religion">
@@ -1337,7 +857,7 @@
                         </bibl>
                         <bibl><persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/txIMepH1r50">Brown</persName>, <persName key="Brown, Susan Irene" ref="http://viaf.org/viaf/104953085" ana="webannotation:http://temp.lincsproject.ca/yiMHHHus0Et">Susan</persName>, <persName key="Clements, Patricia" ref="http://viaf.org/viaf/59097729" ana="webannotation:http://temp.lincsproject.ca/schiKgw0wnX">Patricia Clements</persName>, and <persName key="Grundy, Isobel." ref="http://viaf.org/viaf/12322641" ana="webannotation:http://temp.lincsproject.ca/QVHMRhYZeq0">Isobel Grundy</persName>, eds. <title level="m"><orgName key="Orlando" ref="https://www.wikidata.org/wiki/Q60672320" ana="webannotation:http://temp.lincsproject.ca/5kkScPKStMN">Orlando: Women’s Writing in the British Isles</orgName> from the Beginnings to the Present</title>. <placeName key="University of Cambridge." ref="http://viaf.org/viaf/153568718" ana="webannotation:http://temp.lincsproject.ca/EeucRYi1L5T webannotation:http://temp.lincsproject.ca/82Qp1ZMbQUj">Cambridge</placeName>: <orgName key="Cambridge university press" ref="http://viaf.org/viaf/127979069" ana="webannotation:http://temp.lincsproject.ca/tt18nVN2JIP">Cambridge University Press</orgName>, 2006–2012. <ref target="http://orlando.cambridge.org">http://orlando.cambridge.org</ref>
                         </bibl>
-                        <bibl><orgName key="Mullen, Nicole C." ref="http://viaf.org/viaf/4597810" ana="webannotation:http://temp.lincsproject.ca/bOcEFDSnJB1">Coleman</orgName>, <persName key="Coleman, Catherine Nicole" ref="http://viaf.org/viaf/16161149770334942128" ana="webannotation:http://temp.lincsproject.ca/V4RLLbgpy4H">Nicole</persName>, <persName key="Edelstein, Dan." ref="http://viaf.org/viaf/45481065" ana="webannotation:http://temp.lincsproject.ca/UqwwHdEHEQk">Dan Edelstein</persName>, and <persName key="Findlen, Paula." ref="http://viaf.org/viaf/9957596" ana="webannotation:http://temp.lincsproject.ca/TlsHvgr7bWr">Paula Findlen</persName>. <title level="m">Mapping the Republic of Letters</title>. <orgName key="Stanford university" ref="http://viaf.org/viaf/129582224" ana="webannotation:http://temp.lincsproject.ca/EnlQxH21pkQ">Stanford University</orgName>. <ref target="https://republicofletters.stanford.edu">https://republicofletters.stanford.edu</ref>
+                        <bibl><persName key="Mullen, Nicole C." ref="http://viaf.org/viaf/4597810" ana="webannotation:http://temp.lincsproject.ca/bOcEFDSnJB1">Coleman</persName>, <persName key="Coleman, Catherine Nicole" ref="http://viaf.org/viaf/16161149770334942128" ana="webannotation:http://temp.lincsproject.ca/V4RLLbgpy4H">Nicole</persName>, <persName key="Edelstein, Dan." ref="http://viaf.org/viaf/45481065" ana="webannotation:http://temp.lincsproject.ca/UqwwHdEHEQk">Dan Edelstein</persName>, and <persName key="Findlen, Paula." ref="http://viaf.org/viaf/9957596" ana="webannotation:http://temp.lincsproject.ca/TlsHvgr7bWr">Paula Findlen</persName>. <title level="m">Mapping the Republic of Letters</title>. <orgName key="Stanford university" ref="http://viaf.org/viaf/129582224" ana="webannotation:http://temp.lincsproject.ca/EnlQxH21pkQ">Stanford University</orgName>. <ref target="https://republicofletters.stanford.edu">https://republicofletters.stanford.edu</ref>
                         </bibl>
                         <bibl><persName key="Drucker, Johanna, 1952-...." ref="http://viaf.org/viaf/71503942" ana="webannotation:http://temp.lincsproject.ca/tHYepatq3IL">Drucker</persName>, <persName key="Drucker, Johanna, 1952-...." ref="http://viaf.org/viaf/71503942" ana="webannotation:http://temp.lincsproject.ca/fcPDDEo3RZG">Johanna</persName>. <title level="a">Humanities Approaches to Graphical Display</title>. <title level="j"><orgName key="Digital Humanities Quarterly" ref="https://www.wikidata.org/wiki/Q5275881" ana="webannotation:http://temp.lincsproject.ca/2kBUjVIuM6F">DHQ</orgName>: Digital Humanities Quarterly</title> 5.1 (2011). <ref target="http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html">http://www.digitalhumanities.org/dhq/vol/5/1/000091/000091.html</ref>
                         </bibl>
@@ -1350,14 +870,14 @@
                         <bibl>
                             <title level="m">Google Maps</title>. <ref target="http://maps.google.ca">http://maps.google.ca</ref>
                         </bibl>
-                        <bibl><object key="David François Huynh" ref="https://www.wikidata.org/wiki/Q102363461" ana="webannotation:http://temp.lincsproject.ca/SVEocHzu6FI">Huynh</object>, <persName key="David François Huynh" ref="https://www.wikidata.org/wiki/Q102363461" ana="webannotation:http://temp.lincsproject.ca/7zFC5TMqQm0">David François</persName>. <title level="m">Exhibit</title>. <orgName key="Massachusetts institute of technology" ref="http://viaf.org/viaf/150025207" ana="webannotation:http://temp.lincsproject.ca/8HXvtin9ezS">Massachusetts Institute of Technology</orgName>. <ref target="http://www.simile-widgets.org/exhibit">http://www.simile-widgets.org/exhibit</ref>
+                        <bibl><persName key="David François Huynh" ref="https://www.wikidata.org/wiki/Q102363461" ana="webannotation:http://temp.lincsproject.ca/SVEocHzu6FI">Huynh</persName>, <persName key="David François Huynh" ref="https://www.wikidata.org/wiki/Q102363461" ana="webannotation:http://temp.lincsproject.ca/7zFC5TMqQm0">David François</persName>. <title level="m">Exhibit</title>. <orgName key="Massachusetts institute of technology" ref="http://viaf.org/viaf/150025207" ana="webannotation:http://temp.lincsproject.ca/8HXvtin9ezS">Massachusetts Institute of Technology</orgName>. <ref target="http://www.simile-widgets.org/exhibit">http://www.simile-widgets.org/exhibit</ref>
                         </bibl>
                         <bibl>
                             <title level="m">HyperCities</title>. <orgName key="University of California, Los Angeles" ref="http://viaf.org/viaf/122477083" ana="webannotation:http://temp.lincsproject.ca/9aI9FEuHiR4">University of California, Los Angeles</orgName>. <ref target="http://hypercities.com">http://hypercities.com</ref>
                         </bibl>
                         <bibl>MetaCarta. <title level="m">OpenLayers</title>. <orgName key="Open Source Geospatial Foundation" ref="http://viaf.org/viaf/167491447" ana="webannotation:http://temp.lincsproject.ca/lA9ue6Le9DI">Open Source Geospatial Foundation</orgName>. <ref target="http://openlayers.org">http://openlayers.org</ref>
                         </bibl>
-                        <bibl><orgName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/vdC8WTB7Gvn">Prickman</orgName>, <persName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/CrcNcp0pJ19">Gregory</persName>. <title level="m">The Atlas of Early Printing</title>. <orgName key="University of Iowa. Libraries" ref="http://viaf.org/viaf/4081151778217518130006" ana="webannotation:http://temp.lincsproject.ca/y84VqHOtXw4">University of Iowa Libraries</orgName>. <ref target="http://atlas.lib.uiowa.edu">http://atlas.lib.uiowa.edu</ref>
+                        <bibl><persName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/vdC8WTB7Gvn">Prickman</persName>, <persName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/CrcNcp0pJ19">Gregory</persName>. <title level="m">The Atlas of Early Printing</title>. <orgName key="University of Iowa. Libraries" ref="http://viaf.org/viaf/4081151778217518130006" ana="webannotation:http://temp.lincsproject.ca/y84VqHOtXw4">University of Iowa Libraries</orgName>. <ref target="http://atlas.lib.uiowa.edu">http://atlas.lib.uiowa.edu</ref>
                         </bibl>
                         <bibl>Scholars’ Lab. <title level="m">Neatline: Plot Your Course in Space and Time</title>. <orgName key="University of Virginia. Library." ref="http://viaf.org/viaf/154761183" ana="webannotation:http://temp.lincsproject.ca/LFwSVNK8iYq">University of Virginia Library</orgName>. <ref target="http://neatline.org">http://neatline.org</ref>
                         </bibl>
@@ -1368,7 +888,7 @@
                             <title level="m">TEI: Text Encoding Initiative.</title>
                             <ref target="http://www.tei-c.org/index.xml">http://www.tei-c.org/index.xml</ref>
                         </bibl>
-                        <bibl><orgName key="Thomas, William G., 1964-...." ref="http://viaf.org/viaf/29822258" ana="webannotation:http://temp.lincsproject.ca/ZP672z6E85J">Thomas</orgName>, <persName key="Thomas, William G., 1964-...." ref="http://viaf.org/viaf/29822258" ana="webannotation:http://temp.lincsproject.ca/9ZTQg8RRbk5">William G.,</persName> <hi rend="small-caps">iii</hi>, <persName key="Healey, Richard G." ref="http://viaf.org/viaf/222743171" ana="webannotation:http://temp.lincsproject.ca/zAFfNimEm46">Richard G. Healey</persName>, and Ian J. Cottingham. <title level="m">The Aurora Project</title>. <orgName key="University of Nebraska–Lincoln" ref="http://viaf.org/viaf/312587805" ana="webannotation:http://temp.lincsproject.ca/l9w7BQAr518">University of Nebraska</orgName>. <ref target="http://auroraproject.unl.edu/web/railroads.xhtml">http://auroraproject.unl.edu/web/railroads.xhtml</ref>
+                        <bibl><persName key="Thomas, William G., 1964-...." ref="http://viaf.org/viaf/29822258" ana="webannotation:http://temp.lincsproject.ca/ZP672z6E85J">Thomas</persName>, <persName key="Thomas, William G., 1964-...." ref="http://viaf.org/viaf/29822258" ana="webannotation:http://temp.lincsproject.ca/9ZTQg8RRbk5">William G.,</persName> <hi rend="small-caps">iii</hi>, <persName key="Healey, Richard G." ref="http://viaf.org/viaf/222743171" ana="webannotation:http://temp.lincsproject.ca/zAFfNimEm46">Richard G. Healey</persName>, and Ian J. Cottingham. <title level="m">The Aurora Project</title>. <orgName key="University of Nebraska–Lincoln" ref="http://viaf.org/viaf/312587805" ana="webannotation:http://temp.lincsproject.ca/l9w7BQAr518">University of Nebraska</orgName>. <ref target="http://auroraproject.unl.edu/web/railroads.xhtml">http://auroraproject.unl.edu/web/railroads.xhtml</ref>
                         </bibl>
                     </listBibl>
                     <listBibl>
@@ -1386,13 +906,11 @@
             </div>
         </body>
     </text>
-	
-
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="annotation">
+	<standOff type="annotation">
 		
 <xenoData>
 			
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF>
 				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/l38EjyOiqAC">
 <![CDATA[{
@@ -29122,4 +28640,6 @@
 		
 </xenoData>
 	
-	</standOff></TEI>
+	</standOff>
+
+</TEI>
