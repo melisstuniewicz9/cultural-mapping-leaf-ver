@@ -406,10 +406,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807",
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-14T16:56:37.807Z",
-	"dcterms:modified": "2026-05-14T16:56:37.807Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -420,10 +419,10 @@
 	},
 	"oa:motivatedBy": "oa:linking",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807#Target",
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml",
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -431,10 +430,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.2.0"
+			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807#Selector",
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div[2]/p/ref/ref/ref/ref"
 		}
@@ -448,8 +447,88 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.2.0"
+		"schema:softwareVersion": "4.3.2"
 	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?person_annotation_20260929155809541",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-09-29T19:58:09.541Z",
+	"dcterms:modified": "2026-09-29T19:58:09.541Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?person_annotation_20260929155809541#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?person_annotation_20260929155809541#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[2]/ref/ref/note/bibl/orgName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/305283540",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -512,7 +591,7 @@
                             <ref target="#spatiality">
                                 <ref target="#technology">There are always complex reasons for an intensifying interest in space as a topic or analytical category</ref>, but there is no question that the current interest is fuelled by the greater accessibility of spatial technologies such as plotting tools and geographic information systems (<abbr>GIS</abbr>), made possible by the World Wide Web, that put a dazzling array of maps at our fingertips. These maps allow us to explore digital representations of space by interactively zooming in and out, experimenting with various layers of information, and <ref target="#close_reading">gathering granular analysis of a vast range of materials.</ref>
                                 <ref target="#methodology">The application of computational spatial analysis in literary studies is relatively new, but the results are already evident in a number of impressive projects.</ref> These projects include an overview of the development of printing technologies <note place="inline">
-                                    <bibl><orgName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/fSV1PsH8UI3">Prickman</orgName></bibl>
+                                    <bibl><orgName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/fSV1PsH8UI3"><persName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" cert="high" type="real">Prickman</persName></orgName></bibl>
                                 </note>; an analysis of the impact of railway development <note place="inline">
                                     <bibl><orgName key="Augustine, of Hippo, Saint, 354-430." ref="http://viaf.org/viaf/66806872" ana="webannotation:http://temp.lincsproject.ca/DksxzB6SP2k">Thomas</orgName>, <persName key="Healey, Richard G." ref="http://viaf.org/viaf/222743171" ana="webannotation:http://temp.lincsproject.ca/DPCmZIu18GH">Healey</persName>, and Cottingham</bibl>
                                 </note>; and a study of the circulation of letters in early modern <orgName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/QLGPEamJXd0">Europe</orgName> <note place="inline">
@@ -906,11 +985,13 @@
             </div>
         </body>
     </text>
-	<standOff type="annotation">
+	
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="annotation">
 		
 <xenoData>
 			
-<rdf:RDF>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/l38EjyOiqAC">
 <![CDATA[{
@@ -28640,6 +28721,4 @@
 		
 </xenoData>
 	
-	</standOff>
-
-</TEI>
+	</standOff></TEI>
