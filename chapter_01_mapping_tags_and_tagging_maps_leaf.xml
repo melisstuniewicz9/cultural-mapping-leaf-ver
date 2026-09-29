@@ -406,9 +406,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807",
+	"id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-05-14T16:56:37.807Z",
+	"dcterms:modified": "2026-05-14T16:56:37.807Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/ilovan",
 		"@type": [
@@ -419,10 +420,10 @@
 	},
 	"oa:motivatedBy": "oa:linking",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807#Target",
+		"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml",
+			"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml",
 			"@type": "dctypes:Text",
 			"dc:format": "text/xml"
 		},
@@ -430,10 +431,10 @@
 			"@id": "https://leaf-writer.leaf-vre.org",
 			"@type": "as:Application",
 			"rdfs:label": "LEAF-Writer",
-			"schema:softwareVersion": "4.3.2"
+			"schema:softwareVersion": "4.2.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_01_mapping_tags_and_tagging_maps_leaf.xml?link_annotation_20260514125637807#Selector",
+			"@id": "https://raw.githubusercontent.com/cwrc/Cultural-Mapping/main/XML%20Chapters/chapter_01_mapping_tags_and_tagging_maps.xml?link_annotation_20260514105637807#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/div[2]/p/ref/ref/ref/ref"
 		}
@@ -447,7 +448,7 @@
 		"@type": "as:Application",
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
-		"schema:softwareVersion": "4.3.2"
+		"schema:softwareVersion": "4.2.0"
 	}
 }]]>
         </rdf:Description>
@@ -513,7 +514,7 @@
                                 <ref target="#methodology">The application of computational spatial analysis in literary studies is relatively new, but the results are already evident in a number of impressive projects.</ref> These projects include an overview of the development of printing technologies <note place="inline">
                                     <bibl><persName key="Prickman, Gregory J." ref="http://viaf.org/viaf/305283540" ana="webannotation:http://temp.lincsproject.ca/fSV1PsH8UI3">Prickman</persName></bibl>
                                 </note>; an analysis of the impact of railway development <note place="inline">
-                                    <bibl><persName>Thomas</persName>, <persName>Healey</persName>, and Cottingham</bibl>
+                                    <bibl><persName key="Thomas, William G., 1964-...." ref="http://viaf.org/viaf/29822258" ana="webannotation:http://temp.lincsproject.ca/ZP672z6E85J">Thomas</persName>, <persName key="Healey, Richard G." ref="http://viaf.org/viaf/222743171" ana="webannotation:http://temp.lincsproject.ca/DPCmZIu18GH">Healey</persName>, and Cottingham</bibl>
                                 </note>; and a study of the circulation of letters in early modern <placeName key="Europe" ref="https://sws.geonames.org/6255148" ana="webannotation:http://temp.lincsproject.ca/QLGPEamJXd0">Europe</placeName> <note place="inline">
                                     <bibl><persName key="Mullen, Nicole C." ref="http://viaf.org/viaf/4597810" ana="webannotation:http://temp.lincsproject.ca/Pq2dnKgKuQT">Coleman</persName>, <persName key="Edelstein, Dan." ref="http://viaf.org/viaf/45481065" ana="webannotation:http://temp.lincsproject.ca/7j9cvKA5kny">Edelstein</persName>, and <persName key="Findlen, Paula." ref="http://viaf.org/viaf/9957596" ana="webannotation:http://temp.lincsproject.ca/pDRMjMY4xDH">Findlen</persName></bibl>
                                 </note>.</ref>
@@ -521,7 +522,7 @@
                     </p>
                     <p xml:id="p1039">
                         <ref target="#technology">Given that <orgName key="Canadian Writing Research Collaboratory" ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/bZWn2mdH9se">the Canadian Writing Research Collaboratory</orgName> (<abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/sFKkzyPbz8C">CWRC</orgName></abbr>) is dedicated to creating an online environment for research on writing and seeks to offer traditional scholars a wider array of computational tools than those they typically incorporate into their research, it is hardly surprising that the literary researchers involved in <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/4S4wPqjEjaZ">CWRC</orgName>’s</abbr> development have consistently identified the mapping of literary data as a highly desirable feature of a shared digital tool set. <ref target="#spatiality">The precise nature of the mapping required for most <abbr><orgName key="Canadian Writing Research Collaboratory " ref="https://www.wikidata.org/wiki/Q134008740" ana="webannotation:http://temp.lincsproject.ca/l5RYcjST2YB">CWRC</orgName></abbr> projects has yet to be established, but there is definite interest in how the spatial and temporal aspects of literary research intersect. <ref target="#canon_formation">
-                                    <ref target="#history">Historical maps are also desirable for their representation of literary materials or activities from the past, as are maps that might represent slices of time or change over time. As <persName>Peter K. Bol</persName> argues, <q>if we fail to see that change over time unfolds differently across space, we substitute a single history for the reality of multiple histories</q>
+                                    <ref target="#history">Historical maps are also desirable for their representation of literary materials or activities from the past, as are maps that might represent slices of time or change over time. As <persName key="Bol, Peter Kees" ref="http://viaf.org/viaf/56906098" ana="webannotation:http://temp.lincsproject.ca/boohKuo9RR0">Peter K. Bol</persName> argues, <q>if we fail to see that change over time unfolds differently across space, we substitute a single history for the reality of multiple histories</q>
                                         <note place="inline">
                                             <bibl>297</bibl>
                                         </note>.</ref>
@@ -905,13 +906,11 @@
             </div>
         </body>
     </text>
-	
-
-<standOff xmlns="http://www.tei-c.org/ns/1.0" type="annotation">
+	<standOff type="annotation">
 		
 <xenoData>
 			
-<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF>
 				
 <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/" rdf:about="http://temp.lincsproject.ca/l38EjyOiqAC">
 <![CDATA[{
@@ -28641,4 +28640,6 @@
 		
 </xenoData>
 	
-	</standOff></TEI>
+	</standOff>
+
+</TEI>
