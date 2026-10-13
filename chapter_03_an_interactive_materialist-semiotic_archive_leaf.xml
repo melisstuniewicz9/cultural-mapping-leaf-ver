@@ -2280,6 +2280,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?person_annotation_20261013152111606",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:21:11.606Z",
+	"dcterms:modified": "2026-10-13T19:21:11.606Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?person_annotation_20261013152111606#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?person_annotation_20261013152111606#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[12]/bibl[15]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/15150868097722070403",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -3145,7 +3224,7 @@
                     <bibl>Cushman, Robert. <title level="a">Theatre Reviews: Savage Whimsy in <title level="m">White Biting Dog</title> and Cirque’s <title level="m">Totem</title>.”</title>
                         <title level="j"><orgName key="National Post" ref="http://viaf.org/viaf/233145541836996600369" ana="webannotation:http://temp.lincsproject.ca/A1DzbpfWYZm">National Post</orgName></title> 26 August 2011. <ref target="http://arts.nationalpost.com/2011/08/26/theatre-reviews-savage-whimsy-in-white-biting-dog-and-cirques-totem">http://arts.nationalpost.com/2011/08/26/theatre-reviews-savage-whimsy-in-white-biting-dog-and-cirques-totem</ref>
                     </bibl>
-                    <bibl>DeSouza-Coelho, <persName key="DeSouza-Coelho, Shawn" ref="http://viaf.org/viaf/15150868097722070403" ana="webannotation:http://temp.lincsproject.ca/k1ZhVki8Wzb">Shawn</persName>. <title level="m">[<placeName key="Prince Edward Viaduct" ref="http://www.wikidata.org/entity/Q2110325" ana="webannotation:http://temp.lincsproject.ca/IO2drKlH4hs">Bloor Street Viaduct</placeName>, Street View.]</title> <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/9pfauUGJL8E">Toronto</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943" ana="webannotation:http://temp.lincsproject.ca/EcKaj8uSuj6">Ontario</placeName>, 2012.</bibl>
+                    <bibl><persName key="DeSouza-Coelho, Shawn" ref="http://viaf.org/viaf/15150868097722070403">DeSouza-Coelho</persName>, <persName key="DeSouza-Coelho, Shawn" ref="http://viaf.org/viaf/15150868097722070403" ana="webannotation:http://temp.lincsproject.ca/k1ZhVki8Wzb">Shawn</persName>. <title level="m">[<placeName key="Prince Edward Viaduct" ref="http://www.wikidata.org/entity/Q2110325" ana="webannotation:http://temp.lincsproject.ca/IO2drKlH4hs">Bloor Street Viaduct</placeName>, Street View.]</title> <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/9pfauUGJL8E">Toronto</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943" ana="webannotation:http://temp.lincsproject.ca/EcKaj8uSuj6">Ontario</placeName>, 2012.</bibl>
                     <bibl><persName key="Dondis, Donis A., 1924-1984" ref="http://viaf.org/viaf/4951524" ana="webannotation:http://temp.lincsproject.ca/6kLkJ5WwwN7">Dondis</persName>, <persName key="Dondis, Donis A., 1924-1984" ref="http://viaf.org/viaf/4951524" ana="webannotation:http://temp.lincsproject.ca/Yf0jvYdBHGT">Donis A.</persName> <title level="m">A Primer of Visual Literacy</title>. <placeName key="Cambridge" ref="https://sws.geonames.org/4931972" ana="webannotation:http://temp.lincsproject.ca/upSe3tSvPQ3">Cambridge</placeName>, <placeName key="Massachusetts" ref="https://sws.geonames.org/6254926 " ana="webannotation:http://temp.lincsproject.ca/MUUyplE21kp">MA</placeName>: <orgName key="MIT Press" ref="http://viaf.org/viaf/159490691" ana="webannotation:http://temp.lincsproject.ca/WGuWnAeEtMB">MIT Press</orgName>, 1973.</bibl>
                     <bibl><persName key="Glassco, Bill." ref="http://viaf.org/viaf/22041534" ana="webannotation:http://temp.lincsproject.ca/6NuZI6kqy9c">Glassco</persName>, <persName key="Glassco, Bill." ref="http://viaf.org/viaf/22041534" ana="webannotation:http://temp.lincsproject.ca/2xuuWYWTmB4">Bill</persName>, dir. <title level="m">
                             <title level="m">White Biting Dog</title>, by <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/FtXE069qZM6">Judith Thompson</persName>. Set Sue LePage. Perf. <persName key="Burroughs, Jackie, 1939-2010" ref="http://viaf.org/viaf/69131622" ana="webannotation:http://temp.lincsproject.ca/r0cfAVIls29">Jackie Burroughs</persName>, <persName key="Coulter, Clare, 1942-" ref="http://viaf.org/viaf/162789024" ana="webannotation:http://temp.lincsproject.ca/xOhDIxLkkhl">Clare Coulter</persName>, <persName key="Hardee T. Lineham" ref="http://www.wikidata.org/entity/Q42313742" ana="webannotation:http://temp.lincsproject.ca/WRLSeIwi7ah">Hardee T. Lineham</persName>, <persName key="Ouimette, Stephen" ref="http://viaf.org/viaf/24282472" ana="webannotation:http://temp.lincsproject.ca/sDlJNMJ1LSZ">Stephen Ouimette</persName>, Larry Reynolds</title>. Archival <abbr>VHS</abbr>, Private Collection, <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/dAbW4PQ1Bi8">Tarragon Theatre</orgName>, 1984.</bibl>
