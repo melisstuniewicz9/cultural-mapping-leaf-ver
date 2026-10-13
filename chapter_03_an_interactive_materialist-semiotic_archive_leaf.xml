@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>--><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -375,7 +374,7 @@
                 </ab>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
             </projectDesc>
@@ -413,7 +412,7 @@
                     <title level="a">An Interactive, Materialist-Semiotic Archive</title>
                 </head>
                 <byline>Visualizing the Canadian Theatrical Canon in the Simulated Environment for Theatre</byline>
-                <docAuthor> <persName key="Kovacs, Alexandra" ref="http://viaf.org/viaf/9151654747208282268" ana="webannotation:http://temp.lincsproject.ca/K8JGD1Ey57m">Sasha Kovacs</persName> and <persName key="Roberts-Smith, Jennifer." ref="http://viaf.org/viaf/84150746934616301371" ana="webannotation:http://temp.lincsproject.ca/akpOeHZzyai">Jennifer Roberts-Smith</persName>, <persName key="Dobson, Teresa M., 1967-" ref="http://viaf.org/viaf/105568038" ana="webannotation:http://temp.lincsproject.ca/FTAIuYZKT7v">Teresa M. Dobson</persName>, <persName key="Gabriele, Sandra, 1972-...." ref="http://viaf.org/viaf/171038746" ana="webannotation:http://temp.lincsproject.ca/IIA6T2xW07P">Sandra Gabriele</persName>, <persName key="Rodriguez-Arenas, Omar" ref="https://orcid.org/0000-0001-7428-995X" ana="webannotation:http://temp.lincsproject.ca/LczVcBLWbBC">Omar Rodriguez-Arenas</persName>, <persName key="Ruecker, Stan" ref="http://viaf.org/viaf/165153459" ana="webannotation:http://temp.lincsproject.ca/DKSg3UQoGCy">Stan Ruecker</persName>, <persName key="Sinclair, Stéfan." ref="http://viaf.org/viaf/180011800" ana="webannotation:http://temp.lincsproject.ca/6G5zOiUn7Ky">Stéfan Sinclair</persName>, <persName key="DeSouza-Coelho, Shawn" ref="http://viaf.org/viaf/15150868097722070403" ana="webannotation:http://temp.lincsproject.ca/zOKISpmpOXL">Shawn DeSouza-Coelho</persName></docAuthor>
+                <docAuthor> <persName key="Kovacs, Alexandra" ref="http://viaf.org/viaf/9151654747208282268" ana="webannotation:http://temp.lincsproject.ca/K8JGD1Ey57m">Sasha Kovacs</persName> and <persName ana="webannotation:http://temp.lincsproject.ca/akpOeHZzyai" key="Roberts-Smith, Jennifer." ref="http://viaf.org/viaf/84150746934616301371">Jennifer Roberts-Smith</persName>, <persName key="Dobson, Teresa M., 1967-" ref="http://viaf.org/viaf/105568038" ana="webannotation:http://temp.lincsproject.ca/FTAIuYZKT7v">Teresa M. Dobson</persName>, <persName key="Gabriele, Sandra, 1972-...." ref="http://viaf.org/viaf/171038746" ana="webannotation:http://temp.lincsproject.ca/IIA6T2xW07P">Sandra Gabriele</persName>, <persName key="Rodriguez-Arenas, Omar" ref="https://orcid.org/0000-0001-7428-995X" ana="webannotation:http://temp.lincsproject.ca/LczVcBLWbBC">Omar Rodriguez-Arenas</persName>, <persName key="Ruecker, Stan" ref="http://viaf.org/viaf/165153459" ana="webannotation:http://temp.lincsproject.ca/DKSg3UQoGCy">Stan Ruecker</persName>, <persName key="Sinclair, Stéfan." ref="http://viaf.org/viaf/180011800" ana="webannotation:http://temp.lincsproject.ca/6G5zOiUn7Ky">Stéfan Sinclair</persName>, <persName key="DeSouza-Coelho, Shawn" ref="http://viaf.org/viaf/15150868097722070403" ana="webannotation:http://temp.lincsproject.ca/zOKISpmpOXL">Shawn DeSouza-Coelho</persName></docAuthor>
                 <div type="section">
                     <head>Introduction</head>
                     <p xml:id="p1138">
@@ -728,7 +727,7 @@
                                 </note>. Performance cannot occur the same way twice, even if a <q>constancy of transmission</q>
                                 <note place="inline">
                                     <bibl><persName key="Schechner, Richard" ref="http://viaf.org/viaf/44305203" ana="webannotation:http://temp.lincsproject.ca/al4g8ftpyb5">Schechner</persName> 36–37</bibl>
-                                </note> implies a desire for exact reproduction. "?&gt;<ref target="#canon_formation">Hence, Soulpepper’s 2011 revivals cited their originals, but also—and inevitably—foregrounded the differences between the revivals and their originals. In so doing, Soulpepper’s Canadian canon became a process rather than an artifact, a gesture of canonization from the present rather than a presentation of a canonical object</ref>.</ref>
+                                </note> implies a desire for exact reproduction. "?&amp;gt;<ref target="#canon_formation">Hence, Soulpepper’s 2011 revivals cited their originals, but also—and inevitably—foregrounded the differences between the revivals and their originals. In so doing, Soulpepper’s Canadian canon became a process rather than an artifact, a gesture of canonization from the present rather than a presentation of a canonical object</ref>.</ref>
                         </ref>
                     </p>
                     <p xml:id="p1155">
@@ -1320,7 +1319,23 @@
             </div>
         </body>
     </text>
-	<standOff type="annotation">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="annotation">
 		
 <xenoData>
 			
@@ -52060,20 +52075,4 @@
 	
 	
 	
-	</standOff>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</TEI>
+	</standOff></TEI>
