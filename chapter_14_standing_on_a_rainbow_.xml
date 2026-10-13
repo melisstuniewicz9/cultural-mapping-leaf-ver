@@ -1481,6 +1481,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013160149516",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T20:01:49.516Z",
+	"dcterms:modified": "2026-10-13T20:01:49.516Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013160149516#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013160149516#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[2]/placeName/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://www.geonames.org/12031879",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -1665,7 +1744,7 @@
                                 <persName>Elizabeth McCurdy</persName>, my mother, has advanced Alzheimer’s. Additionally, in <date cert="high" when="2007">2007</date> she suffered a small but specific stroke that more or less destroyed her capacity to speak coherent sentences. From time to time, however, some important sentiment that can be expressed in a very short sentence will defeat the language scrambler in her brain. </ref>Not long after her debilitating stroke, I found <title level="m">Stand on a Rainbow</title> on her bookshelf and asked if I could borrow it. She agreed and managed one of her rare short remarks: <q>I love that book.</q>
                         </ref>
                     </p>
-                    <p xml:id="p1512">My mother’s copy is a library discard, but it does not indicate the name of the library. Inside the book I found a bookmark from <orgName><persName key="Munro's Books" ref="https://www.wikidata.org/wiki/Q6936821" ana="webannotation:http://temp.lincsproject.ca/eimhubpyrZh">Munro</persName>’s Bookstore</orgName>, which indicates that she continued to read this story after she and my father moved to <placeName>Victoria</placeName> in <date cert="high" when="1994">1994</date> when she was seventy-one. If that is the case, her encounters with this novel spanned the best part of forty years and maybe more.</p>
+                    <p xml:id="p1512">My mother’s copy is a library discard, but it does not indicate the name of the library. Inside the book I found a bookmark from <orgName><persName key="Munro's Books" ref="https://www.wikidata.org/wiki/Q6936821" ana="webannotation:http://temp.lincsproject.ca/eimhubpyrZh">Munro</persName>’s Bookstore</orgName>, which indicates that she continued to read this story after she and my father moved to <placeName><placeName key="Victoria" ref="https://www.geonames.org/12031879">Victoria</placeName></placeName> in <date cert="high" when="1994">1994</date> when she was seventy-one. If that is the case, her encounters with this novel spanned the best part of forty years and maybe more.</p>
                     <p xml:id="p1513">
                         <ref target="#theme_or_topic">
                             <ref target="#genre_lifeWriting">
