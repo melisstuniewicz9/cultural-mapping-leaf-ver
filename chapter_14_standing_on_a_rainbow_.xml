@@ -3851,6 +3851,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013161518497",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T20:15:18.497Z",
+	"dcterms:modified": "2026-10-13T20:15:18.497Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013161518497#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013161518497#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[3]/p[3]/ref/ref/ref/note/bibl/title/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/26729704",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -4109,7 +4188,7 @@
                                         <ref target="#class_issue">The novel is an account of a year in the life of a middle-class family, and according to <persName key="Dagg, Anne Innis" ref="http://viaf.org/viaf/94279797" ana="webannotation:http://temp.lincsproject.ca/Yji0Hz0N74A"><persName key="Dagg, Anne Innis" ref="http://viaf.org/viaf/94279797">Anne Innis Dagg</persName></persName>, is drawn almost entirely from incidents in <persName key="Innis, Mary Quayle, 1899-1972" ref="http://viaf.org/viaf/67707952" ana="webannotation:http://temp.lincsproject.ca/KOHlR2sOp7N">Mary</persName>’s domestic life</ref>
                                     </q>
                                     <note place="inline">
-                                        <bibl><title key="Black, J. David (John David), 1964-" ref="http://viaf.org/viaf/26729704" ana="webannotation:http://temp.lincsproject.ca/7u4GFjqR8I2">Black 437</title></bibl>
+                                        <bibl><title key="Black, J. David (John David), 1964-" ref="http://viaf.org/viaf/26729704" ana="webannotation:http://temp.lincsproject.ca/7u4GFjqR8I2"><persName key="Black, J. David (John David), 1964-" ref="http://viaf.org/viaf/26729704">Black</persName> 437</title></bibl>
                                     </note>. <persName key="Innis, Mary Quayle, 1899-1972" ref="http://viaf.org/viaf/67707952">Mary Quayle Innis</persName>, according to her daughter, was frustrated at being taken only as an academic wife, not as an academic in her own right <note place="inline">
                                         <bibl>Black 437</bibl>
                                     </note>.</ref> The frustration certainly made its way into the novel but her autonomous academic achievements did not.</ref>
