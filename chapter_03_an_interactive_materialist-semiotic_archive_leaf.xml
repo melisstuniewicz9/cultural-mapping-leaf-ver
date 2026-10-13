@@ -4492,6 +4492,322 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154324691",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:43:24.691Z",
+	"dcterms:modified": "2026-10-13T19:43:24.691Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154324691#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154324691#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[10]/p/ref/ref/ref/ref/ref/title[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/8139150869813322190005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154619167",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:46:19.167Z",
+	"dcterms:modified": "2026-10-13T19:46:19.167Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154619167#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154619167#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[5]/ref/ref[4]/ref/title[3]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/8139150869813322190005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154629905",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:46:29.905Z",
+	"dcterms:modified": "2026-10-13T19:46:29.905Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154629905#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154629905#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[5]/ref/ref[4]/note/title[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/8139150869813322190005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154638832",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:46:38.832Z",
+	"dcterms:modified": "2026-10-13T19:46:38.832Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154638832#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154638832#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[6]/ref/ref/title[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/8139150869813322190005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -4720,18 +5036,18 @@
                                 <ref target="#genre_performance">It is likely not coincidental that both <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title> were developed at <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/kYrJHSNzxEk">Tarragon</orgName>.<note xml:id="n126" place="end">
                                         <title level="m">Fronteras Americanas</title> premiered at Tarragon Theatre’s Extra Space after development workshops at <orgName key="Canadian Stage Company" ref="http://viaf.org/viaf/154697046" ana="webannotation:http://temp.lincsproject.ca/ymqtqOPXnHB">the Canadian Stage Company</orgName> and Tarragon <note place="inline">
                                             <bibl><orgName key="Wasserman, Jerry, 1945-...." ref="http://viaf.org/viaf/114962360" ana="webannotation:http://temp.lincsproject.ca/LjQrHKHyPT3">Wasserman</orgName> 309</bibl>
-                                        </note>.</note> <persName key="Glassco, Bill." ref="http://viaf.org/viaf/22041534" ana="webannotation:http://temp.lincsproject.ca/YYBRQfcBbm4">Bill Glassco</persName>, director of the original 1984 production of <title level="m">White Biting Dog</title>, founded <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/1uIx0LREqPa">Tarragon</orgName> <q>partly in reaction to what he saw as <q>slapdash production standards</q>…at the Factory Theatre Lab </q>
+                                        </note>.</note> <persName key="Glassco, Bill." ref="http://viaf.org/viaf/22041534" ana="webannotation:http://temp.lincsproject.ca/YYBRQfcBbm4">Bill Glassco</persName>, director of the original 1984 production of <title level="m"><title key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title></title>, founded <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/1uIx0LREqPa">Tarragon</orgName> <q>partly in reaction to what he saw as <q>slapdash production standards</q>…at the Factory Theatre Lab </q>
                                     <note place="inline">
                                         <bibl>Knowles, <title level="m">Reading</title> 132</bibl>
                                     </note>. <persName key="Glassco, Bill." ref="http://viaf.org/viaf/22041534" ana="webannotation:http://temp.lincsproject.ca/ZqvzuPTr07U">Glassco</persName> sought to elevate the status of theatre by investing in Canadian playwrights, and his theatre’s loyalty to writers remains integral to its public profile.<note xml:id="n129" place="end"><orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/LCauxXyBoxa">Tarragon Theatre</orgName> currently supports twelve playwrights in residence <bibl><orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/GjdCEOWhhX6">Tarragon Theatre</orgName>, <title level="a">Playwrights-in-Residence</title>
                                         </bibl>.</note> Today, <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/rEba7jSdh6w">Tarragon Theatre</orgName> is the kind of Canadian theatrical institution envisaged by <persName key="Massey, Vincent" ref="http://viaf.org/viaf/115746946" ana="webannotation:http://temp.lincsproject.ca/YmOt1e4Lcc5">Massey</persName>: one with a focus on literary production, whose premieres of new Canadian plays typically coincide with their publication</ref>.<note xml:id="n130" place="end">
-                                    <title level="m">Fronteras Americanas</title> was published by <orgName key="Coach house press" ref="http://viaf.org/viaf/149000546" ana="webannotation:http://temp.lincsproject.ca/igjNAmKEGiI">Coach House Press</orgName> in 1993. It premiered at <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/ChZTdAzD6NX">Tarragon Theatre</orgName> in January–February of that year. Similarly, <title level="m">White Biting Dog</title> premiered in January of 1984 and the first edition appeared that same year. More recent examples include <persName key="Shields, Erin" ref="http://viaf.org/viaf/187040669" ana="webannotation:http://temp.lincsproject.ca/uQtx6e4geyf">Erin Shields’s</persName> <title level="m">If We Were Birds</title> (premiere in 2010; publication by Playwrights Canada Press in 2011) and <persName key="Gall, Brendan" ref="http://viaf.org/viaf/102829166" ana="webannotation:http://temp.lincsproject.ca/yG9d5xPaa4X">Brendan Gall’s</persName> <title level="m">Wide Awake Hearts</title> (produced in 2010; publication by <orgName key="Coach house press" ref="http://viaf.org/viaf/149000546" ana="webannotation:http://temp.lincsproject.ca/dezzeH9X56W">Coach House Press</orgName> in 2010 in <persName key="Gall, Brendan" ref="http://viaf.org/viaf/102829166" ana="webannotation:http://temp.lincsproject.ca/VRDJC5pEMe4">Gall</persName>’s collection <title level="m">Minor Complications</title>).</note>
+                                    <title level="m">Fronteras Americanas</title> was published by <orgName key="Coach house press" ref="http://viaf.org/viaf/149000546" ana="webannotation:http://temp.lincsproject.ca/igjNAmKEGiI">Coach House Press</orgName> in 1993. It premiered at <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/ChZTdAzD6NX">Tarragon Theatre</orgName> in January–February of that year. Similarly, <title level="m"><title key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title></title> premiered in January of 1984 and the first edition appeared that same year. More recent examples include <persName key="Shields, Erin" ref="http://viaf.org/viaf/187040669" ana="webannotation:http://temp.lincsproject.ca/uQtx6e4geyf">Erin Shields’s</persName> <title level="m">If We Were Birds</title> (premiere in 2010; publication by Playwrights Canada Press in 2011) and <persName key="Gall, Brendan" ref="http://viaf.org/viaf/102829166" ana="webannotation:http://temp.lincsproject.ca/yG9d5xPaa4X">Brendan Gall’s</persName> <title level="m">Wide Awake Hearts</title> (produced in 2010; publication by <orgName key="Coach house press" ref="http://viaf.org/viaf/149000546" ana="webannotation:http://temp.lincsproject.ca/dezzeH9X56W">Coach House Press</orgName> in 2010 in <persName key="Gall, Brendan" ref="http://viaf.org/viaf/102829166" ana="webannotation:http://temp.lincsproject.ca/VRDJC5pEMe4">Gall</persName>’s collection <title level="m">Minor Complications</title>).</note>
                             </ref>
                         </ref>
                     </p>
                     <p xml:id="p1146">
                         <ref target="#genre_performance">
-                            <ref target="#canon_formation">If the original <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/27MufjQxSK8">Tarragon</orgName> productions of <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title> were <q>literary</q> in the sense that they grew out of aspirations for and have contributed to a printed literary canon, both plays nonetheless owe their status as Soulpepper’s <q>Canadian classics</q> as much to their <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/4JAYhX0hrFS">Tarragon</orgName> productions as they do to their literary histories. Indeed, the publicity surrounding Soulpepper’s 2011 productions indicated, directly and indirectly, that the original <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/3erxGlzdEks">Tarragon</orgName> productions were central to Soulpepper’s decision to mount the plays</ref>
+                            <ref target="#canon_formation">If the original <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/27MufjQxSK8">Tarragon</orgName> productions of <title level="m">Fronteras Americanas</title> and <title level="m"><title key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title></title> were <q>literary</q> in the sense that they grew out of aspirations for and have contributed to a printed literary canon, both plays nonetheless owe their status as Soulpepper’s <q>Canadian classics</q> as much to their <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/4JAYhX0hrFS">Tarragon</orgName> productions as they do to their literary histories. Indeed, the publicity surrounding Soulpepper’s 2011 productions indicated, directly and indirectly, that the original <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/3erxGlzdEks">Tarragon</orgName> productions were central to Soulpepper’s decision to mount the plays</ref>
                         </ref>. <ref target="#recognitions">
                             <ref target="#collaboration">In the case of <title level="m">Fronteras Americanas</title>, which won both a Chalmers Award and a Governor General’s Literary Award after a successful run in <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/XcN2eJlNOhw">Tarragon</orgName>’s Extra Space in January–February 1993 <note place="inline">
                                     <bibl>Wasserman 309</bibl>
@@ -5310,7 +5626,7 @@
                                     <note place="inline">
                                         <bibl>Alter 5</bibl>
                                     </note>. <ref target="#response_formal">
-                                        <ref target="#genre_performance">Despite these theoretical advances, the critical responses to Soulpepper’s productions of both <title level="m">Fronteras Americanas</title> and <title level="m">White Biting Dog</title> confirm that canonicity—an idea with lingering resonance—arguably could be used to discredit the worth of historical performance traditions when they no longer speak to current arbiters of taste</ref>
+                                        <ref target="#genre_performance">Despite these theoretical advances, the critical responses to Soulpepper’s productions of both <title level="m">Fronteras Americanas</title> and <title level="m"><title key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title></title> confirm that canonicity—an idea with lingering resonance—arguably could be used to discredit the worth of historical performance traditions when they no longer speak to current arbiters of taste</ref>
                                     </ref>. <ref target="#archive">
                                         <ref target="#technology">
                                             <ref target="#textual_agency">Rather than deny the value of printed texts that undoubtedly have affected the collective memory of theatregoers, we propose that <abbr>SET</abbr> can assemble various performance texts, visualize the ways they constitute meaning, and potentially analyze those materials as a corpus</ref>. We hope this kind of archive might facilitate an understanding of Canadian theatre as more than a <q>substantial body of proven plays,</q> as Salter has suggested was characteristic of <persName key="Massey, Vincent" ref="http://viaf.org/viaf/115746946" ana="webannotation:http://temp.lincsproject.ca/wg40b1SrGdv">Massey</persName>’s theatrical federalism <note place="inline">
