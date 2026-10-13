@@ -1648,6 +1648,85 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013151606750",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:16:06.750Z",
+	"dcterms:modified": "2026-10-13T19:16:06.750Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013151606750#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013151606750#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[12]/bibl[3]/orgName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/131292914",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -2493,7 +2572,7 @@
                     <bibl><persName key="Al-Solaylee, Kamal" ref="http://viaf.org/viaf/226109164" ana="webannotation:http://temp.lincsproject.ca/hJe1aKVzVkc">Al-Solaylee</persName>, <persName key="Al-Solaylee, Kamal" ref="http://viaf.org/viaf/226109164" ana="webannotation:http://temp.lincsproject.ca/PzecTN9mCIQ">Kamal</persName>. <title level="a">Dead White Guys: European Classics Still Dominate Canadian Theatres</title>. <title level="j">Walrus</title> September 2011. <ref target="http://walrusmagazine.com/articles/2011.09-theatre-dead-white-guys">http://walrusmagazine.com/articles/2011.09-theatre-dead-white-guys</ref>
                     </bibl>
                     <bibl><persName key="Alter, Robert" ref="https://www.wikidata.org/wiki/Q4112220" ana="webannotation:http://temp.lincsproject.ca/e1fRs1QO3QZ">Alter</persName>, <persName key="Alter, Robert" ref="https://www.wikidata.org/wiki/Q4112220" ana="webannotation:http://temp.lincsproject.ca/RrksQfvXBdR">Robert</persName>. <title level="m">Canon and Creativity: Modern Writing and the Authority of Scripture</title>. <placeName key="New Haven" ref="https://sws.geonames.org/4839366 " ana="webannotation:http://temp.lincsproject.ca/s9lqCCdBRIT">New Haven</placeName>, <placeName key="Connecticut" ref="https://sws.geonames.org/4831725" ana="webannotation:http://temp.lincsproject.ca/uAYuStyFjzu">CT</placeName>: <orgName key="Yale university press" ref="http://viaf.org/viaf/121971897" ana="webannotation:http://temp.lincsproject.ca/PiPQRzEBFVg">Yale University Press</orgName>, 2000.</bibl>
-                    <bibl><persName key="Ardal, Maja." ref="http://viaf.org/viaf/31667217" ana="webannotation:http://temp.lincsproject.ca/XlyPnXJJ3Fn">Ardal</persName>, <persName key="Ardal, Maja." ref="http://viaf.org/viaf/31667217" ana="webannotation:http://temp.lincsproject.ca/TiBEIUYEGBe">Maya</persName>, dir. <title level="m">Graphic poster for production of <title level="m">White Biting Dog</title>, by <persName key="Thompson, Judith, 1954-" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/mCvCLBgHtoo">Judith Thompson</persName></title>. <orgName key="Grand Theatre" ref="https://www.wikidata.org/wiki/Q5595141" ana="webannotation:http://temp.lincsproject.ca/9RJPPq8CQzw">Grand Theatre</orgName>, <placeName key="London" ref="https://sws.geonames.org/6058560 " ana="webannotation:http://temp.lincsproject.ca/PVvtHKaZ4Tz">London</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/T6Mp0IDjP4e">ON</placeName>, 1990. <orgName key="L.W. Conolly Theatre Archives" ref="http://viaf.org/viaf/169181425" ana="webannotation:http://temp.lincsproject.ca/zO6vgU3UAMu">L.W. Conolly Theatre Archives</orgName>, University of Guelph Library, <placeName key="Guelph" ref="https://sws.geonames.org/5967629" ana="webannotation:http://temp.lincsproject.ca/jgQRLBpnkXX">Guelph</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/iCARg3W770W">ON</placeName>.</bibl>
+                    <bibl><persName key="Ardal, Maja." ref="http://viaf.org/viaf/31667217" ana="webannotation:http://temp.lincsproject.ca/XlyPnXJJ3Fn">Ardal</persName>, <persName key="Ardal, Maja." ref="http://viaf.org/viaf/31667217" ana="webannotation:http://temp.lincsproject.ca/TiBEIUYEGBe">Maya</persName>, dir. <title level="m">Graphic poster for production of <title level="m">White Biting Dog</title>, by <persName key="Thompson, Judith, 1954-" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/mCvCLBgHtoo">Judith Thompson</persName></title>. <orgName key="Grand Theatre" ref="https://www.wikidata.org/wiki/Q5595141" ana="webannotation:http://temp.lincsproject.ca/9RJPPq8CQzw">Grand Theatre</orgName>, <placeName key="London" ref="https://sws.geonames.org/6058560 " ana="webannotation:http://temp.lincsproject.ca/PVvtHKaZ4Tz">London</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/T6Mp0IDjP4e">ON</placeName>, 1990. <orgName key="L.W. Conolly Theatre Archives" ref="http://viaf.org/viaf/169181425" ana="webannotation:http://temp.lincsproject.ca/zO6vgU3UAMu">L.W. Conolly Theatre Archives</orgName>, <orgName key="University of Guelph. Library" ref="http://viaf.org/viaf/131292914">University of Guelph Library</orgName>, <placeName key="Guelph" ref="https://sws.geonames.org/5967629" ana="webannotation:http://temp.lincsproject.ca/jgQRLBpnkXX">Guelph</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/iCARg3W770W">ON</placeName>.</bibl>
                     <bibl><persName key="Barton, Bruce" ref="http://viaf.org/viaf/2096248" ana="webannotation:http://temp.lincsproject.ca/s4FOasfmvQd">Barton</persName>, <persName key="Barton, Bruce" ref="http://viaf.org/viaf/2096248" ana="webannotation:http://temp.lincsproject.ca/YW6OlRKdIP1">Bruce</persName>. <title level="a">Creating Spaces</title>. <title level="m">Developing Nation: New Play Creation in English-Speaking Canada</title>. <persName key="Barton, Bruce" ref="http://viaf.org/viaf/2096248" ana="webannotation:http://temp.lincsproject.ca/XGkUC0Loh3H">Ed. Barton</persName>. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/1sS73zJKfDw">Toronto</placeName>: Playwrights Canada Press, 2009. v–xxii.</bibl>
                     <bibl>. <title level="a">Evoking Theatre: From Reluctance to Exuberance</title>. <title level="m">Canadian Devised Theatre: Reluctant Texts from Exuberant Performance</title>. Ed. <persName key="Barton, Bruce" ref="http://viaf.org/viaf/2096248" ana="webannotation:http://temp.lincsproject.ca/3qWMDZFeSUC">Bruce Barton</persName>, Natalie Corbett, <persName key="Schreyer, Birgit, 1974-" ref="http://viaf.org/viaf/67576940" ana="webannotation:http://temp.lincsproject.ca/Toz7USBGEg1">Birgit Schreyer Duarte</persName>, and Keren Zaiontz. <placeName key="Ottawa" ref="https://sws.geonames.org/6094817 " ana="webannotation:http://temp.lincsproject.ca/P7hdSdCwoRU">Ottawa</placeName>: Borealis Press, 2008. 1–5.</bibl>
                     <bibl><persName key="Benson, Eugene." ref="http://viaf.org/viaf/94502240" ana="webannotation:http://temp.lincsproject.ca/BqrzucbKkGC">Benson</persName>, <persName key="Benson, Eugene" ref="http://viaf.org/viaf/94502240" ana="webannotation:http://temp.lincsproject.ca/Twbay8Znm9c">Eugene</persName>, and <persName key="Conolly, L.W. (Leonard W.)" ref="http://viaf.org/viaf/24632037" ana="webannotation:http://temp.lincsproject.ca/BTBT3HChgNL">L.W. Conolly</persName>. <title level="m">English-Canadian Theatre</title>. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/D53WUOTEeF7">Toronto</placeName>: <orgName key="Oxford University Press." ref="http://viaf.org/viaf/140705396" ana="webannotation:http://temp.lincsproject.ca/wHePxF3zhNX">Oxford University Press</orgName>, 1987.</bibl>
