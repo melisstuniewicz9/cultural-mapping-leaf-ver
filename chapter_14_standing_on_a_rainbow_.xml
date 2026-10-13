@@ -849,6 +849,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013155644115",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:56:44.115Z",
+	"dcterms:modified": "2026-10-13T19:56:44.115Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013155644115#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013155644115#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/ref/ref/ref/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/67707952",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -890,7 +969,7 @@
                 <docAuthor> <persName key="Mackey, Margaret, 1948-...." ref="http://viaf.org/viaf/105570154" ana="webannotation:http://temp.lincsproject.ca/GaajUqxASsV">Margaret Mackey</persName></docAuthor>
                 <p xml:id="p1497">
                     <ref target="#theme_or_topic">
-                        <ref target="#textual_agency">Readers are material beings, placed in time and space, history and geography, and the material conditions of each reader have an inevitable impact on the reading experience. In this chapter, I address questions of how our understanding of literature may shift when we consider the materiality of the audience as well as of the text and of those responsible for its production. To increase awareness of the specificity of that material audience—in contrast to the widely studied concept of the mass audience—I focus here on two singular readers of one particular book. <ref target="#methodology">I seek to balance what I can ascertain about the readers against what I have been able to learn about the author, and against my assessment of at least some aspects of the text under consideration, <title level="m">Stand on a Rainbow</title> by <persName>Mary Quayle Innis</persName>. I then assess the conceptual implications of this tiny case study for how we may develop a principled literary map.</ref>
+                        <ref target="#textual_agency">Readers are material beings, placed in time and space, history and geography, and the material conditions of each reader have an inevitable impact on the reading experience. In this chapter, I address questions of how our understanding of literature may shift when we consider the materiality of the audience as well as of the text and of those responsible for its production. To increase awareness of the specificity of that material audience—in contrast to the widely studied concept of the mass audience—I focus here on two singular readers of one particular book. <ref target="#methodology">I seek to balance what I can ascertain about the readers against what I have been able to learn about the author, and against my assessment of at least some aspects of the text under consideration, <title level="m">Stand on a Rainbow</title> by <persName><persName key="Innis, Mary Quayle, 1899-1972" ref="http://viaf.org/viaf/67707952">Mary Quayle Innis</persName></persName>. I then assess the conceptual implications of this tiny case study for how we may develop a principled literary map.</ref>
                         </ref>
                     </ref>
                 </p>
