@@ -3527,12 +3527,91 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013153439698#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[12]/bibl[33]/orgName[2]"
+			"rdf:value": "TEI/text/body/div/div[12]/bibl[33]/orgName[3]"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "org:Organization",
 		"@id": "http://viaf.org/viaf/131292914",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013153525177",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:35:25.177Z",
+	"dcterms:modified": "2026-10-13T19:35:25.177Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013153525177#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013153525177#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[12]/bibl[33]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/169181425",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -4435,7 +4514,7 @@
                         </title> 16.1 (1995). <ref target="http://journals.hil.unb.ca/index.php/tric/article/view/7190/8249">http://journals.hil.unb.ca/index.php/tric/article/view/7190/8249</ref>
                     </bibl>
                     <bibl><persName key="MacDorman, Karl F." ref="http://viaf.org/viaf/100689643" ana="webannotation:http://temp.lincsproject.ca/cYq8IU5oqf8">MacDorman</persName>, <persName key="MacDorman, Karl F." ref="http://viaf.org/viaf/100689643" ana="webannotation:http://temp.lincsproject.ca/UAWS0SQdf0f">Karl F.</persName>, Robert Green, Chin-Chang Ho, and Clinton T. Koch. <title level="a">Too Real for Comfort? Uncanny Responses to Computer Generated Faces</title>. <title level="j">Computers in Human Behaviour</title> 25.3 (2009): 695–710.</bibl>
-                    <bibl>Marshall, Raymond, stage manager. <title level="a">Prompt script. <title level="m">White Biting Dog</title>, by <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/M9NdkjZllj7">Judith Thompson</persName></title>. <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/0oaggSxNkPj">Tarragon Theatre</orgName>, <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/leRyJ2bxzvH">Toronto</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/34ZQQ72Ct3x">ON</placeName>, [1984]. L.W. Conolly Theatre Archives. <orgName key="University of Guelph. Library" ref="http://viaf.org/viaf/131292914">University of Guelph Library,</orgName> <placeName key="Guelph" ref="https://sws.geonames.org/5967629" ana="webannotation:http://temp.lincsproject.ca/EPwBd9WuLdH">Guelph</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/UHq8qnKbUh4">ON</placeName>.</bibl>
+                    <bibl>Marshall, Raymond, stage manager. <title level="a">Prompt script. <title level="m">White Biting Dog</title>, by <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/M9NdkjZllj7">Judith Thompson</persName></title>. <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/0oaggSxNkPj">Tarragon Theatre</orgName>, <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/leRyJ2bxzvH">Toronto</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/34ZQQ72Ct3x">ON</placeName>, [1984]. <orgName key="L.W. Conolly Theatre Archives" ref="http://viaf.org/viaf/169181425">L.W. Conolly Theatre Archives</orgName>. <orgName key="University of Guelph. Library" ref="http://viaf.org/viaf/131292914">University of Guelph Library,</orgName> <placeName key="Guelph" ref="https://sws.geonames.org/5967629" ana="webannotation:http://temp.lincsproject.ca/EPwBd9WuLdH">Guelph</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/UHq8qnKbUh4">ON</placeName>.</bibl>
                     <bibl><persName key="Maufort, Marc" ref="http://viaf.org/viaf/1864168740942079530001" ana="webannotation:http://temp.lincsproject.ca/MbNxKPDTWLD">Maufort</persName>, <persName key="Maufort, Marc" ref="http://viaf.org/viaf/1864168740942079530001" ana="webannotation:http://temp.lincsproject.ca/jc3OtFx5Hp8">Marc</persName>. <title level="a">Exploring the Other Side of the Dark: <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/6rnHqloFqzU">Judith Thompson’s</persName> Magic Realism</title>. <title level="m">
                             <q>Union in Partition</q>: Essays in Honour of Jeanne Delbaere</title>. Ed. <persName key="Debusscher, Gilbert" ref="http://viaf.org/viaf/32356" ana="webannotation:http://temp.lincsproject.ca/UGRTahhRN9g">Gilbert Debusscher</persName> and <persName key="Maufort, Marc" ref="http://viaf.org/viaf/1864168740942079530001" ana="webannotation:http://temp.lincsproject.ca/HI3L6CLQovN">Maufort</persName>. <orgName key="Liege" ref="https://sws.geonames.org/2792413 " ana="webannotation:http://temp.lincsproject.ca/0CAVNj7OqPx">Liege</orgName>: <orgName key="Liège Language and Literature (Belgique)" ref="http://viaf.org/viaf/220028397" ana="webannotation:http://temp.lincsproject.ca/Tjn102rfOVQ">L3-Liege Language and Literature</orgName>, 1997. 191–200.</bibl>
                     <bibl><persName key="McHarge, Christopher Paul, 1961-" ref="http://viaf.org/viaf/105178021" ana="webannotation:http://temp.lincsproject.ca/LQITtkx8S6p">McHarge</persName>, <persName key="McHarge, Christopher Paul" ref="http://viaf.org/viaf/105178021" ana="webannotation:http://temp.lincsproject.ca/uOnd2ewu8lX">Christopher</persName>. <title level="a">House Program, Theatre Aquarius Production of <title level="m">Fronteras Americanas</title>, by <persName key="Verdecchia, Guillermo" ref="http://viaf.org/viaf/41927151" ana="webannotation:http://temp.lincsproject.ca/uv4TeCwIcUG">Guillermo Verdecchia</persName>, 1995</title>. Theatre Aquarius Archives, <orgName key="University of Guelph. Library" ref="http://viaf.org/viaf/131292914">University of Guelph Library</orgName>, <placeName key="Guelph" ref="https://sws.geonames.org/5967629" ana="webannotation:http://temp.lincsproject.ca/GzU5xMR68Wp">Guelph</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/QnwN9DMv2Ct">ON</placeName>.</bibl>
