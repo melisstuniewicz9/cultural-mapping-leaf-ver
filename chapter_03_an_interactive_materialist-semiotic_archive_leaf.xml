@@ -3737,7 +3737,7 @@
 	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013153734462",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-10-13T19:37:34.462Z",
-	"dcterms:modified": "2026-10-13T19:37:34.462Z",
+	"dcterms:modified": "2026-10-13T19:37:59.261Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/melisstuniewicz9",
 		"@type": [
@@ -3768,7 +3768,167 @@
 		}
 	},
 	"oa:hasBody": {
-		"@type": "bf:Title"
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/8139150869813322190005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013153836904",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:38:36.904Z",
+	"dcterms:modified": "2026-10-13T19:38:36.904Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013153836904#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013153836904#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/ref/ref/ref/ref[3]/note/ref/title/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/8139150869813322190005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013153845713",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:38:45.713Z",
+	"dcterms:modified": "2026-10-13T19:38:45.713Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013153845713#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013153845713#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p/ref/ref/ref/ref[3]/note/ref[2]/orgName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "https://www.wikidata.org/wiki/Q8058008",
+		"dc:format": "text/plain"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -3832,8 +3992,8 @@
                                                             <q>shaped curricula</q> and <q>heavily influenced subsequent scholarship</q>
                                                         </ref>
                                                         <bibl>Knowles, <title level="a">Voices (Off)</title> 95</bibl>
-                                                    </ref>. <ref target="#response_formal"><persName key="Loiselle, André" ref="http://viaf.org/viaf/51836732" ana="webannotation:http://temp.lincsproject.ca/lNK3gEgmwG4">André Loiselle’s</persName> assertion that the anthology was the most distinguished of a group first published in the mid-1980s <bibl>n. pag.</bibl> points to the continual praise bestowed upon this text.</ref> <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/dPOzui9nwc1">Thompson</persName>’s <title level="m">White Biting Dog</title> appears, perhaps not coincidentally, in a 2003 collection of her work introduced by <title key="Knowles, Richard Paul" ref="http://viaf.org/viaf/51820035" ana="webannotation:http://temp.lincsproject.ca/jvHuaz4Dm0O">Knowles</title>, entitled <title level="m">Late 20th Century Plays</title>
-                                                </ref>. Nonetheless, the production histories of <title level="m">White Biting Dog</title> and <title level="m">Fronteras Americanas</title> are far from extensive. There is a discrepancy between the discourse of the canonization project (see below), which for the first time made these texts accessible and soon widely taught, and the theatre community’s allegiance to that project</ref>. Though <title level="m">White Biting Dog</title> did have a subsequent production in 1990 at <orgName key="Grand Theatre" ref="https://www.wikidata.org/wiki/Q5595141" ana="webannotation:http://temp.lincsproject.ca/8ACBLLpgsOW">the Grand Theatre</orgName> <bibl>dir. <persName key="Ardal, Maja." ref="http://viaf.org/viaf/31667217" ana="webannotation:http://temp.lincsproject.ca/QtscriCfx9E">Maya Ardal</persName></bibl> after its 1984 premiere at <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/YtQnbBjpXrZ">Tarragon Theatre</orgName> <bibl>dir. <persName key="Glassco, Bill." ref="http://viaf.org/viaf/22041534" ana="webannotation:http://temp.lincsproject.ca/GaOMwrZ0EHR">Bill Glassco</persName></bibl>, and though it returned to <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/ii4EOPRNTC1">Tarragon</orgName> on its ten-year anniversary in 1994 <bibl>dir. <persName key="Panych, Morris" ref="http://viaf.org/viaf/24732105" ana="webannotation:http://temp.lincsproject.ca/uUSNxWzcRSk">Morris Panych</persName></bibl>, before its <orgName key="Soulpepper Theatre Co" ref="https://www.wikidata.org/wiki/Q7564521" ana="webannotation:http://temp.lincsproject.ca/2IYN87kFkOo">Soulpepper</orgName> revival the play never reached large audiences. Similarly, after the 1993 premiere of <title level="m">Fronteras Americanas</title> at <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/8Z8KwLpWu3s">Tarragon</orgName> <bibl>dir. Jim Warren</bibl>, <orgName key="Theatre Aquarius" ref="https://www.wikidata.org/wiki/Q56649634" ana="webannotation:http://temp.lincsproject.ca/j49nTgn1cSB">Theatre Aquarius</orgName> produced the play in 1995 <bibl>dir. </bibl> and the only other production, prior to <orgName key="Soulpepper Theatre Co" ref="https://www.wikidata.org/wiki/Q7564521" ana="webannotation:http://temp.lincsproject.ca/bm0ovdxdow4">Soulpepper’s</orgName>, was at the <placeName key="Adelaide" ref="https://sws.geonames.org/2078025" ana="webannotation:http://temp.lincsproject.ca/443CGmj0mns">Adelaide</placeName>, <placeName key="Commonwealth of Australia" ref="https://sws.geonames.org/2077456 " ana="webannotation:http://temp.lincsproject.ca/6ut8AAZ2vHp">Australia</placeName> 9’s Nexus Multicultural Arts Festival <bibl>dir. Sam Haren</bibl> (for references regarding this production history see <persName key="Ardal, Maja" ref="http://viaf.org/viaf/31667217" ana="webannotation:http://temp.lincsproject.ca/b9YXQPf9jxV">Ardal</persName>; <persName key="Glassco, Bill." ref="http://viaf.org/viaf/22041534" ana="webannotation:http://temp.lincsproject.ca/5euhUBQ5zJD">Glassco</persName>; Haren; <persName key="McHarge, Christopher Paul, 1961-" ref="http://viaf.org/viaf/105178021" ana="webannotation:http://temp.lincsproject.ca/xy13CbB8F4r">McHarge</persName>; <persName key="Panych, Morris" ref="http://viaf.org/viaf/24732105" ana="webannotation:http://temp.lincsproject.ca/2Ddv9mRECUS">Panych</persName>; Warren). <ref target="response_formal">According to <orgName key="Actors' Equity Association" ref="http://viaf.org/viaf/141418491" ana="webannotation:http://temp.lincsproject.ca/o3fEgiEsipD">the Canadian Actors’ Equity Association’s</orgName> classification system, which ranks theatres according to box office potential, the 2011 productions of <title level="m">White Biting Dog</title> at <orgName key="Young Centre for the Performing Arts" ref="https://www.wikidata.org/wiki/Q8058008" ana="webannotation:http://temp.lincsproject.ca/WIfhjAJ6dQG">the Young Centre’s</orgName> Michael Young Theatre (category D) and <title level="m">Fronteras Americanas</title> at <orgName key="Young Centre for the Performing Arts" ref="https://www.wikidata.org/wiki/Q8058008" ana="webannotation:http://temp.lincsproject.ca/7AvTQSHs7fb">the Young Centre’s</orgName> <orgName key="Marilyn and Charles Baillie Theatre" ref="https://www.wikidata.org/wiki/Q113016248" ana="webannotation:http://temp.lincsproject.ca/u4Ir504LEOe">Marilyn and Charles Baillie Theatre</orgName> (category A) promoted both plays to higher ranked venues than previous productions (<abbr><orgName key="Canadian Actors' Equity Association" ref="http://viaf.org/viaf/128069993" ana="webannotation:http://temp.lincsproject.ca/3mgweG3rZXq">CAEA</orgName></abbr>)</ref>.</note> That gesture reflected an increasing interest—in theatrical and scholarly circles alike—in the challenges of preserving and recovering the non-textual elements of theatrical performance. <ref target="#archive">If the canon is performative, how can one archive it for posterity, and who should be the archivist(s)?</ref>
+                                                    </ref>. <ref target="#response_formal"><persName key="Loiselle, André" ref="http://viaf.org/viaf/51836732" ana="webannotation:http://temp.lincsproject.ca/lNK3gEgmwG4">André Loiselle’s</persName> assertion that the anthology was the most distinguished of a group first published in the mid-1980s <bibl>n. pag.</bibl> points to the continual praise bestowed upon this text.</ref> <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/dPOzui9nwc1">Thompson</persName>’s <title level="m" key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title> appears, perhaps not coincidentally, in a 2003 collection of her work introduced by <title key="Knowles, Richard Paul" ref="http://viaf.org/viaf/51820035" ana="webannotation:http://temp.lincsproject.ca/jvHuaz4Dm0O">Knowles</title>, entitled <title level="m">Late 20th Century Plays</title>
+                                                </ref>. Nonetheless, the production histories of <title level="m"><title key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title></title> and <title level="m">Fronteras Americanas</title> are far from extensive. There is a discrepancy between the discourse of the canonization project (see below), which for the first time made these texts accessible and soon widely taught, and the theatre community’s allegiance to that project</ref>. Though <title level="m">White Biting Dog</title> did have a subsequent production in 1990 at <orgName key="Grand Theatre" ref="https://www.wikidata.org/wiki/Q5595141" ana="webannotation:http://temp.lincsproject.ca/8ACBLLpgsOW">the Grand Theatre</orgName> <bibl>dir. <persName key="Ardal, Maja." ref="http://viaf.org/viaf/31667217" ana="webannotation:http://temp.lincsproject.ca/QtscriCfx9E">Maya Ardal</persName></bibl> after its 1984 premiere at <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/YtQnbBjpXrZ">Tarragon Theatre</orgName> <bibl>dir. <persName key="Glassco, Bill." ref="http://viaf.org/viaf/22041534" ana="webannotation:http://temp.lincsproject.ca/GaOMwrZ0EHR">Bill Glassco</persName></bibl>, and though it returned to <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/ii4EOPRNTC1">Tarragon</orgName> on its ten-year anniversary in 1994 <bibl>dir. <persName key="Panych, Morris" ref="http://viaf.org/viaf/24732105" ana="webannotation:http://temp.lincsproject.ca/uUSNxWzcRSk">Morris Panych</persName></bibl>, before its <orgName key="Soulpepper Theatre Co" ref="https://www.wikidata.org/wiki/Q7564521" ana="webannotation:http://temp.lincsproject.ca/2IYN87kFkOo">Soulpepper</orgName> revival the play never reached large audiences. Similarly, after the 1993 premiere of <title level="m">Fronteras Americanas</title> at <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/8Z8KwLpWu3s">Tarragon</orgName> <bibl>dir. Jim Warren</bibl>, <orgName key="Theatre Aquarius" ref="https://www.wikidata.org/wiki/Q56649634" ana="webannotation:http://temp.lincsproject.ca/j49nTgn1cSB">Theatre Aquarius</orgName> produced the play in 1995 <bibl>dir. </bibl> and the only other production, prior to <orgName key="Soulpepper Theatre Co" ref="https://www.wikidata.org/wiki/Q7564521" ana="webannotation:http://temp.lincsproject.ca/bm0ovdxdow4">Soulpepper’s</orgName>, was at the <placeName key="Adelaide" ref="https://sws.geonames.org/2078025" ana="webannotation:http://temp.lincsproject.ca/443CGmj0mns">Adelaide</placeName>, <placeName key="Commonwealth of Australia" ref="https://sws.geonames.org/2077456 " ana="webannotation:http://temp.lincsproject.ca/6ut8AAZ2vHp">Australia</placeName> 9’s Nexus Multicultural Arts Festival <bibl>dir. Sam Haren</bibl> (for references regarding this production history see <persName key="Ardal, Maja" ref="http://viaf.org/viaf/31667217" ana="webannotation:http://temp.lincsproject.ca/b9YXQPf9jxV">Ardal</persName>; <persName key="Glassco, Bill." ref="http://viaf.org/viaf/22041534" ana="webannotation:http://temp.lincsproject.ca/5euhUBQ5zJD">Glassco</persName>; Haren; <persName key="McHarge, Christopher Paul, 1961-" ref="http://viaf.org/viaf/105178021" ana="webannotation:http://temp.lincsproject.ca/xy13CbB8F4r">McHarge</persName>; <persName key="Panych, Morris" ref="http://viaf.org/viaf/24732105" ana="webannotation:http://temp.lincsproject.ca/2Ddv9mRECUS">Panych</persName>; Warren). <ref target="response_formal">According to <orgName key="Actors' Equity Association" ref="http://viaf.org/viaf/141418491" ana="webannotation:http://temp.lincsproject.ca/o3fEgiEsipD">the Canadian Actors’ Equity Association’s</orgName> classification system, which ranks theatres according to box office potential, the 2011 productions of <title level="m">White Biting Dog</title> at <orgName key="Young Centre for the Performing Arts" ref="https://www.wikidata.org/wiki/Q8058008" ana="webannotation:http://temp.lincsproject.ca/WIfhjAJ6dQG">the Young Centre’s</orgName> Michael Young Theatre (category D) and <title level="m">Fronteras Americanas</title> at <orgName key="Young Centre for the Performing Arts" ref="https://www.wikidata.org/wiki/Q8058008" ana="webannotation:http://temp.lincsproject.ca/7AvTQSHs7fb">the Young Centre’s</orgName> <orgName key="Marilyn and Charles Baillie Theatre" ref="https://www.wikidata.org/wiki/Q113016248" ana="webannotation:http://temp.lincsproject.ca/u4Ir504LEOe">Marilyn and Charles Baillie Theatre</orgName> (category A) promoted both plays to higher ranked venues than previous productions (<abbr><orgName key="Canadian Actors' Equity Association" ref="http://viaf.org/viaf/128069993" ana="webannotation:http://temp.lincsproject.ca/3mgweG3rZXq">CAEA</orgName></abbr>)</ref>.</note> That gesture reflected an increasing interest—in theatrical and scholarly circles alike—in the challenges of preserving and recovering the non-textual elements of theatrical performance. <ref target="#archive">If the canon is performative, how can one archive it for posterity, and who should be the archivist(s)?</ref>
                                     </ref>
                                 </ref>
                             </ref>
