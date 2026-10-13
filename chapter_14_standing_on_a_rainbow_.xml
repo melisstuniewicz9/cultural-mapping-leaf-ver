@@ -613,6 +613,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013155412865",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:54:12.865Z",
+	"dcterms:modified": "2026-10-13T19:54:12.865Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013155412865#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013155412865#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[6]/p[2]/ref/ref/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/67707952",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -1035,7 +1114,7 @@
                     </p>
                     <p xml:id="p1543">
                         <ref target="#genre_novel">
-                            <ref target="#spatiality">Even a case study of two opens the door to a more plural approach to this or any novel. If we confine our study of this novel to the limits of <persName>Mary Quayle Innis</persName>’s own trajectories, decisions, and life patterns, we distort the picture of a work of literature’s own movement through time and space. <ref target="#theme_or_topic">I have attempted to define two examples of the book’s trajectory after it left Innis’s hands through the actions and imaginings of two different, though related readers.</ref>
+                            <ref target="#spatiality">Even a case study of two opens the door to a more plural approach to this or any novel. If we confine our study of this novel to the limits of <persName><persName key="Innis, Mary Quayle, 1899-1972" ref="http://viaf.org/viaf/67707952">Mary Quayle Innis</persName></persName>’s own trajectories, decisions, and life patterns, we distort the picture of a work of literature’s own movement through time and space. <ref target="#theme_or_topic">I have attempted to define two examples of the book’s trajectory after it left Innis’s hands through the actions and imaginings of two different, though related readers.</ref>
                                 <ref target="#textual_agency">The point about any novel, however, is that it is always in motion through time and space when it is being read, savoured, analyzed, and written about—<q>carded through</q> the lives of its readers. The significance of a reader’s placement in time and space is conventionally elided in much scholarly study, but that evaporation of the reader into some kind of impersonal analysis is itself a fiction. Even as we may have to create an empty set to represent the plurality of potential readers in time and space, we need also to make allowance for the located and specific nature of the scholar who presents <q>a</q> reading. No reader is disembodied; no reader exists outside of time and space. Acknowledging the force of that locatedness on the part of readers allows us to attend properly to the dynamics of reading that make literature what it is. Within the larger context of this scholarly collection, for example, this chapter is unusually autobiographical; but I bring the same history and experience to all my reading, no matter how neutrally and academically I write about a book.</ref>
                             </ref>
                         </ref>
