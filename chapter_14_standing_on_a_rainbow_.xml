@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>--><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -375,7 +374,167 @@
                 </ab>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013155122502",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:51:22.502Z",
+	"dcterms:modified": "2026-10-13T19:51:22.502Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013155122502#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261013155122502#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[7]/bibl/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/26729704",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013155159847",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:51:59.847Z",
+	"dcterms:modified": "2026-10-13T19:51:59.847Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013155159847#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013155159847#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[7]/bibl[5]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://www.geonames.org/6167865/toronto.html",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high",
+	"cwrc:hasPrecision": "cwrc:highCertainty"
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
             </projectDesc>
@@ -829,7 +988,7 @@
                 </div>
                 <div type="section">
                     <head>works cited</head>
-                    <bibl>Black, <persName key="Black, J. David (John David), 1964-" ref="http://viaf.org/viaf/26729704" ana="webannotation:http://temp.lincsproject.ca/sf1aIWkJeXp">J. David</persName>. <title level="a">‘Both of Us Can Move Mountains’: Mary Quayle Innis and Her Relationship to <persName key="Innis, Harold Adams, 1894-1952" ref="http://viaf.org/viaf/2643958" ana="webannotation:http://temp.lincsproject.ca/3iOVIiOk2OY">Harold Innis’</persName> Legacy.</title>
+                    <bibl><persName key="Black, J. David (John David), 1964-" ref="http://viaf.org/viaf/26729704">Black</persName>, <persName key="Black, J. David (John David), 1964-" ref="http://viaf.org/viaf/26729704" ana="webannotation:http://temp.lincsproject.ca/sf1aIWkJeXp">J. David</persName>. <title level="a">‘Both of Us Can Move Mountains’: Mary Quayle Innis and Her Relationship to <persName key="Innis, Harold Adams, 1894-1952" ref="http://viaf.org/viaf/2643958" ana="webannotation:http://temp.lincsproject.ca/3iOVIiOk2OY">Harold Innis’</persName> Legacy.</title>
                         <title level="j"><orgName key="Canadian Journal of Communication" ref="http://www.wikidata.org/entity/Q30294995" ana="webannotation:http://temp.lincsproject.ca/YRYzkkuWcws">Canadian Journal of Communication</orgName></title> 28 (2003): 433–47.</bibl>
                     <bibl><persName key="Friedan, Betty, 1921-2006" ref="http://viaf.org/viaf/49225729" ana="webannotation:http://temp.lincsproject.ca/EPpZIqxTePI">Friedan</persName>, <persName key="Friedan, Betty, 1921-2006" ref="http://viaf.org/viaf/49225729" ana="webannotation:http://temp.lincsproject.ca/UhONU7xDQXG">Betty</persName>. <title level="m">The Feminine Mystique</title>. <placeName key="New York City" ref="https://sws.geonames.org/5128581" ana="webannotation:http://temp.lincsproject.ca/MblRWO3euWk">New York</placeName>: <orgName key="Dell Publishing" ref="https://www.wikidata.org/wiki/Q2075464" ana="webannotation:http://temp.lincsproject.ca/ueHOBEOysoo">Dell</orgName>, 1963.</bibl>
                     <bibl><persName key="Fuller, Danielle." ref="http://viaf.org/viaf/15049126" ana="webannotation:http://temp.lincsproject.ca/q43SBeMePPM">Fuller</persName>, <persName key="Fuller, Danielle." ref="http://viaf.org/viaf/15049126" ana="webannotation:http://temp.lincsproject.ca/LFMKj4CbLYu">Danielle</persName>. <title level="a">Listening to the Readers of ‘Canada Reads.’</title>
@@ -837,12 +996,14 @@
                     <bibl>Innis, Mary Quayle. <title>Mary Quayle Innis fonds.</title>
                         <title>GA 127</title>. Special Collections, <orgName key="University of Waterloo. Library." ref="http://viaf.org/viaf/141587796" ana="webannotation:http://temp.lincsproject.ca/9bjXf0dDTRB">University of Waterloo Library</orgName>. <ref target="https://uwaterloo.ca/library/special-collections-archives/collections/innis-mary-quayle-fonds">https://uwaterloo.ca/library/special-collections-archives/collections/innis-mary-quayle-fonds</ref>
                     </bibl>
-                    <bibl>. <title level="m">Stand on a Rainbow</title>. Toronto: <persName key="William Collins Publishers" ref="http://viaf.org/viaf/144898842" ana="webannotation:http://temp.lincsproject.ca/w3zsONm5DYN">William Collins</persName>, 1943.</bibl>
+                    <bibl>. <title level="m">Stand on a Rainbow</title>. <placeName key="Toronto" ref="https://www.geonames.org/6167865/toronto.html" cert="high">Toronto<precision match="@ref" precision="high"/></placeName>: <persName key="William Collins Publishers" ref="http://viaf.org/viaf/144898842" ana="webannotation:http://temp.lincsproject.ca/w3zsONm5DYN">William Collins</persName>, 1943.</bibl>
                 </div>
             </div>
         </body>
     </text>
-	<standOff type="annotation">
+	
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="annotation">
 		
 <xenoData>
 			
@@ -2819,6 +2980,4 @@
 		
 </xenoData>
 	
-	</standOff>
-
-</TEI>
+	</standOff></TEI>
