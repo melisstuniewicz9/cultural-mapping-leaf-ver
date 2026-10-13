@@ -2745,6 +2745,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013160936271",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T20:09:36.271Z",
+	"dcterms:modified": "2026-10-13T20:09:36.271Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013160936271#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013160936271#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[6]/ref/ref[2]/placeName/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://www.geonames.org/6324729/halifax.html",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -2963,7 +3042,7 @@
                         </ref>
                     </p>
                     <p xml:id="p1516">
-                        <ref target="#voice_or_narration">In a perfect world, I would have had the opportunity to interview my mother about her affection for this book. <ref target="#health_issue">In reality, the insidious destruction of dementia was well underway long before I had the idea of revisiting my own childhood literacy.</ref> I am very, very reluctant to put words into her mouth, or even to speculate too impertinently about the hold of this book on her imagination. <ref target="#spatiality">The parallels are vivid: <placeName>Halifax</placeName> has the long winter and inadequate spring of <title level="m">Stand on a Rainbow</title>; <ref target="#history">local history is important in <placeName><placeName key="Nova Scotia" ref="https://www.geonames.org/6091530/nova-scotia.html">Nova Scotia</placeName></placeName>
+                        <ref target="#voice_or_narration">In a perfect world, I would have had the opportunity to interview my mother about her affection for this book. <ref target="#health_issue">In reality, the insidious destruction of dementia was well underway long before I had the idea of revisiting my own childhood literacy.</ref> I am very, very reluctant to put words into her mouth, or even to speculate too impertinently about the hold of this book on her imagination. <ref target="#spatiality">The parallels are vivid: <placeName><placeName key="Halifax" ref="https://www.geonames.org/6324729/halifax.html">Halifax</placeName></placeName> has the long winter and inadequate spring of <title level="m">Stand on a Rainbow</title>; <ref target="#history">local history is important in <placeName><placeName key="Nova Scotia" ref="https://www.geonames.org/6091530/nova-scotia.html">Nova Scotia</placeName></placeName>
                                 </ref> and, in her youth, my mother might well have had some sense of <q>the other people,</q> one of the more evocative ingredients of <persName><persName key="Innis, Mary Quayle, 1899-1972" ref="http://viaf.org/viaf/67707952">Innis</persName></persName>’s novel</ref>. <ref target="#education">She certainly regretted never having had the chance for an education, so I am sure Leslie’s frustrations resonated very deeply with her.</ref> On the more positive side, she enjoyed the evocation of summer recreations and childhood memories. She could read herself into this story in many deep and real ways, vivify it through the experience of her own felt life. <ref target="#genre_novel">There were, of course, few Canadian novels that treated the more or less contemporary world of a housewife and mother, so it is perhaps not surprising that my mother loved this one so fiercely.</ref>
                         </ref>
                     </p>
