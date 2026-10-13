@@ -931,6 +931,165 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013145634843",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T18:56:34.843Z",
+	"dcterms:modified": "2026-10-13T18:56:41.881Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013145634843#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013145634843#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[3]/figure/figDesc/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/8139150869813322190005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013145655104",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T18:56:55.104Z",
+	"dcterms:modified": "2026-10-13T18:57:01.584Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013145655104#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013145655104#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p/ref/ref/ref/ref/ref/ref/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/8139150869813322190005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	},
+	"cwrc:hasCertainty": "cwrc:high"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -1426,7 +1585,7 @@
                         <figure>
                             <head>Figure 3.5a</head>
                             <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A6b683d81-d1f0-4ada-8a77-7c0666bbd5c2/datastream/JPG-DToC/view"/>
-                            <figDesc>Excerpt from the opening sequence of <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/RebzB6BYOxf">Judith Thompson's</persName> <title level="m">White Biting Dog</title>, as performed by <orgName key="Soulpepper Theatre Co" ref="https://www.wikidata.org/wiki/Q7564521" ana="webannotation:http://temp.lincsproject.ca/yM6Ls3OBsEX">Soulpepper Theatre</orgName> in 2011. <abbr>SET</abbr> allows users to adopt the perspectives of audience and character avatars.</figDesc>
+                            <figDesc>Excerpt from the opening sequence of <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/RebzB6BYOxf">Judith Thompson's</persName> <title level="m" key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title>, as performed by <orgName key="Soulpepper Theatre Co" ref="https://www.wikidata.org/wiki/Q7564521" ana="webannotation:http://temp.lincsproject.ca/yM6Ls3OBsEX">Soulpepper Theatre</orgName> in 2011. <abbr>SET</abbr> allows users to adopt the perspectives of audience and character avatars.</figDesc>
                         </figure>
                         <figure>
                             <head>Figure 3.5b</head>
@@ -1470,7 +1629,7 @@
                             <ref target="#archive">
                                 <ref target="#technology">
                                     <ref target="#methodology">Perhaps the most obvious advantage to using the <abbr>SET</abbr> system as an archive is that its Stage View foregrounds the ways in which a theatrical <q>text</q> is constituted mutually by a variety of textual and non-textual theatrical elements. <ref target="#intellectual_history">
-                                            <ref target="#editions">For example, neither the 1984 nor the 2011 production of <title level="m">White Biting Dog</title> performed its text as it was first published in 1985 or in subsequent editions. All three versions of the play (1984, 1985, and 2011) begin with accounts of Cape’s attempted suicide. <ref target="#textual_agency">In the 1984 production, however, Cape reported his suicide attempt in a direct address to the audience that was significantly longer than the first published version of 1985; and, in 2011, the sequence was cut and altered so that Cape turned to the audience later and the exchange between Cape and the dog was enacted instead of reported. This alteration signalled that the 2011 production defined reality (or unreality, as <persName key="Palk, Nancy" ref="http://viaf.org/viaf/171998404" ana="webannotation:http://temp.lincsproject.ca/cVg7Sjn7fwV">Palk</persName> and Poddubiuk might put it) differently from the 1984 production and from the 1985 edition. In 1984, when eye contact and direct communication between character and audience was established immediately and the conversation with the dog was reported, the audience might have believed that the play-world operated according to the same rules as ordinary reality, and that Cape had imagined the dog; the 1985 text implied this same effect in fewer words. In 2011, however, Cape did not begin in direct address, and the dog spoke for itself. Immediately, the rules of the play-world (where dogs could speak) were significantly different from the rules of ordinary reality. But, when Cape turned to address the audience directly and viewers were suddenly defined as occupants of his unreal world, the ordinary reality the audience thought it occupied became as susceptible to redefinition as the play-world. If Cape could see the audience and viewers could see him and hear the dog, then either their sanity was as much in question as Cape’s or all reality—fictional and non-fictional—was radically perceptual. This significant development in the performance <q>text,</q> which relied on contrasting manipulations of space between productions—at times within a single production—is entirely occluded by the print transmission of the script. <ref target="#methodology">
+                                            <ref target="#editions">For example, neither the 1984 nor the 2011 production of <title level="m" cert="high" key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title> performed its text as it was first published in 1985 or in subsequent editions. All three versions of the play (1984, 1985, and 2011) begin with accounts of Cape’s attempted suicide. <ref target="#textual_agency">In the 1984 production, however, Cape reported his suicide attempt in a direct address to the audience that was significantly longer than the first published version of 1985; and, in 2011, the sequence was cut and altered so that Cape turned to the audience later and the exchange between Cape and the dog was enacted instead of reported. This alteration signalled that the 2011 production defined reality (or unreality, as <persName key="Palk, Nancy" ref="http://viaf.org/viaf/171998404" ana="webannotation:http://temp.lincsproject.ca/cVg7Sjn7fwV">Palk</persName> and Poddubiuk might put it) differently from the 1984 production and from the 1985 edition. In 1984, when eye contact and direct communication between character and audience was established immediately and the conversation with the dog was reported, the audience might have believed that the play-world operated according to the same rules as ordinary reality, and that Cape had imagined the dog; the 1985 text implied this same effect in fewer words. In 2011, however, Cape did not begin in direct address, and the dog spoke for itself. Immediately, the rules of the play-world (where dogs could speak) were significantly different from the rules of ordinary reality. But, when Cape turned to address the audience directly and viewers were suddenly defined as occupants of his unreal world, the ordinary reality the audience thought it occupied became as susceptible to redefinition as the play-world. If Cape could see the audience and viewers could see him and hear the dog, then either their sanity was as much in question as Cape’s or all reality—fictional and non-fictional—was radically perceptual. This significant development in the performance <q>text,</q> which relied on contrasting manipulations of space between productions—at times within a single production—is entirely occluded by the print transmission of the script. <ref target="#methodology">
                                                         <ref target="#technology">In contrast, since materialist-semiotic visualization tools permit users to organize space and time as well as the written word, <abbr>SET</abbr> can illustrate the ways in which the 1984 and 2011 productions constructed the materialist-semiotic performance <q>text</q> differently to define on- and off-stage realities (see figures 3.6, 3.7a, and 3.7b)</ref>
                                                     </ref>. <note place="inline">
                                                         <bibl>See also our comments on this sequence in <persName key="Roberts-Smith, Jennifer" ref="http://viaf.org/viaf/84150746934616301371" cert="high" type="real">Roberts-Smith</persName> et al., <title level="a">Visualizing Theatre Historiography</title>.</bibl>
