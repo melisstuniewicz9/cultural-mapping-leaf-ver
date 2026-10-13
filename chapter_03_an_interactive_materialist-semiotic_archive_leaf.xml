@@ -2517,6 +2517,243 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152726570",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:27:26.570Z",
+	"dcterms:modified": "2026-10-13T19:27:26.570Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152726570#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152726570#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[12]/bibl[27]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/124275029",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152738291",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:27:38.291Z",
+	"dcterms:modified": "2026-10-13T19:27:38.291Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152738291#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152738291#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[12]/bibl[29]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/126595939",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152749311",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:27:49.311Z",
+	"dcterms:modified": "2026-10-13T19:27:49.311Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152749311#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152749311#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[12]/bibl[30]/orgName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/131292914",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -3400,10 +3637,10 @@
                     <bibl><persName key="Kilbourn, William" ref="http://viaf.org/viaf/163979153" ana="webannotation:http://temp.lincsproject.ca/EfMEi3C8eug">Kilbourn</persName>, William, Jean Roberts, <persName key="David Gardner" ref="https://www.wikidata.org/wiki/Q55832066" ana="webannotation:http://temp.lincsproject.ca/c6G3rXdNh4t">David Gardner</persName>, <persName key="Peacock, D. P. S." ref="http://viaf.org/viaf/20146824860407631022" ana="webannotation:http://temp.lincsproject.ca/GuhbSxUjtbs">David Peacock</persName>, <persName key="Couanier Deslandes, Claude" ref="http://viaf.org/viaf/47013956" ana="webannotation:http://temp.lincsproject.ca/2pxMTAmyavj">Claude Des Landes</persName>, and <persName key="Learning, Walter 1938-2020" ref="http://viaf.org/viaf/11093579" ana="webannotation:http://temp.lincsproject.ca/qd4kwybt1gM">Walter Learning</persName>. <title level="a"><orgName key="Canada Council for the Arts." ref="http://viaf.org/viaf/153522743" ana="webannotation:http://temp.lincsproject.ca/XZqUZjGPWpb">The Canada Council</orgName> and the Theatre: The Past Twenty-Five Years and Tomorrow.</title> Theatre Research in Canada / <hi xml:lang="fr-CA">Recherches théâtrales au Canada</hi> 3.2 (1982). <ref target="http://journals.hil.unb.ca/index.php/TRIC/article/view/7487">http://journals.hil.unb.ca/index.php/TRIC/article/view/7487</ref>
                     </bibl>
                     <bibl><title key="Knowles, Richard Paul" ref="http://viaf.org/viaf/51820035" ana="webannotation:http://temp.lincsproject.ca/89lQ5mYv7qy">Knowles</title>, <persName key="know" ref="http://viaf.org/viaf/51820035" ana="webannotation:http://temp.lincsproject.ca/7CZjmmZv0UN">Ric</persName>. <title level="a">Introduction: <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/5Sk2LqLAZ3N">Judith Thompson</persName> in Criticism.</title>
-                        <title level="m"><persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/VZFzffG52jM">Judith Thompson</persName>: Critical Perspectives on Canadian Theatre in English. Ed. <title key="Knowles, Richard Paul" ref="http://viaf.org/viaf/51820035" ana="webannotation:http://temp.lincsproject.ca/mZRQoOoFeJX">Knowles</title></title>. Vol. 3. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/mSXZv8oTloW">Toronto</placeName>: Playwrights Canada Press, 2005. vii–xv.</bibl>
+                        <title level="m"><persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/VZFzffG52jM">Judith Thompson</persName>: Critical Perspectives on Canadian Theatre in English. Ed. <title key="Knowles, Richard Paul" ref="http://viaf.org/viaf/51820035" ana="webannotation:http://temp.lincsproject.ca/mZRQoOoFeJX">Knowles</title></title>. Vol. 3. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/mSXZv8oTloW">Toronto</placeName>: <orgName key="Playwrights Canada Press" ref="http://viaf.org/viaf/124275029">Playwrights Canada Press</orgName>, 2005. vii–xv.</bibl>
                     <bibl>. <title level="m">Reading the Material Theatre</title>. <placeName key="Cambridge" ref="https://sws.geonames.org/2653941 " ana="webannotation:http://temp.lincsproject.ca/eToYjusXGGt">Cambridge</placeName>: <orgName key="Cambridge university press" ref="http://viaf.org/viaf/127979069" ana="webannotation:http://temp.lincsproject.ca/oBKGInIEHZ2">Cambridge University Press</orgName>, 1994.</bibl>
-                    <bibl>. <title level="a">Voices (Off): Deconstructing the Modern English-Canadian Dramatic Canon</title>. <title level="m">Canadian Canons: Essays in Literary Value</title>. Ed. Robert Lecker. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/uStDTlImhdz">Toronto</placeName>: University of Toronto Press, 1991. 91–111.</bibl>
-                    <bibl>LePage, <persName key="Lepage, Sue" ref="https://www.wikidata.org/wiki/Q56761403" ana="webannotation:http://temp.lincsproject.ca/0ij3yhRk5XB">Sue</persName>, des. <title level="a">Technical drawings for <title level="m">White Biting Dog</title>, by <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/epCvS4iTugB">Judith Thompson</persName></title>. <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/9bRcdgZ7sJc">Tarragon Theatre</orgName>, <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/4hd1UYQwSm9">Toronto</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/lvaN6W2AzjQ">ON</placeName>, 1984. <orgName key="L.W. Conolly Theatre Archives" ref="http://viaf.org/viaf/169181425" ana="webannotation:http://temp.lincsproject.ca/f6XxtrcQtmh">L.W. Conolly Theatre Archives</orgName>, University of Guelph Library, <placeName key="Guelph" ref="https://sws.geonames.org/5967629" ana="webannotation:http://temp.lincsproject.ca/68l0n0R7yx6">Guelph</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/wqpckdQTCj5">ON</placeName>.</bibl>
+                    <bibl>. <title level="a">Voices (Off): Deconstructing the Modern English-Canadian Dramatic Canon</title>. <title level="m">Canadian Canons: Essays in Literary Value</title>. Ed. Robert Lecker. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/uStDTlImhdz">Toronto</placeName>: <orgName key="University of Toronto. Press" ref="http://viaf.org/viaf/126595939">University of Toronto Press</orgName>, 1991. 91–111.</bibl>
+                    <bibl>LePage, <persName key="Lepage, Sue" ref="https://www.wikidata.org/wiki/Q56761403" ana="webannotation:http://temp.lincsproject.ca/0ij3yhRk5XB">Sue</persName>, des. <title level="a">Technical drawings for <title level="m">White Biting Dog</title>, by <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/epCvS4iTugB">Judith Thompson</persName></title>. <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/9bRcdgZ7sJc">Tarragon Theatre</orgName>, <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/4hd1UYQwSm9">Toronto</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/lvaN6W2AzjQ">ON</placeName>, 1984. <orgName key="L.W. Conolly Theatre Archives" ref="http://viaf.org/viaf/169181425" ana="webannotation:http://temp.lincsproject.ca/f6XxtrcQtmh">L.W. Conolly Theatre Archives</orgName>, <orgName key="University of Guelph. Library" ref="http://viaf.org/viaf/131292914">University of Guelph Library</orgName>, <placeName key="Guelph" ref="https://sws.geonames.org/5967629" ana="webannotation:http://temp.lincsproject.ca/68l0n0R7yx6">Guelph</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/wqpckdQTCj5">ON</placeName>.</bibl>
                     <bibl><persName key="Loiselle, André, 1963-" ref="http://viaf.org/viaf/51836732" ana="webannotation:http://temp.lincsproject.ca/U4YlZKUfw6h">Loiselle</persName>, <persName key="Loiselle, André, 1963-" ref="http://viaf.org/viaf/51836732" ana="webannotation:http://temp.lincsproject.ca/3AWurq4AOYM">André</persName>. <title level="a">Review of <title level="m">Modern Canadian Plays</title>, ed. <persName key="Wasserman, Jerry, 1945-...." ref="http://viaf.org/viaf/114962360" ana="webannotation:http://temp.lincsproject.ca/yszv7edND41">Jerry Wasserman</persName></title>. <title level="j"><orgName key=" Theatre Research in Canada" ref="https://www.wikidata.org/wiki/Q15764051" ana="webannotation:http://temp.lincsproject.ca/l3FLRCM8A29">Theatre Research in Canada</orgName> / <hi xml:lang="fr-CA">Recherches théâtrales au Canada</hi>
                         </title> 16.1 (1995). <ref target="http://journals.hil.unb.ca/index.php/tric/article/view/7190/8249">http://journals.hil.unb.ca/index.php/tric/article/view/7190/8249</ref>
                     </bibl>
