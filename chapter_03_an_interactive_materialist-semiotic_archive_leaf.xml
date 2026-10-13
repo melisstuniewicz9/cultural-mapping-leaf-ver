@@ -4334,6 +4334,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013154221463",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:42:21.463Z",
+	"dcterms:modified": "2026-10-13T19:42:21.463Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013154221463#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013154221463#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/p/figure/figDesc/orgName/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q7686640",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154234308",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:42:34.308Z",
+	"dcterms:modified": "2026-10-13T19:42:34.308Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154234308#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?work_annotation_20261013154234308#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[9]/p[2]/ref/ref/ref/title/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/8139150869813322190005",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -5108,7 +5266,7 @@
                         </ref> It also permits analyses of records, such <figure>
                             <head>Figure 3.15</head>
                             <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A6c02f8c0-d1a3-4729-88a0-4259b66278e9/datastream/JPG-DToC/view"/>
-                            <figDesc>Our model of <persName key="LePage, Sue" ref="https://www.wikidata.org/wiki/Q56761403" ana="webannotation:http://temp.lincsproject.ca/MsdXCUr2FZJ">Sue LePage's</persName> set for the 1984 <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/TdCLzkvMgsy">Tarragon Theatre</orgName> production of <title level="m"><title key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title></title>, annotated with a section of <persName key="Sue LePage" ref="https://www.wikidata.org/wiki/Q56761403" ana="webannotation:http://temp.lincsproject.ca/UXNEmC7tKNK">LePage</persName>'s technical drawings showing her designs for the bridge girders and an image of the bridge they represent.</figDesc>
+                            <figDesc>Our model of <persName key="LePage, Sue" ref="https://www.wikidata.org/wiki/Q56761403" ana="webannotation:http://temp.lincsproject.ca/MsdXCUr2FZJ">Sue LePage's</persName> set for the 1984 <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/TdCLzkvMgsy"><orgName key="Tarragon Theatre" ref="http://www.wikidata.org/entity/Q7686640">Tarragon Theatre</orgName></orgName> production of <title level="m"><title key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title></title>, annotated with a section of <persName key="Sue LePage" ref="https://www.wikidata.org/wiki/Q56761403" ana="webannotation:http://temp.lincsproject.ca/UXNEmC7tKNK">LePage</persName>'s technical drawings showing her designs for the bridge girders and an image of the bridge they represent.</figDesc>
                         </figure>
                         <figure>
                             <head>Figure 3.16</head>
@@ -5119,7 +5277,7 @@
                         <ref target="#technology">
                             <ref target="#archive">
                                 <ref target="#genre_performance">
-                                    <abbr>SET</abbr> can also visualize the relationships between complementary or even contrasting records in an archive, showing, for example, changes made by the 2011 production to the text recorded in the 1984 prompt book of <title level="m">White Biting Dog</title> (see Figure 3.16).</ref>
+                                    <abbr>SET</abbr> can also visualize the relationships between complementary or even contrasting records in an archive, showing, for example, changes made by the 2011 production to the text recorded in the 1984 prompt book of <title level="m"><title key="Thompson, Judith, 1954- | White biting dog" ref="http://viaf.org/viaf/8139150869813322190005">White Biting Dog</title></title> (see Figure 3.16).</ref>
                             </ref>
                         </ref>
                     </p>
