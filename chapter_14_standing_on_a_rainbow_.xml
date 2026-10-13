@@ -2429,6 +2429,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013160800275",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T20:08:00.275Z",
+	"dcterms:modified": "2026-10-13T20:08:00.275Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013160800275#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261013160800275#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[4]/ref/ref[3]/placeName/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://www.geonames.org/6091530/nova-scotia.html",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -2633,7 +2712,7 @@
                                         </listEvent>
                                     </ref>, times were so hard that there were days when the six children ate porridge for breakfast and porridge again for supper because their parents could afford only one proper meal a day (and that one heavy on potatoes).</ref>
                             </ref>
-                            <ref target="#spatiality">But during at least two summers, they rented a cottage in <placeName><placeName key="Merigomish" ref="https://sws.geonames.org/6072277" ana="webannotation:http://temp.lincsproject.ca/9EiJaSqna2V">Merigomish</placeName>, Nova Scotia</placeName>
+                            <ref target="#spatiality">But during at least two summers, they rented a cottage in <placeName><placeName key="Merigomish" ref="https://sws.geonames.org/6072277" ana="webannotation:http://temp.lincsproject.ca/9EiJaSqna2V">Merigomish</placeName>, <placeName key="Nova Scotia" ref="https://www.geonames.org/6091530/nova-scotia.html">Nova Scotia</placeName></placeName>
                             </ref>, and my mother knew the intense pleasures of the summer escape that are described vividly in this book. Leslie is devoted to the charms of berry picking (making jam is her favourite domestic activity). My mother also liked to pick berries but she was even more attracted to the delights of wild flowers, and was knowledgeable about their names and habitats. Leslie’s choice is more domestic and productive; my mother’s preference led to nothing but pleasure. <ref target="#tone_or_style">I strongly suspect that the lyrical sections of the book, limning the joys of summer in the country or an ice storm in the city, spoke to her in important ways.</ref>
                             <ref target="#textual_agency">Contemporary readers often value <q>relatability,</q> a neologism that perhaps arises directly out of current reading practices; while I am certain my mother <q>related</q> to <title level="m">Stand on a Rainbow</title>, I believe she also relished the delights of the kind of lyrical description that featured more prominently in an earlier age of vernacular reading than in today’s relatable novels. <ref target="#spatiality">Readers belong to their time as well as to their place.</ref>
                             </ref>
