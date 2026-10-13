@@ -2991,6 +2991,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152956583",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:29:56.583Z",
+	"dcterms:modified": "2026-10-13T19:29:56.583Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152956583#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013152956583#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[12]/bibl[62]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "https://www.wikidata.org/wiki/Q7564521",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013153010647",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-13T19:30:10.647Z",
+	"dcterms:modified": "2026-10-13T19:30:10.647Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013153010647#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_03_an_interactive_materialist-semiotic_archive_leaf.xml?organization_annotation_20261013153010647#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[12]/bibl[64]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "https://www.wikidata.org/wiki/Q7564521",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -3922,12 +4080,12 @@
                     <bibl><persName key="Taylor, Diana, 1950-...." ref="http://viaf.org/viaf/36969389" ana="webannotation:http://temp.lincsproject.ca/WiVN0iMwn0f">Taylor</persName>, <persName key="Taylor, Diana, 1950-...." ref="http://viaf.org/viaf/36969389" ana="webannotation:http://temp.lincsproject.ca/9wNvpGIgNWQ">Diana</persName>. <title level="m">The Archive and the Repertoire: Performing Cultural Memory in the Americas</title>. <placeName key="Durham" ref="https://sws.geonames.org/4464368 " ana="webannotation:http://temp.lincsproject.ca/nt2KYNPK6Ka">Durham</placeName>, <placeName key="North Carolina" ref="https://sws.geonames.org/4482348" ana="webannotation:http://temp.lincsproject.ca/4SswAsIWedq">NC</placeName>: <orgName key="Duke university press" ref="http://viaf.org/viaf/264801395" ana="webannotation:http://temp.lincsproject.ca/U7BCJiSRGCG">Duke University Press</orgName>, 2003.</bibl>
                     <bibl><persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/L19Y6Q6nPMa">Thompson</persName>, <persName key="Thompson, Judith, 1954-" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/we1uH3i8V4m">Judith</persName>. <title level="m">Late 20th Century Plays, 1980–2000</title>. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/wVZ8TApsXdb">Toronto</placeName>: <orgName key="Playwrights Canada Press." ref="http://viaf.org/viaf/124275029" ana="webannotation:http://temp.lincsproject.ca/EAX5dELl1u6">Playwrights Canada Press</orgName>, 2003.</bibl>
                     <bibl>. <title level="m">White Biting Dog</title>. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/hJHFdEmQBmp">Toronto</placeName>: <orgName key="Playwrights Canada Press." ref="http://viaf.org/viaf/124275029" ana="webannotation:http://temp.lincsproject.ca/fFBwDVxXoDR">Playwrights Canada Press</orgName>, 1985.</bibl>
-                    <bibl><persName key="Von Tiedemann, Cylla" ref="http://viaf.org/viaf/105467361" ana="webannotation:http://temp.lincsproject.ca/rs01XiOB7ET">von Tiedemann</persName>, <persName key="Von Tiedemann, Cylla" ref="http://viaf.org/viaf/105467361" ana="webannotation:http://temp.lincsproject.ca/iOYJs0id0XK">Cylla</persName>. <title level="a">[Digital Photograph, Mike Ross and <persName key="Washburn, Michaela" ref="http://viaf.org/viaf/18152380028501760566" ana="webannotation:http://temp.lincsproject.ca/dOg0zuCXVYf">Michaela Washburn</persName> in <title level="m">White Biting Dog</title>, by <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/4AvrutLRvqQ">Judith Thompson</persName>.]</title> Photo Gallery, Soulpepper Theatre Company, 2011. <ref target="http://www.soulpepper.ca/performances/11_season/white_biting_dog.aspx#overview">http://www.soulpepper.ca/performances/11_season/white_biting_dog.aspx#overview</ref>
+                    <bibl><persName key="Von Tiedemann, Cylla" ref="http://viaf.org/viaf/105467361" ana="webannotation:http://temp.lincsproject.ca/rs01XiOB7ET">von Tiedemann</persName>, <persName key="Von Tiedemann, Cylla" ref="http://viaf.org/viaf/105467361" ana="webannotation:http://temp.lincsproject.ca/iOYJs0id0XK">Cylla</persName>. <title level="a">[Digital Photograph, Mike Ross and <persName key="Washburn, Michaela" ref="http://viaf.org/viaf/18152380028501760566" ana="webannotation:http://temp.lincsproject.ca/dOg0zuCXVYf">Michaela Washburn</persName> in <title level="m">White Biting Dog</title>, by <persName key="Thompson, Judith" ref="http://viaf.org/viaf/66498292" ana="webannotation:http://temp.lincsproject.ca/4AvrutLRvqQ">Judith Thompson</persName>.]</title> Photo Gallery, <orgName key="Soulpepper Theatre Company" ref="https://www.wikidata.org/wiki/Q7564521">Soulpepper Theatre Company</orgName>, 2011. <ref target="http://www.soulpepper.ca/performances/11_season/white_biting_dog.aspx#overview">http://www.soulpepper.ca/performances/11_season/white_biting_dog.aspx#overview</ref>
                     </bibl>
                     <bibl>Warren, Jim, dir. <title level="m">
                             <title level="m">Fronteras Americanas</title>, by <persName key="Verdecchia, Guillermo" ref="http://viaf.org/viaf/41927151" ana="webannotation:http://temp.lincsproject.ca/tD8swwK0hYj">Guillermo Verdecchia</persName>. Set Glenn Davidson. Perf. <persName key="Verdecchia, Guillermo" ref="http://viaf.org/viaf/41927151" ana="webannotation:http://temp.lincsproject.ca/XfEnSNCSUYl">Guillermo Verdecchia</persName></title>. <orgName key="Tarragon Theatre" ref="http://viaf.org/viaf/126499746" ana="webannotation:http://temp.lincsproject.ca/X7w5xXJVFyL">Tarragon Theatre</orgName>, <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/iAzLQy6Onsm">Toronto</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/2NJR24zvvcK">ON</placeName>, October 1993.</bibl>
                     <bibl>. <title level="m">
-                            <title level="m">Fronteras Americanas</title>, by <persName key="Verdecchia, Guillermo" ref="http://viaf.org/viaf/41927151" ana="webannotation:http://temp.lincsproject.ca/EhBXlk14NxY">Guillermo Verdecchia</persName>. Set Glenn Davidson. Perf. <persName key="Verdecchia, Guillermo" ref="http://viaf.org/viaf/41927151" ana="webannotation:http://temp.lincsproject.ca/nvMiAAwB9m2">Guillermo Verdecchia</persName></title>. Soulpepper Theatre Company, <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/WzqUT6tuKPj">Toronto</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/uMQ6LEogoxa">ON</placeName>, May 2012.</bibl>
+                            <title level="m">Fronteras Americanas</title>, by <persName key="Verdecchia, Guillermo" ref="http://viaf.org/viaf/41927151" ana="webannotation:http://temp.lincsproject.ca/EhBXlk14NxY">Guillermo Verdecchia</persName>. Set Glenn Davidson. Perf. <persName key="Verdecchia, Guillermo" ref="http://viaf.org/viaf/41927151" ana="webannotation:http://temp.lincsproject.ca/nvMiAAwB9m2">Guillermo Verdecchia</persName></title>. <orgName key="Soulpepper Theatre Company" ref="https://www.wikidata.org/wiki/Q7564521">Soulpepper Theatre Company</orgName>, <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/WzqUT6tuKPj">Toronto</placeName>, <placeName key="Ontario" ref="https://sws.geonames.org/6093943 " ana="webannotation:http://temp.lincsproject.ca/uMQ6LEogoxa">ON</placeName>, May 2012.</bibl>
                     <bibl><orgName key="Wasserman, Jerry, 1945-...." ref="http://viaf.org/viaf/114962360" ana="webannotation:http://temp.lincsproject.ca/nl9vFNik0mc">Wasserman</orgName>, <persName key="Wasserman, Jerry, 1945-...." ref="http://viaf.org/viaf/114962360" ana="webannotation:http://temp.lincsproject.ca/bohO7XHNKrA">Jerry</persName>, ed. <title level="m">Modern Canadian Plays</title>. 4th ed. Vol. 2. <placeName key="Vancouver" ref="https://sws.geonames.org/6173331 " ana="webannotation:http://temp.lincsproject.ca/DokgQa9eFgG">Vancouver</placeName>: <orgName key="Talonbooks." ref="http://viaf.org/viaf/313529662" ana="webannotation:http://temp.lincsproject.ca/W0DceuvBDhs">Talonbooks</orgName>, 2001.</bibl>
                     <bibl><persName key="Worthen, William B., 1955-...." ref="http://viaf.org/viaf/112363841" ana="webannotation:http://temp.lincsproject.ca/2ZAFMgWYBNK">Worthen</persName>, <persName key="Shakespeare, William, 1564-1616." ref="http://viaf.org/viaf/96994048" ana="webannotation:http://temp.lincsproject.ca/OrMx7ziYzAu">William</persName>. <title level="m">Drama: Between Poetry and Performance</title>. <placeName key="Malden" ref="https://sws.geonames.org/4942939  " ana="webannotation:http://temp.lincsproject.ca/sKayEBl0GEZ">Malden</placeName>, MA: <orgName key="Wiley-Blackwell" ref="http://viaf.org/viaf/9163147270532735700008" ana="webannotation:http://temp.lincsproject.ca/NuyoybbxrV7">Wiley-Blackwell</orgName>, 2010.</bibl>
                     <bibl><persName key="Zaiontz, Keren" ref="http://viaf.org/viaf/269430912" ana="webannotation:http://temp.lincsproject.ca/aUL6W08NpkY">Zaiontz</persName>, <persName key="Zaiontz, Keren" ref="http://viaf.org/viaf/269430912" ana="webannotation:http://temp.lincsproject.ca/Z4zOm3S3Afg">Keren</persName>. <title level="a">The Instability of Walls, Pillars, and Floors in <orgName key="Bluemouth Inc" ref="https://www.wikidata.org/wiki/Q85747909" ana="webannotation:http://temp.lincsproject.ca/J9uXemVPCOy">Bluemouth Inc.</orgName> Presents <title level="m">What the Thunder Said</title>
