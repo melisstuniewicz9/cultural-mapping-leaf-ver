@@ -4560,6 +4560,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261014103558623",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-14T14:35:58.623Z",
+	"dcterms:modified": "2026-10-14T14:35:58.623Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261014103558623#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261014103558623#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[7]/ref/ref/ref/ref[2]/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/67707952",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261014103626697",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-14T14:36:26.697Z",
+	"dcterms:modified": "2026-10-14T14:36:26.697Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261014103626697#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?person_annotation_20261014103626697#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[8]/ref/ref/persName[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/67707952",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -4886,14 +5044,14 @@
                         <ref target="#response_re-evaluation">In <date cert="high" when="2007">2007</date>, as I began to consider the possibilities of a project involving the re-assembling of as many materials as possible from the textual universe within which I became literate, I knew that my mother’s books would be important to my collection. My first re-reading of this title in <date cert="high" when="2007">2007</date> left me simply dispirited. The source of this book’s appeal to my mother was even more baffling to me as an adult. <ref target="#education">
                                 <ref target="#representation_of_women">
                                     <ref target="#spatiality">I could not ask her, and the only part of the book that evoked any positive response for me in <date cert="high" when="2007">2007</date> was the notion of <q>the other people</q>—and that chiefly as a cause for regret, that my education in local history had been so wanting that my imagination had never been charged with any curiosity about the past of my own city.</ref>
-                                    <ref target="#textual_agency">While I could appreciate the felt detail in <persName>Innis</persName>’s account of a domestic life, I could not make myself want to read myself <q>into</q> its restrictions and limitations. I put the book aside.</ref>
+                                    <ref target="#textual_agency">While I could appreciate the felt detail in <persName><persName key="Innis, Mary Quayle, 1899-1972" ref="http://viaf.org/viaf/67707952">Innis</persName></persName>’s account of a domestic life, I could not make myself want to read myself <q>into</q> its restrictions and limitations. I put the book aside.</ref>
                                 </ref>
                             </ref>
                         </ref>
                     </p>
                     <p xml:id="p1531">
                         <ref target="#response_re-evaluation">
-                            <ref target="#authorship">In the summer of <date cert="high" when="2011">2011</date>, I thought the time had come to return to the book and took the standard scholarly step of seeing what I could learn about the author. The biographical reference to <persName><persName key="Innis, Harold Adams, 1894-1952." ref="http://viaf.org/viaf/2643958">Harold Innis</persName></persName> caught me completely by surprise. <persName>Mary Quayle Innis</persName>’s own scholarly, literary, and public record was another shock. <ref target="#representation_of_women">When I re-read the book yet again, I was attending to absences as well as presences. Leslie’s diffidence about herself, compounded by the book’s lack of any description of a single independent achievement on her part, took a different shape in my mind when outlined against the other biographical components of Innis’s life, the experiences that were not translated into this fiction.</ref>
+                            <ref target="#authorship">In the summer of <date cert="high" when="2011">2011</date>, I thought the time had come to return to the book and took the standard scholarly step of seeing what I could learn about the author. The biographical reference to <persName><persName key="Innis, Harold Adams, 1894-1952." ref="http://viaf.org/viaf/2643958">Harold Innis</persName></persName> caught me completely by surprise. <persName><persName key="Innis, Mary Quayle, 1899-1972" ref="http://viaf.org/viaf/67707952">Mary Quayle Innis</persName></persName>’s own scholarly, literary, and public record was another shock. <ref target="#representation_of_women">When I re-read the book yet again, I was attending to absences as well as presences. Leslie’s diffidence about herself, compounded by the book’s lack of any description of a single independent achievement on her part, took a different shape in my mind when outlined against the other biographical components of Innis’s life, the experiences that were not translated into this fiction.</ref>
                             </ref>
                         </ref>
                     </p>
