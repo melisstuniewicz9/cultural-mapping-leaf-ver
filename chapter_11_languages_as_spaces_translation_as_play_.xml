@@ -1115,10 +1115,10 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?person_annotation_20261014161303262",
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?link_annotation_20261014161402223",
 	"type": "oa:Annotation",
-	"dcterms:created": "2026-10-14T20:13:03.262Z",
-	"dcterms:modified": "2026-10-14T20:13:03.262Z",
+	"dcterms:created": "2026-10-14T20:14:02.223Z",
+	"dcterms:modified": "2026-10-14T20:14:02.223Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/melisstuniewicz9",
 		"@type": [
@@ -1127,9 +1127,9 @@
 		],
 		"cwrc:hasName": "Melissa Tuniewicz"
 	},
-	"oa:motivatedBy": "oa:identifying",
+	"oa:motivatedBy": "oa:linking",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?person_annotation_20261014161303262#Target",
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?link_annotation_20261014161402223#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml",
@@ -1143,15 +1143,14 @@
 			"schema:softwareVersion": "4.3.2"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?person_annotation_20261014161303262#Selector",
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?link_annotation_20261014161402223#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div/p/ref/persName/persName"
+			"rdf:value": "TEI/text/body/div/div/p/ref"
 		}
 	},
 	"oa:hasBody": {
-		"@type": "cwrc:NaturalPerson",
-		"@id": "http://viaf.org/viaf/56703476",
-		"dc:format": "text/plain"
+		"@id": "#spatiality",
+		"@type": "cnt:ContentAsText"
 	},
 	"as:generator": {
 		"@id": "https://leaf-writer.leaf-vre.org",
@@ -1215,8 +1214,8 @@
                 <div type="section">
                     <head>Prelude: Who Do You Think You Are?</head>
                     <p xml:id="p1385">
-                        <ref target="#spatiality">On this topic I have only fragments to offer. Or rather, I have chosen the fragment as a way to generate openness and multiple meanings. Spaces in, spaces between: <q>that’s how the light gets in,</q>
-                                <persName><persName key="Cohen, Leonard, 1934-2016" ref="http://viaf.org/viaf/56703476">Leonard Cohen</persName></persName> says. Fragments of a life in and through languages.</ref>
+                        <ref target="#spatiality">On this topic I have only fragments to offer. Or rather, I have chosen the fragment as a way to generate openness and multiple meanings. <ref target="#intertextuality">Spaces in, spaces between: <q>that’s how the light gets in,</q>
+                                Leonard Cohen says</ref>. Fragments of a life in and through languages.</ref>
                     </p>
                     <p xml:id="p1386">
                         <ref target="#spatiality">
