@@ -4955,6 +4955,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261014104233643",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-14T14:42:33.643Z",
+	"dcterms:modified": "2026-10-14T14:42:33.643Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261014104233643#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_14_standing_on_a_rainbow_.xml?place_annotation_20261014104233643#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[6]/p/ref/ref/placeName/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://www.geonames.org/6354959",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -5372,7 +5451,7 @@
                     <head>Grounded Reading</head>
                     <p xml:id="p1542">
                         <ref target="#spatiality">
-                            <ref target="#textual_agency">My mother and I occupied the same space and time as we read <title level="m">Stand on a Rainbow</title> in the <date cert="high" from="1960-01-01" to="1965-12-31">early 1960s</date> in <placeName><placeName key="St. John's" ref="https://sws.geonames.org/6324733" ana="webannotation:http://temp.lincsproject.ca/wceZI3nDZL7">St. John’s</placeName>, Newfoundland</placeName>. But how we related our reading to our situation in time and space was different in a variety of vital ways.</ref>
+                            <ref target="#textual_agency">My mother and I occupied the same space and time as we read <title level="m">Stand on a Rainbow</title> in the <date cert="high" from="1960-01-01" to="1965-12-31">early 1960s</date> in <placeName><placeName key="St. John's" ref="https://sws.geonames.org/6324733" ana="webannotation:http://temp.lincsproject.ca/wceZI3nDZL7">St. John’s</placeName>, <placeName key="Newfoundland" ref="https://www.geonames.org/6354959">Newfoundland</placeName></placeName>. But how we related our reading to our situation in time and space was different in a variety of vital ways.</ref>
                         </ref>
                     </p>
                     <p xml:id="p1543">
