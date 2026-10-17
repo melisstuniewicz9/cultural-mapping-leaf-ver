@@ -2268,6 +2268,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016215735418",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-17T01:57:35.418Z",
+	"dcterms:modified": "2026-10-17T01:57:35.418Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016215735418#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016215735418#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[7]/ref/ref/ref[2]/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/6077243",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -2429,7 +2508,7 @@
                         <ref target="#voice_or_narration">
                             <ref target="#language">
                                 <ref target="#childhood">When I speak English today I can sometimes hear my mother’s voice running under mine, particularly when I am scolding my children. When I speak French I don’t sound like anyone I know. (That is probably the whole point.) Sometimes that’s lonely. <ref target="#education">Sometimes it’s freedom itself. The first day of our very first French class, in grade six, I was a drowning person suddenly discovering this thing called a raft. Love at first sight? This was love at first sound. Another language was an outstretched hand, it was a parachute, a highway to take me away.</ref> There was another way of saying things, and that meant there was another way of being. And that meant there was somewhere else, and I could be someone else, somewhere else. It was, at last, a confirmation of that vague and painful longing I had been feeling, my very own problem with no name. So I worked hard at languages: I was good, I was the best, my life depended on it.</ref>
-                                <ref target="#spatiality">And later, at university, I travelled at last to <placeName key="Paris" ref="https://sws.geonames.org/2988507">Paris</placeName>, and then I moved to Montreal, my double city, my home to the extent I will ever have one, the city where my books have been written and my children were born.</ref>
+                                <ref target="#spatiality">And later, at university, I travelled at last to <placeName key="Paris" ref="https://sws.geonames.org/2988507">Paris</placeName>, and then I moved to <placeName key="Montreal" ref="https://sws.geonames.org/6077243">Montreal</placeName>, my double city, my home to the extent I will ever have one, the city where my books have been written and my children were born.</ref>
                             </ref>
                         </ref>
                     </p>
