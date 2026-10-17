@@ -3769,6 +3769,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016225016713",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-17T02:50:16.713Z",
+	"dcterms:modified": "2026-10-17T02:50:16.713Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016225016713#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016225016713#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[4]/ref/ref/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/366755",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -3901,7 +3980,7 @@
                                     <event>
                                         <label>First World War</label>
                                     </event>
-                                </listEvent> and beyond. The city that I come from was initially called <placeName key="Berlin" ref="https://sws.geonames.org/2950159">Berlin</placeName>, but in <date cert="high" when="1916">1916</date> the name was changed to <placeName><persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/FrQZ8Zp4WvY">Kitchener</persName></placeName> as a sign of loyalty to the British Empire. <ref target="#characterization">Now <persName>Lord <persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/AxjBNMB2jUT">Kitchener</persName></persName> was a wonderful person, a British field marshal, a pro-consul, a military man who won fame for his imperial campaigns. Lord <persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/WhCm69GAV9C">Kitchener</persName> was in <placeName key="Arab Republic of Egypt" ref="https://sws.geonames.org/357994">Egypt</placeName>. Lord <persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/9it5nM5Lf8D">Kitchener</persName> was in the Sudan. <ref target="#historical_oppression">Lord <persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/tGwpNL5vcbV">Kitchener</persName> was in <placeName key="India" ref="https://sws.geonames.org/1269750">India</placeName>. Lord <persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/HMPnbSspYJi">Kitchener</persName> was in <placeName key="South Africa" ref="https://sws.geonames.org/953987">South Africa</placeName> during the <listEvent>
+                                </listEvent> and beyond. The city that I come from was initially called <placeName key="Berlin" ref="https://sws.geonames.org/2950159">Berlin</placeName>, but in <date cert="high" when="1916">1916</date> the name was changed to <placeName><persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/FrQZ8Zp4WvY">Kitchener</persName></placeName> as a sign of loyalty to the British Empire. <ref target="#characterization">Now <persName>Lord <persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/AxjBNMB2jUT">Kitchener</persName></persName> was a wonderful person, a British field marshal, a pro-consul, a military man who won fame for his imperial campaigns. Lord <persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/WhCm69GAV9C">Kitchener</persName> was in <placeName key="Arab Republic of Egypt" ref="https://sws.geonames.org/357994">Egypt</placeName>. Lord <persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/9it5nM5Lf8D">Kitchener</persName> was in the <placeName key="Sudan" ref="https://sws.geonames.org/366755">Sudan</placeName>. <ref target="#historical_oppression">Lord <persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/tGwpNL5vcbV">Kitchener</persName> was in <placeName key="India" ref="https://sws.geonames.org/1269750">India</placeName>. Lord <persName key="Kitchener, Horatio Herbert Kitchener, Earl, 1850-1916" ref="http://viaf.org/viaf/2601254" ana="webannotation:http://temp.lincsproject.ca/HMPnbSspYJi">Kitchener</persName> was in <placeName key="South Africa" ref="https://sws.geonames.org/953987">South Africa</placeName> during the <listEvent>
                                         <event>
                                             <label>Boer Wars</label>
                                         </event>
