@@ -3216,6 +3216,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016223724134",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-17T02:37:24.134Z",
+	"dcterms:modified": "2026-10-17T02:37:24.134Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016223724134#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016223724134#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[3]/ref/ref/ref/ref/ref/ref/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/1835841",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -3335,7 +3414,7 @@
                                 <ref target="#class_issue">
                                     <ref target="#voice_or_narration">
                                         <ref target="#theme_or_topic">
-                                            <ref target="#childhood">I grew up in a working-class family in a grey factory town (more on that shortly) and I was very young—nine or ten, no older—when I discovered I needed to be somewhere else in order to survive. That was a secret I shared with my two best friends, who came from Korea and <placeName>Guyana</placeName> and could not believe they had landed there either. Nobody in my family had a passport or had flown on an airplane, nobody had travelled beyond our town and the small scattering of nearby places where everyone we knew lived. They had heard of other countries but had no use for them, no thirst for them.</ref>
+                                            <ref target="#childhood">I grew up in a working-class family in a grey factory town (more on that shortly) and I was very young—nine or ten, no older—when I discovered I needed to be somewhere else in order to survive. That was a secret I shared with my two best friends, who came from <placeName key="Korea" ref="https://sws.geonames.org/1835841">Korea</placeName> and Guyana and could not believe they had landed there either. Nobody in my family had a passport or had flown on an airplane, nobody had travelled beyond our town and the small scattering of nearby places where everyone we knew lived. They had heard of other countries but had no use for them, no thirst for them.</ref>
                                         </ref>
                                     </ref>
                                 </ref>
