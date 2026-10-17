@@ -1461,7 +1461,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016214749414#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[8]/q/placeName"
+			"rdf:value": "TEI/text/body/div/div[8]/q/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -1540,7 +1540,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016214907591#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[8]/q/placeName[2]"
+			"rdf:value": "TEI/text/body/div/div[8]/q/placeName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -3137,6 +3137,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016220344579",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-17T02:03:44.579Z",
+	"dcterms:modified": "2026-10-17T02:03:44.579Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016220344579#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016220344579#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[8]/q/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/12522838",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -3256,7 +3335,7 @@
                                 <ref target="#class_issue">
                                     <ref target="#voice_or_narration">
                                         <ref target="#theme_or_topic">
-                                            <ref target="#childhood">I grew up in a working-class family in a grey factory town (more on that shortly) and I was very young—nine or ten, no older—when I discovered I needed to be somewhere else in order to survive. That was a secret I shared with my two best friends, who came from <placeName>Korea</placeName> and <placeName>Guyana</placeName> and could not believe they had landed there either. Nobody in my family had a passport or had flown on an airplane, nobody had travelled beyond our town and the small scattering of nearby places where everyone we knew lived. They had heard of other countries but had no use for them, no thirst for them.</ref>
+                                            <ref target="#childhood">I grew up in a working-class family in a grey factory town (more on that shortly) and I was very young—nine or ten, no older—when I discovered I needed to be somewhere else in order to survive. That was a secret I shared with my two best friends, who came from Korea and <placeName>Guyana</placeName> and could not believe they had landed there either. Nobody in my family had a passport or had flown on an airplane, nobody had travelled beyond our town and the small scattering of nearby places where everyone we knew lived. They had heard of other countries but had no use for them, no thirst for them.</ref>
                                         </ref>
                                     </ref>
                                 </ref>
@@ -3555,7 +3634,7 @@
                             </ref>
                         </ref>
                     </p>
-                    <q type="block" xml:lang="fr-CA">Ils se sont retrouvés à Paris, dans un petit hôtel de la rue Madame. Elle était jeune et elle aimait les livres, lui était vieux et il aimait l’écouter. Alors elle a parlé, elle lui a parlé de Gertrude Stein et <persName key="Colette, 1873-1954." ref="http://viaf.org/viaf/68937443" ana="webannotation:http://temp.lincsproject.ca/jmzyXXuiGTf">de Colette</persName>, de la guerre et du salon de la rue de Fleurus, tout près. Il arrivait d’un voyage d’affaires en <placeName key="Asie" ref="https://sws.geonames.org/6255147">Asie</placeName>, elle de <placeName key="Montréal" ref="https://sws.geonames.org/6077243">Montréal</placeName> où ils habitaient tous deux. Paris était pour elle nouveau, et les voyages, et l’amour. D’Asie il lui a rapporté des mangoustans. Goûte, dit-il, tu vas voir. La chair est d’une vive blancheur, lovée dans une écorce rouge violent. Elle goûte le sucre et l’eau fraîche, le lointain et la source. La jeune femme ne connaissait ni le nom, ni le fruit. Elle était si jeune qu’elle croyait encore aller de voyage en voyage, de fruit en fruit, si jeune qu’elle était sûre de toujours voyager en compagnie du même homme, qui n’allait pourtant jamais quitter sa femme. Dix ans ont passé, elle n’a jamais rien goûté d’aussi bon. Elle ne s’y attend guère. Dix ans ont passé et pourtant elle voit la chambre, le lit défait, l’amour et le fruit. Elle sourit, confiante, jeune, comme si elle n’avait qu’à tendre la main pour qu’y tombent un à un tous les fruits du monde.</q>
+                    <q type="block" xml:lang="fr-CA">Ils se sont retrouvés à Paris, dans un petit hôtel de l<placeName key="Rue Madame" ref="https://sws.geonames.org/12522838">a rue Madame</placeName>. Elle était jeune et elle aimait les livres, lui était vieux et il aimait l’écouter. Alors elle a parlé, elle lui a parlé de Gertrude Stein et <persName key="Colette, 1873-1954." ref="http://viaf.org/viaf/68937443" ana="webannotation:http://temp.lincsproject.ca/jmzyXXuiGTf">de Colette</persName>, de la guerre et du salon de la rue de Fleurus, tout près. Il arrivait d’un voyage d’affaires en <placeName key="Asie" ref="https://sws.geonames.org/6255147">Asie</placeName>, elle de <placeName key="Montréal" ref="https://sws.geonames.org/6077243">Montréal</placeName> où ils habitaient tous deux. Paris était pour elle nouveau, et les voyages, et l’amour. D’Asie il lui a rapporté des mangoustans. Goûte, dit-il, tu vas voir. La chair est d’une vive blancheur, lovée dans une écorce rouge violent. Elle goûte le sucre et l’eau fraîche, le lointain et la source. La jeune femme ne connaissait ni le nom, ni le fruit. Elle était si jeune qu’elle croyait encore aller de voyage en voyage, de fruit en fruit, si jeune qu’elle était sûre de toujours voyager en compagnie du même homme, qui n’allait pourtant jamais quitter sa femme. Dix ans ont passé, elle n’a jamais rien goûté d’aussi bon. Elle ne s’y attend guère. Dix ans ont passé et pourtant elle voit la chambre, le lit défait, l’amour et le fruit. Elle sourit, confiante, jeune, comme si elle n’avait qu’à tendre la main pour qu’y tombent un à un tous les fruits du monde.</q>
                     <p xml:id="p1432" rend="column-quote">He was waiting for her in <placeName key="Paris" ref="https://sws.geonames.org/2988507">Paris</placeName>, in a small hotel on <placeName key="Rue Madame" ref="https://www.wikidata.org/wiki/Q3448998" ana="webannotation:http://temp.lincsproject.ca/bMKlOikmLn3">rue Madame</placeName>. She was young and loved books, he was old and loved listening to her. So she talked and talked, she told him about <persName key="Stein, Gertrude, 1874-1946" ref="http://viaf.org/viaf/22149082">Gertrude Stein</persName> and <persName key="Colette, 1873-1954" ref="http://viaf.org/viaf/68937443">Colette</persName>, about the war and the salon on <placeName key="Rue de Fleurus" ref="https://sws.geonames.org/12746725">rue de Fleurus</placeName>, close by.</p>
                     <p xml:id="p1433" rend="column-quote"> He was returning from a business trip to <placeName key="Asia" ref="https://www.geonames.org/6255147">Asia</placeName>, she arrived from <placeName key="Montréal" ref="https://sws.geonames.org/6077243">Montreal</placeName> where they both lived. <placeName key="Paris" ref="https://sws.geonames.org/2988507">Paris</placeName> was new to her then, though she would later visit dozens of times, without him. From <placeName key="Thailand" ref="https://sws.geonames.org/1605651">Thailand</placeName> he brought her mangosteens. Taste this, he said, you’ll see.</p>
                     <p xml:id="p1434" rend="column-quote"> The flesh was a clear, intense white cradled in a deep red skin. It tasted of calm and of sweet water, of distance, of a hidden spring. She had never seen the fruit nor heard the name. She was so young she still thought she would travel again and again with the same man, this man she confused with fate.</p>
