@@ -1794,6 +1794,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?person_annotation_20261016215244049",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-17T01:52:44.049Z",
+	"dcterms:modified": "2026-10-17T01:52:44.049Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?person_annotation_20261016215244049#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?person_annotation_20261016215244049#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[7]/p[6]/ref/ref/ref/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/108190886",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016215301130",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-17T01:53:01.130Z",
+	"dcterms:modified": "2026-10-17T01:53:01.130Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016215301130#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_11_languages_as_spaces_translation_as_play_.xml?place_annotation_20261016215301130#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[7]/p[4]/ref/ref/ref/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/2988507",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -2144,7 +2302,7 @@
                     <p xml:id="p1423">
                         <ref target="#tone_or_style">
                             <ref target="#language">
-                                <ref target="#translation">In this passage, the English version is less lyrical, less sentimental, less beautifully balanced; the cadence in French is like poetry (the commas with <q xml:lang="fr-CA">et les voyages, et l’amour</q>). In English, the equivalent (<q>and travel, and love</q>) does not sound like poetry to my ear. In fact, I take a definite turn towards narrative instead of lyricism. Another difference is that the English version is more optimistic (we learn sooner that she survived the affair with the married man and kept visiting <placeName>Paris</placeName> anyway) but also speaks from a different space and time, many years later (the French tells how she feels in the present). The English is less immediate and more elegiac; <q>she</q> is less lost, more experienced, and more of a survivor. <ref target="#spatiality">But I am saying all this from another space, the space of a literary critic, looking at it from outside, at the effect it produces; when recreating, I don’t think of it that way, I just follow the words where they take me, on blind faith.</ref>
+                                <ref target="#translation">In this passage, the English version is less lyrical, less sentimental, less beautifully balanced; the cadence in French is like poetry (the commas with <q xml:lang="fr-CA">et les voyages, et l’amour</q>). In English, the equivalent (<q>and travel, and love</q>) does not sound like poetry to my ear. In fact, I take a definite turn towards narrative instead of lyricism. Another difference is that the English version is more optimistic (we learn sooner that she survived the affair with the married man and kept visiting <placeName key="Paris" ref="https://sws.geonames.org/2988507">Paris</placeName> anyway) but also speaks from a different space and time, many years later (the French tells how she feels in the present). The English is less immediate and more elegiac; <q>she</q> is less lost, more experienced, and more of a survivor. <ref target="#spatiality">But I am saying all this from another space, the space of a literary critic, looking at it from outside, at the effect it produces; when recreating, I don’t think of it that way, I just follow the words where they take me, on blind faith.</ref>
                                 </ref>
                             </ref>
                         </ref>
@@ -2157,7 +2315,7 @@
                         <ref target="#tone_or_style">
                             <ref target="#theory">
                                 <ref target="#translation">
-                                    George Steiner says that translation is essentially inflationist, but the above English version takes a radically anti-inflationist turn.</ref>
+                                    <persName key="Steiner, George, 1929-2020" ref="http://viaf.org/viaf/108190886">George Steiner</persName> says that translation is essentially inflationist, but the above English version takes a radically anti-inflationist turn.</ref>
                             </ref> You might wonder if anything remains on the page by the time I’m done! Again, this is a terrible translation. Here we have a rather shocking erasure: the going <q>from fruit to fruit.</q> That was just wrong, it could not survive the passage into English. So there is real loss here, there is mourning. Self-translation is about loss, or maybe it’s about getting rid of things and finding something else instead. <ref target="#theory">And also the loss, I hope, can be offset at some other point—in translation theory this is referred to as <q>compensation.</q>
                             </ref> The final change, from <q>the man who would never leave his wife</q> to <q>this man she confused with fate,</q> is a major shift. I like this vague version, this image of her as confused (which refers back to the first passage and tells us, but at a different point in the text, about how lost she was then), this idea of fate not being where we thought it was: what we thought counted did not, and vice versa. <ref target="#language">
                                 <ref target="#translation">That difference in perspective corresponds, I think, not only to the differences between English and French but to the gap between the woman I was when I wrote the piece, years ago, and the woman I am now. I wonder what would happen if I translated it back into French again?</ref>
