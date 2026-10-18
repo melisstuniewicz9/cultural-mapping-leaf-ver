@@ -453,6 +453,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?work_annotation_20261017201410218",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-18T00:14:10.218Z",
+	"dcterms:modified": "2026-10-18T00:14:10.218Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?work_annotation_20261017201410218#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?work_annotation_20261017201410218#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[2]/ref/ref/ref/note/title[2]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://www.wikidata.org/wiki/Q65127236",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?work_annotation_20261017201549886",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-18T00:15:49.886Z",
+	"dcterms:modified": "2026-10-18T00:15:49.886Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?work_annotation_20261017201549886#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?work_annotation_20261017201549886#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[7]/listBibl[2]/bibl/title/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://www.wikidata.org/wiki/Q65127236",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -535,7 +693,7 @@
                     <p xml:id="p1264">
                         <ref target="#theory">
                             <ref target="#spatiality">
-                                <ref target="#theme_or_topic">First, Pipelines asserts that the city is a place. The distinction between place and space has traditionally rested on the individual, subjective experience of the city. Space is a set of co-ordinates, an area delineated by objectivity alone, whereas place is what happens when this area is experienced by someone who creates memories, who builds his or her own path along with the traces left behind, who questions the layers of meaning and experience in any given location.<note xml:id="n66" place="end">This distinction is hinted at by <persName key="Casey, Edward S., 1939-...." ref="http://viaf.org/viaf/109734232" ana="webannotation:http://temp.lincsproject.ca/ekutfmCzj07">Edward S. Casey</persName> in his 1997 book <title level="m">The Fate of Place</title>. But it is most clearly made by <persName key="Berque, Augustin, 1942-...." ref="http://viaf.org/viaf/95322779">Augustin Berque</persName> in his 2000 book <title level="m" xml:lang="fr-CA">Écoumène: Introduction à l’étude des milieux humains</title>. See also <persName key="Lippard, Lucy R." ref="http://viaf.org/viaf/109482861" ana="webannotation:http://temp.lincsproject.ca/zbOD7WI28b5">Lucy Lippard</persName>, <title level="m">The Lure of the Local</title>
+                                <ref target="#theme_or_topic">First, Pipelines asserts that the city is a place. The distinction between place and space has traditionally rested on the individual, subjective experience of the city. Space is a set of co-ordinates, an area delineated by objectivity alone, whereas place is what happens when this area is experienced by someone who creates memories, who builds his or her own path along with the traces left behind, who questions the layers of meaning and experience in any given location.<note xml:id="n66" place="end">This distinction is hinted at by <persName key="Casey, Edward S., 1939-...." ref="http://viaf.org/viaf/109734232" ana="webannotation:http://temp.lincsproject.ca/ekutfmCzj07">Edward S. Casey</persName> in his 1997 book <title level="m">The Fate of Place</title>. But it is most clearly made by <persName key="Berque, Augustin, 1942-...." ref="http://viaf.org/viaf/95322779">Augustin Berque</persName> in his 2000 book <title level="m" xml:lang="fr-CA"><title key="Écoumène: Introduction à l’étude des milieux humains" ref="https://www.wikidata.org/wiki/Q65127236">Écoumène: Introduction à l’étude des milieux humains</title></title>. See also <persName key="Lippard, Lucy R." ref="http://viaf.org/viaf/109482861" ana="webannotation:http://temp.lincsproject.ca/zbOD7WI28b5">Lucy Lippard</persName>, <title level="m">The Lure of the Local</title>
                                         <bibl>1997</bibl>.</note>
                                     <ref target="#technology">Space is the <orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/25yWMf8KENZ">Google</orgName> map on one’s smart phone; place is the creative cartography of the Hitotoki projects, which impregnate <orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/EAMrkwR0TtE">Google</orgName> maps with <q>singular experiences tied to locations.</q>
                                         <note xml:id="n67" place="end">
@@ -701,7 +859,7 @@
                     </listBibl>
                     <listBibl>
                         <head>Print Sources</head>
-                        <bibl xml:lang="fr-CA">Berque, <persName key="Berque, Augustin, 1942-...." ref="http://viaf.org/viaf/95322779" ana="webannotation:http://temp.lincsproject.ca/JTRe7xcYBBp">Augustin</persName>. <title level="m">Écoumène: Introduction à l’étude des milieux humains</title>. <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/vFqiNng8Q7k">Paris</placeName>: <orgName key="Éditions Belin." ref="http://viaf.org/viaf/268957823" ana="webannotation:http://temp.lincsproject.ca/bGPjAUX3jbg">Éditions Belin</orgName>, 2000.</bibl>
+                        <bibl xml:lang="fr-CA">Berque, <persName key="Berque, Augustin, 1942-...." ref="http://viaf.org/viaf/95322779" ana="webannotation:http://temp.lincsproject.ca/JTRe7xcYBBp">Augustin</persName>. <title level="m"><title key="Écoumène: Introduction à l’étude des milieux humains" ref="https://www.wikidata.org/wiki/Q65127236">Écoumène: Introduction à l’étude des milieux humains</title></title>. <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/vFqiNng8Q7k">Paris</placeName>: <orgName key="Éditions Belin." ref="http://viaf.org/viaf/268957823" ana="webannotation:http://temp.lincsproject.ca/bGPjAUX3jbg">Éditions Belin</orgName>, 2000.</bibl>
                         <bibl><persName key="Boutros, Alexandra, 1971-" ref="http://viaf.org/viaf/6355149068459965730007" ana="webannotation:http://temp.lincsproject.ca/hAI3grKdcz9">Boutros</persName>, <persName key="Boutros, Alexandra, 1971-" ref="http://viaf.org/viaf/6355149068459965730007" ana="webannotation:http://temp.lincsproject.ca/EcmkfWQJ9qe">Alexandra</persName>, and <persName key="Straw, Will, 1954-" ref="http://viaf.org/viaf/75456485" ana="webannotation:http://temp.lincsproject.ca/bVH45qu4Aw6" cert="high">Will Straw</persName>, eds. <title level="m"><title key="Circulation and the City: Essays on Urban Culture" ref="https://www.wikidata.org/wiki/Q136126751" ana="webannotation:http://temp.lincsproject.ca/lrSJBzbYX9R">Circulation and the City</title>: Essays on Urban Culture</title>. Montreal and <placeName key="Kingston" ref="https://sws.geonames.org/5992500 " ana="webannotation:http://temp.lincsproject.ca/xoQjs60t9Ys">Kingston</placeName>: <orgName key="McGill-Queen's University Press" ref="http://www.wikidata.org/entity/Q6801272" ana="webannotation:http://temp.lincsproject.ca/FHqa9j0GGGj">McGill-Queen’s University Press</orgName>, 2010.</bibl>
                         <bibl><persName key="Bruegmann, Robert" ref="http://viaf.org/viaf/46835259" ana="webannotation:http://temp.lincsproject.ca/udrAzzVemm2">Bruegmann</persName>, <persName key="Bruegmann, Robert" ref="http://viaf.org/viaf/46835259" ana="webannotation:http://temp.lincsproject.ca/rplVjcomBoT">Robert</persName>. <title level="m">Sprawl: A Compact History</title>. <placeName key="Chicago" ref="https://sws.geonames.org/4887398" ana="webannotation:http://temp.lincsproject.ca/NVrazmUvIK1">Chicago</placeName>: <orgName key="University of Chicago. Press" ref="http://viaf.org/viaf/122888939" ana="webannotation:http://temp.lincsproject.ca/mnRP8jC8Wek">University of Chicago Press</orgName>, 2006.</bibl>
                         <bibl><persName key="Casey, Edward S., 1939-...." ref="http://viaf.org/viaf/109734232" ana="webannotation:http://temp.lincsproject.ca/rHSiYgmRwxx">Casey</persName>, Edward S.<title level="m">The Fate of Place: A Philosophical History</title>. <placeName key="Berkeley" ref="https://sws.geonames.org/5327684 " ana="webannotation:http://temp.lincsproject.ca/sMOMTJkxawi">Berkeley</placeName>: <orgName key="University of California press" ref="http://viaf.org/viaf/148948307" ana="webannotation:http://temp.lincsproject.ca/0BqIjlIjWie">University of California Press</orgName>, 1998.</bibl>
