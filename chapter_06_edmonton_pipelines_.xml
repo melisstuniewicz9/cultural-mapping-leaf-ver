@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>--><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -375,7 +374,86 @@
                 </ab>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?person_annotation_20261017201229088",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-18T00:12:29.088Z",
+	"dcterms:modified": "2026-10-18T00:12:29.088Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?person_annotation_20261017201229088#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?person_annotation_20261017201229088#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[2]/ref/ref/ref/note/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/95322779",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
             </projectDesc>
@@ -457,7 +535,7 @@
                     <p xml:id="p1264">
                         <ref target="#theory">
                             <ref target="#spatiality">
-                                <ref target="#theme_or_topic">First, Pipelines asserts that the city is a place. The distinction between place and space has traditionally rested on the individual, subjective experience of the city. Space is a set of co-ordinates, an area delineated by objectivity alone, whereas place is what happens when this area is experienced by someone who creates memories, who builds his or her own path along with the traces left behind, who questions the layers of meaning and experience in any given location.<note xml:id="n66" place="end">This distinction is hinted at by <persName key="Casey, Edward S., 1939-...." ref="http://viaf.org/viaf/109734232" ana="webannotation:http://temp.lincsproject.ca/ekutfmCzj07">Edward S. Casey</persName> in his 1997 book <title level="m">The Fate of Place</title>. But it is most clearly made by Augustin Berque in his 2000 book <title level="m" xml:lang="fr-CA">Écoumène: Introduction à l’étude des milieux humains</title>. See also <persName key="Lippard, Lucy R." ref="http://viaf.org/viaf/109482861" ana="webannotation:http://temp.lincsproject.ca/zbOD7WI28b5">Lucy Lippard</persName>, <title level="m">The Lure of the Local</title>
+                                <ref target="#theme_or_topic">First, Pipelines asserts that the city is a place. The distinction between place and space has traditionally rested on the individual, subjective experience of the city. Space is a set of co-ordinates, an area delineated by objectivity alone, whereas place is what happens when this area is experienced by someone who creates memories, who builds his or her own path along with the traces left behind, who questions the layers of meaning and experience in any given location.<note xml:id="n66" place="end">This distinction is hinted at by <persName key="Casey, Edward S., 1939-...." ref="http://viaf.org/viaf/109734232" ana="webannotation:http://temp.lincsproject.ca/ekutfmCzj07">Edward S. Casey</persName> in his 1997 book <title level="m">The Fate of Place</title>. But it is most clearly made by <persName key="Berque, Augustin, 1942-...." ref="http://viaf.org/viaf/95322779">Augustin Berque</persName> in his 2000 book <title level="m" xml:lang="fr-CA">Écoumène: Introduction à l’étude des milieux humains</title>. See also <persName key="Lippard, Lucy R." ref="http://viaf.org/viaf/109482861" ana="webannotation:http://temp.lincsproject.ca/zbOD7WI28b5">Lucy Lippard</persName>, <title level="m">The Lure of the Local</title>
                                         <bibl>1997</bibl>.</note>
                                     <ref target="#technology">Space is the <orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/25yWMf8KENZ">Google</orgName> map on one’s smart phone; place is the creative cartography of the Hitotoki projects, which impregnate <orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/EAMrkwR0TtE">Google</orgName> maps with <q>singular experiences tied to locations.</q>
                                         <note xml:id="n67" place="end">
@@ -643,7 +721,10 @@
             </div>
         </body>
     </text>
-	<standOff type="annotation">
+	
+
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="annotation">
 		
 <xenoData>
 			
@@ -13762,7 +13843,4 @@
 </xenoData>
 	
 	
-	</standOff>
-
-
-</TEI>
+	</standOff></TEI>
