@@ -5425,7 +5425,7 @@
 	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027163819532",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-10-27T20:38:19.532Z",
-	"dcterms:modified": "2026-10-27T20:38:19.532Z",
+	"dcterms:modified": "2026-10-27T20:39:56.911Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/melisstuniewicz9",
 		"@type": [
@@ -5458,6 +5458,85 @@
 	"oa:hasBody": {
 		"@type": "cwrc:NaturalPerson",
 		"@id": "http://www.wikidata.org/entity/Q56480391",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027163942563",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T20:39:42.563Z",
+	"dcterms:modified": "2026-10-27T20:39:42.563Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027163942563#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027163942563#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[15]/ref/ref/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/92571103",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -5634,7 +5713,7 @@
                     <ref target="#technology">
                         <ref target="#spatiality">For Jessop, the broad issue of scholarly communication is also of great importance <note place="inline">
                                 <bibl>46–49</bibl>
-                            </note>—how we are to fund, produce, evaluate, distribute, and archive innovative geospatial scholarship in disciplines and institutions that are wedded to traditional research practices—a large question whose parameters lie outside the scope of this chapter. One might expect that our uses of <abbr>GIS</abbr>, since Jessop’s 2008 article, would have become increasingly ludic and experimental. But <persName key="Gregory, Ian N., 1970-...." ref="http://viaf.org/viaf/119669087">Ian Gregory</persName> and Paul Ell suggest otherwise in their 2007 book, <title level="m">Historical <abbr>GIS</abbr>: Technologies, Methodologies, and Scholarship</title>. <persName key="Ian N. Gregory" ref="http://www.wikidata.org/entity/Q56480391">Gregory</persName> and Ell state that <q>the researcher using <abbr>GIS</abbr> should be asking, <q>What are the geographical aspects of my research question?</q> rather than [the more open] <q>What can I do with my dataset using this software?</q>
+                            </note>—how we are to fund, produce, evaluate, distribute, and archive innovative geospatial scholarship in disciplines and institutions that are wedded to traditional research practices—a large question whose parameters lie outside the scope of this chapter. One might expect that our uses of <abbr>GIS</abbr>, since Jessop’s 2008 article, would have become increasingly ludic and experimental. But <persName key="Gregory, Ian N., 1970-...." ref="http://viaf.org/viaf/119669087">Ian Gregory</persName> and Paul Ell suggest otherwise in their 2007 book, <title level="m">Historical <abbr>GIS</abbr>: Technologies, Methodologies, and Scholarship</title>. <persName key="Ian N. Gregory" ref="http://www.wikidata.org/entity/Q56480391">Gregory</persName> and <persName key="Ell, Paul" ref="http://viaf.org/viaf/92571103">Ell</persName> state that <q>the researcher using <abbr>GIS</abbr> should be asking, <q>What are the geographical aspects of my research question?</q> rather than [the more open] <q>What can I do with my dataset using this software?</q>
                             </q>
                             <note place="inline">
                                 <bibl>1</bibl>
