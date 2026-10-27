@@ -848,6 +848,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?place_annotation_20261026211923275",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:19:23.275Z",
+	"dcterms:modified": "2026-10-27T01:19:23.275Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?place_annotation_20261026211923275#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?place_annotation_20261026211923275#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[7]/listBibl[2]/bibl[9]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/5128638",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -1104,7 +1183,7 @@
                         <bibl><persName key="Edwards, Justin D., 1970-...." ref="http://viaf.org/viaf/116861733" ana="webannotation:http://temp.lincsproject.ca/QSiqYTw0W9J">Edwards</persName>, <persName key="Edwards, Justin D., 1970-...." ref="http://viaf.org/viaf/116861733" ana="webannotation:http://temp.lincsproject.ca/bSyS8clzM2v">Justin D.,</persName> and <persName key="Ivison, Douglas" ref="http://viaf.org/viaf/74103425" ana="webannotation:http://temp.lincsproject.ca/jdIwbqt78ht" cert="high" type="real">Douglas Ivison</persName>. <title level="m">Downtown <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/De5OjrD9IDQ">Canada</placeName>: Writing Canadian Cities</title>. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/0nOYmWrSzHJ">Toronto</placeName>: <orgName key="University of Toronto. Press" ref="http://viaf.org/viaf/126595939" ana="webannotation:http://temp.lincsproject.ca/QknxExjPd26">University of Toronto Press</orgName>, 2005.</bibl>
                         <bibl><persName key="Goyette, Linda, 1955-...." ref="http://viaf.org/viaf/36321908" ana="webannotation:http://temp.lincsproject.ca/yzrn0K00uoN">Goyette</persName>, <persName key="Goyette, Linda, 1955-...." ref="http://viaf.org/viaf/36321908" ana="webannotation:http://temp.lincsproject.ca/Dd1NHBzl4V7">Linda</persName>, and <persName key="Roemmich, Carolina Jakeway, 1974-" ref="http://viaf.org/viaf/28937000" ana="webannotation:http://temp.lincsproject.ca/X9pCnDbPe9w">Carolina Jakeway Roemmich</persName>. <title level="m"><placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/6Q0wLnYEZW2">Edmonton</placeName> In Our Own Words</title>. <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/TGKTMhq8Y5V">Edmonton</placeName>: <orgName key="University of Alberta Press." ref="http://viaf.org/viaf/311351545" ana="webannotation:http://temp.lincsproject.ca/PoTzWfxjFE5">University of Alberta Press</orgName>, 2004.</bibl>
                         <bibl><persName key="Hagen, Darrin, 1964-" ref="http://viaf.org/viaf/34233225" ana="webannotation:http://temp.lincsproject.ca/e9AZPCbrX37">Hagen</persName>, <persName key="Hagen, Darrin, 1964-" ref="http://viaf.org/viaf/34233225" ana="webannotation:http://temp.lincsproject.ca/oedKSlQGMHE">Darrin</persName>. <title level="m">The Edmonton Queen: Not a Riverboat Story</title>. <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/v0O2Zu3li3Z">Edmonton</placeName>: Slipstream Books, 1997.</bibl>
-                        <bibl><persName key="Jacobs, Jane, 1916-2006." ref="http://viaf.org/viaf/90712053" ana="webannotation:http://temp.lincsproject.ca/YVZeR5LpMsl">Jacobs</persName>, <persName key="Jacobs, Jane, 1916-2006." ref="http://viaf.org/viaf/90712053" ana="webannotation:http://temp.lincsproject.ca/INOGXAoFL21">Jane</persName>. <title level="m">The Death and Life of Great American Cities</title>. 1961. New York: <orgName key="Modern Library" ref="https://www.wikidata.org/wiki/Q3822096" ana="webannotation:http://temp.lincsproject.ca/K1j6brnJTSE">Modern Library</orgName>, 1993.</bibl>
+                        <bibl><persName key="Jacobs, Jane, 1916-2006." ref="http://viaf.org/viaf/90712053" ana="webannotation:http://temp.lincsproject.ca/YVZeR5LpMsl">Jacobs</persName>, <persName key="Jacobs, Jane, 1916-2006." ref="http://viaf.org/viaf/90712053" ana="webannotation:http://temp.lincsproject.ca/INOGXAoFL21">Jane</persName>. <title level="m">The Death and Life of Great American Cities</title>. 1961. <placeName key="New York" ref="https://sws.geonames.org/5128638">New York</placeName>: <orgName key="Modern Library" ref="https://www.wikidata.org/wiki/Q3822096" ana="webannotation:http://temp.lincsproject.ca/K1j6brnJTSE">Modern Library</orgName>, 1993.</bibl>
                         <bibl><persName key="Lippard, Lucy R." ref="http://viaf.org/viaf/109482861" ana="webannotation:http://temp.lincsproject.ca/d57qtC6RvpL">Lippard</persName>, <persName key="Lippard, Lucy R." ref="http://viaf.org/viaf/109482861" ana="webannotation:http://temp.lincsproject.ca/3fm8BT3q1VO">Lucy</persName>. <title level="m">The Lure of the Local: Senses of Place in a Multicentered Society</title>. <placeName key="New York" ref="https://sws.geonames.org/5128638" ana="webannotation:http://temp.lincsproject.ca/CbUQMuJKwP5">New York</placeName>: <orgName key="New Press" ref="http://viaf.org/viaf/142985504" ana="webannotation:http://temp.lincsproject.ca/XG8q83qvO0Q">New Press</orgName>, 1997.</bibl>
                         <bibl><persName key="Lynch, Kevin, 1918-1984." ref="http://viaf.org/viaf/76390028" ana="webannotation:http://temp.lincsproject.ca/f1oT2QiM5IY">Lynch</persName>, <persName key="Lynch, Kevin, 1918-1984." ref="http://viaf.org/viaf/76390028" ana="webannotation:http://temp.lincsproject.ca/WG2jBaAwVQf">Kevin</persName>. <title level="m">The Image of the City</title>. <placeName key="Cambridge" ref="https://sws.geonames.org/4931972" ana="webannotation:http://temp.lincsproject.ca/Eyd75XLNuYD">Cambridge</placeName>, <placeName key="Massachusetts" ref="https://sws.geonames.org/6254926   " ana="webannotation:http://temp.lincsproject.ca/ui2NPPO3hoP">MA</placeName>: <orgName key="MIT press" ref="http://viaf.org/viaf/159490691" ana="webannotation:http://temp.lincsproject.ca/QDXpxH82muH">MIT Press</orgName>, 1960.</bibl>
                         <bibl><persName key="Mumford, Lewis, 1895-1990." ref="http://viaf.org/viaf/12312890" ana="webannotation:http://temp.lincsproject.ca/3Un3Ggs3uun">Mumford</persName>, <persName key="Mumford, Lewis, 1895-1990." ref="http://viaf.org/viaf/12312890" ana="webannotation:http://temp.lincsproject.ca/aRdkeeg6NOh">Lewis</persName>. <title level="m">The Culture of Cities</title>. 1938. <placeName key="New York" ref="https://sws.geonames.org/5128638" ana="webannotation:http://temp.lincsproject.ca/MR8l2JYFCLc">New York</placeName>: <orgName key="Harcourt Brace &amp; Company" ref="http://viaf.org/viaf/167837026" ana="webannotation:http://temp.lincsproject.ca/5TZeCC84McX">Harcourt Brace</orgName>, 1981.</bibl>
