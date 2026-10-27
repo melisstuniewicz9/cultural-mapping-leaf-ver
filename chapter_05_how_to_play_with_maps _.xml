@@ -6812,6 +6812,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027170112229",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T21:01:12.229Z",
+	"dcterms:modified": "2026-10-27T21:01:12.229Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027170112229#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027170112229#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[19]/ref/ref/ref/ref[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q5372994",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -7010,7 +7089,7 @@
                         <ref target="#education">
                             <ref target="#childhood">
                                 <ref target="#spatiality">The historical example of Frances Alsop Henshaw, who was fortunate to have good teachers, functions precisely in this invitational way. In 1823, Henshaw was fourteen years old. </ref>
-                                <ref target="#class_issue">As the daughter of a reasonably well-to-do <placeName key="New England" ref="https://sws.geonames.org/11919979">New England</placeName> merchant, she attended Middlebury Female Academy, a small school in <placeName key="Vermont" ref="https://sws.geonames.org/5242283">Vermont</placeName></ref>. <ref target="#manuscript_history">
+                                <ref target="#class_issue">As the daughter of a reasonably well-to-do <placeName key="New England" ref="https://sws.geonames.org/11919979">New England</placeName> merchant, she attended <orgName key="Emma Willard House" ref="http://www.wikidata.org/entity/Q5372994">Middlebury Female Academy</orgName>, a small school in <placeName key="Vermont" ref="https://sws.geonames.org/5242283">Vermont</placeName></ref>. <ref target="#manuscript_history">
                                     <ref target="#archival_location">There, she created a document I first encountered in the library of map collector <persName key="David Rumsey" ref="http://www.wikidata.org/entity/Q5239292">David Rumsey</persName>. </ref>It purports to be a <q>book of penmanship,</q> but—in addition to the set copy-texts one might expect to see in a handwriting practice-book—also contains a series of hand-drawn, delicately coloured maps of what were then the nineteen <placeName key="United States." ref="https://sws.geonames.org/6252001">United States.</placeName> <ref target="#tone_or_style">Each of these maps—and this is where the penmanship exercise comes in—is paired with a geometrically designed and highly embellished prose passage, which Henshaw seems to have copied from the geography books that were available to her as a schoolgirl in the new American republic.</ref>
                                 </ref>
                                 <note xml:id="n65" place="end">This portion of the chapter draws on research previously published in the 2010 issue of Poetess Archive Journal as <title level="a">
@@ -7316,7 +7395,7 @@
                     <head>Works Cited</head>
                     <listBibl>
                         <bibl><persName key="Arrowsmith, Aaron, 1750-1823." ref="http://viaf.org/viaf/18101110">Arrowsmith, Aaron</persName>, and Samuel Lewis. <title level="m">General Atlas</title>. Boston: Thomas and Andrews, 1812.</bibl>
-                        <bibl>Brückner, Martin. <title level="m">The Geographic Revolution in Early America: Maps, Literacy, and National Identity</title>. <placeName key="Chapel Hill:" ref="https://sws.geonames.org/4460162">Chapel Hill:</placeName> <orgName key="University of North Carolina Press" ref="http://www.wikidata.org/entity/Q7895937">University of North Carolina Press</orgName>, 2006.</bibl>
+                        <bibl>. <title level="m">The Geographic Revolution in Early America: Maps, Literacy, and National Identity</title>. <placeName key="Chapel Hill:" ref="https://sws.geonames.org/4460162">Chapel Hill:</placeName> <orgName key="University of North Carolina Press" ref="http://www.wikidata.org/entity/Q7895937">University of North </orgName>Brückner, Martin<orgName key="University of North Carolina Press" ref="http://www.wikidata.org/entity/Q7895937">Carolina Press</orgName>, 2006.</bibl>
                         <bibl><persName key="Carey, Mathew, 1760-1839" ref="http://viaf.org/viaf/6373149068460065730004">Carey, Mathew</persName>. <title level="m">Carey’s American Pocket Atlas</title>. Philadelphia: M. Carey, 1805.</bibl>
                         <bibl><persName key="Clay, Jenny Strauss, 1942-...." ref="http://viaf.org/viaf/26664">Clay, Jenny Strauss</persName>. <title level="a">Mapping the Catalogue of Ships</title>. <title level="m">Scholars’ Lab Blog</title>. 13 January 2012. <ref target="http://www.scholarslab.org/announcements/mapping-the-catalogue-of-ships">http://www.scholarslab.org/announcements/mapping-the-catalogue-of-ships</ref>
                         </bibl>
