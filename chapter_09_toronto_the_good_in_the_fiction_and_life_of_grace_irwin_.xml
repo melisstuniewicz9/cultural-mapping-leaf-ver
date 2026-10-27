@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>--><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -375,7 +374,86 @@
                 </ab>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261026212903579",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:29:03.579Z",
+	"dcterms:modified": "2026-10-27T01:29:03.579Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261026212903579#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261026212903579#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl[23]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/85943575",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
             </projectDesc>
@@ -1000,13 +1078,15 @@
                             <title level="j"><orgName key="University of Toronto Quarterly" ref="http://www.wikidata.org/entity/Q7896494" ana="webannotation:http://temp.lincsproject.ca/aT5OLmJ9e4E">University of Toronto Quarterly</orgName></title> 30.4 (1960–61): 401–16.</bibl>
                         <bibl><persName key="Williams, Raymond, 1921-1988." ref="http://viaf.org/viaf/87380498" ana="webannotation:http://temp.lincsproject.ca/ljEWjeNvpo3">Williams</persName>, <persName key="Williams, Raymond, 1921-1988." ref="http://viaf.org/viaf/87380498" ana="webannotation:http://temp.lincsproject.ca/92BRHSgXRKF">Raymond</persName>. <title level="m">The Country and the City</title>. London: <orgName key="Chatto &amp; Windus." ref="http://viaf.org/viaf/131167970" ana="webannotation:http://temp.lincsproject.ca/XOpleA6eFIj">Chatto and Windus</orgName>, 1973.</bibl>
                         <bibl><persName key="Wilson, Elizabeth, 1936-" ref="http://viaf.org/viaf/110160241" ana="webannotation:http://temp.lincsproject.ca/b06Lua6b1dN">Wilson</persName>, Elizabeth. <title level="m"><title key="The sphinx in the city: urban life, the control of disorder, and women" ref="http://www.wikidata.org/entity/Q140123762" ana="webannotation:http://temp.lincsproject.ca/MQyhQ9H9kv3">The Sphinx in the City</title>: Urban Life, the Control of Disorder, and Women</title>. London: <orgName key="Virago press" ref="http://viaf.org/viaf/170596537" ana="webannotation:http://temp.lincsproject.ca/ZtC8xoIB0QR">Virago Press</orgName>, 1991.</bibl>
-                        <bibl>Young, <persName key="Young, Phyllis Brett, 1914-1996" ref="http://viaf.org/viaf/85943575" ana="webannotation:http://temp.lincsproject.ca/SFbsbSyfMCZ">Phyllis Brett</persName>. <title level="m">The Torontonians</title>. Intro. by <persName key="Cooke, Nathalie." ref="http://viaf.org/viaf/7543066" ana="webannotation:http://temp.lincsproject.ca/YFO9MxRrTBo">Nathalie Cooke</persName> and <persName key="Morton, Suzanne, 1961-...." ref="http://viaf.org/viaf/119096230" ana="webannotation:http://temp.lincsproject.ca/1m0OODO2hW1">Suzanne Morton</persName>. <placeName key="Montréal" ref="https://sws.geonames.org/6077243" ana="webannotation:http://temp.lincsproject.ca/0IPXW2Pn1SV">Montreal</placeName> and <placeName key="Kingston" ref="https://sws.geonames.org/5992500" ana="webannotation:http://temp.lincsproject.ca/ckKHpHPKKVx">Kingston</placeName>: <orgName key="McGill-Queen's University Press" ref="http://www.wikidata.org/entity/Q6801272" ana="webannotation:http://temp.lincsproject.ca/oUeVA9g4aZi">McGill-Queen’s University Press</orgName>, 2007.</bibl>
+                        <bibl><persName key="Young" ref="http://viaf.org/viaf/85943575">Young</persName>, <persName key="Young, Phyllis Brett, 1914-1996" ref="http://viaf.org/viaf/85943575" ana="webannotation:http://temp.lincsproject.ca/SFbsbSyfMCZ">Phyllis Brett</persName>. <title level="m">The Torontonians</title>. Intro. by <persName key="Cooke, Nathalie." ref="http://viaf.org/viaf/7543066" ana="webannotation:http://temp.lincsproject.ca/YFO9MxRrTBo">Nathalie Cooke</persName> and <persName key="Morton, Suzanne, 1961-...." ref="http://viaf.org/viaf/119096230" ana="webannotation:http://temp.lincsproject.ca/1m0OODO2hW1">Suzanne Morton</persName>. <placeName key="Montréal" ref="https://sws.geonames.org/6077243" ana="webannotation:http://temp.lincsproject.ca/0IPXW2Pn1SV">Montreal</placeName> and <placeName key="Kingston" ref="https://sws.geonames.org/5992500" ana="webannotation:http://temp.lincsproject.ca/ckKHpHPKKVx">Kingston</placeName>: <orgName key="McGill-Queen's University Press" ref="http://www.wikidata.org/entity/Q6801272" ana="webannotation:http://temp.lincsproject.ca/oUeVA9g4aZi">McGill-Queen’s University Press</orgName>, 2007.</bibl>
                     </listBibl>
                 </div>
             </div>
         </body>
     </text>
-	<standOff type="annotation">
+	
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="annotation">
 		
 <xenoData>
 			
@@ -10933,6 +11013,4 @@
 		
 </xenoData>
 	
-	</standOff>
-
-</TEI>
+	</standOff></TEI>
