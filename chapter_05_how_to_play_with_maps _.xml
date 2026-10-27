@@ -8178,6 +8178,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027181629374",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T22:16:29.374Z",
+	"dcterms:modified": "2026-10-27T22:16:29.374Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027181629374#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027181629374#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[22]/ref/ref/ref[2]/ref/note/bibl/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://orcid.org/0009-0004-6402-4105",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027181648058",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T22:16:48.058Z",
+	"dcterms:modified": "2026-10-27T22:16:48.058Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027181648058#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027181648058#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[23]/ref/ref/ref/ref/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "https://orcid.org/0009-0004-6402-4105",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -8419,7 +8577,7 @@
                             <ref target="#spatiality"><persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159">Willard</persName>’s chief pedagogical innovations were two: first, to centre geographical instruction and discovery learning in hands-on activities that had her students creating personalized, localized, graphical maps. And second, to use maps at all, in the teaching of history and geography. </ref>
                             <ref target="#gender_issue">
                                 <ref target="#history">Geography had long been accepted as a discipline suited to women’s education and was emerging as an important path to literacy and the development of a common national identity in early America <note place="inline">
-                                        <bibl>Brückner</bibl>
+                                        <bibl><persName key="Brückner" ref="https://orcid.org/0009-0004-6402-4105">Brückner</persName></bibl>
                                     </note>. In women’s educational history, there seems to have been a marked rise, beginning in the 1790s, of cartographic representation mixed with the more conventional alphabets and didactic texts of ladies’ embroidered samplers. But until <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159">Willard</persName>’s work in the 1820s, formal geography was taught largely without maps <note place="inline">
                                         <bibl>Schulten 542–45</bibl>
                                     </note>.</ref>
@@ -8432,7 +8590,7 @@
                         <ref target="#technology">
                             <ref target="#education">
                                 <ref target="#spatiality">
-                                    <ref target="#intertextuality">The chief geographical textbooks of <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159">Willard’s</persName> day were <persName key="Jedidiah Morse" ref="http://www.wikidata.org/entity/Q1686158">Jedidiah Morse</persName>’s <title level="m">Geography Made Easy</title> and  collection of grammars and spellers. Both were geared toward purely textual and verbal exercises of memorization. <persName key="Morse, Jedidiah (1761-1826), geographer and clergyman" ref="http://www.wikidata.org/entity/Q103872336">Morse</persName> (whose book, I have discovered, served as a primary resource for Henshaw in 1823) offers complex and evocative textual descriptions of places and spaces on the American continent.</ref> He relegates maps, however, to an expensive and much less well-circulated supplementary volume. Similarly (as described by literary historian Martin Brückner), ’s closest gesture toward graphical expression of geography can be found in a prose <q>map</q> made entirely of typography—without representational line art—in which the names of American states and European countries are seen in rough spatial relation to each other <note place="inline">
+                                    <ref target="#intertextuality">The chief geographical textbooks of <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159">Willard’s</persName> day were <persName key="Jedidiah Morse" ref="http://www.wikidata.org/entity/Q1686158">Jedidiah Morse</persName>’s <title level="m">Geography Made Easy</title> and  collection of grammars and spellers. Both were geared toward purely textual and verbal exercises of memorization. <persName key="Morse, Jedidiah (1761-1826), geographer and clergyman" ref="http://www.wikidata.org/entity/Q103872336">Morse</persName> (whose book, I have discovered, served as a primary resource for Henshaw in 1823) offers complex and evocative textual descriptions of places and spaces on the American continent.</ref> He relegates maps, however, to an expensive and much less well-circulated supplementary volume. Similarly (as described by literary historian <persName key="Martin Brückner" ref="https://orcid.org/0009-0004-6402-4105">Martin Brückner</persName>), ’s closest gesture toward graphical expression of geography can be found in a prose <q>map</q> made entirely of typography—without representational line art—in which the names of American states and European countries are seen in rough spatial relation to each other <note place="inline">
                                         <bibl>Brückner 115</bibl>
                                     </note>.</ref>
                             </ref>
