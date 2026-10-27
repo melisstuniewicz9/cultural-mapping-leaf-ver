@@ -7602,6 +7602,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027172246739",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T21:22:46.739Z",
+	"dcterms:modified": "2026-10-27T21:22:46.739Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027172246739#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027172246739#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl[11]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://www.wikidata.org/entity/Q213439",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027172255409",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T21:22:55.409Z",
+	"dcterms:modified": "2026-10-27T21:22:55.409Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027172255409#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027172255409#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl[10]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/4930956",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -8117,11 +8275,11 @@
                         <bibl>Jessop, Martyn. <title level="a">“The Inhibition of Geographical Information in Digital Humanities Scholarship.”</title>
                             <title level="j">Literary and Linguistic Computing</title> 23 (April 2008): 39–50.</bibl>
                         <bibl><persName key="Monmonier, Mark S." ref="http://viaf.org/viaf/79086507">Monmonier, Mark.</persName> <title level="m">How to Lie with Maps</title>. <placeName key="Chicago " ref="https://www.geonames.org/4887398/chicago.html">Chicago</placeName>: <orgName key="University of Chicago. Press" ref="http://viaf.org/viaf/122888939">University of Chicago Press</orgName>, 1996.</bibl>
-                        <bibl><persName key="Morse, Jedidiah, 1761-1826" ref="http://viaf.org/viaf/59893447">Morse, Jedidiah.</persName> <title level="m">Geography Made Easy: Being an Abridgement of the American Universal Geography</title>. Boston: Thomas and Andrews, 1802.</bibl>
+                        <bibl><persName key="Morse, Jedidiah, 1761-1826" ref="http://viaf.org/viaf/59893447">Morse, Jedidiah.</persName> <title level="m">Geography Made Easy: Being an Abridgement of the American Universal Geography</title>. <placeName key="Boston" ref="https://sws.geonames.org/4930956">Boston</placeName>: Thomas and Andrews, 1802.</bibl>
                         <bibl>
                             <author>
                                 <abbr/>: Networked Infrastructure for Nineteenth-Century Electronic Scholarship.</author>
-                            <title level="m">Juxta: Collation Software for Scholars</title>. University of Virginia. <ref target="http://www.juxtasoftware.org">http://www.juxtasoftware.org</ref>
+                            <title level="m">Juxta: Collation Software for Scholars</title>. <orgName key="University of Virginia" ref="http://www.wikidata.org/entity/Q213439">University of Virginia</orgName>. <ref target="http://www.juxtasoftware.org">http://www.juxtasoftware.org</ref>
                         </bibl>
                         <bibl><persName key="Nowviskie, Bethany" ref="http://viaf.org/viaf/9880157643271438590009">Nowviskie, Bethany</persName>. <title level="a">
                                 <q>Inventing the Map</q> in the Digital Humanities: A Young Lady’s Primer</title>. <title level="j">Poetess Archive Journal</title> 2.1 (2010). <ref target="http://paj.muohio.edu/paj/index.php/paj/article/viewArticle/11">http://paj.muohio.edu/paj/index.php/paj/article/viewArticle/11</ref>
