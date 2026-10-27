@@ -5311,6 +5311,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027163657964",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T20:36:57.964Z",
+	"dcterms:modified": "2026-10-27T20:36:57.964Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027163657964#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027163657964#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[11]/ref/ref/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/2643743",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -5440,7 +5519,7 @@
                 </p>
                 <p xml:id="p1224">
                     <ref target="#technology">
-                        <ref target="#spatiality">First, we must acknowledge what has been holding humanists back. In 2008, Martyn Jessop of <orgName key="Kings College London" ref="http://viaf.org/viaf/128638237">King’s College</orgName>, London published an article in <title level="j">Literary and Linguistic Computing</title> in which he documented what he called an unexpected <title>inhibition</title> among digital humanities scholars—a reluctance to engage deeply with geospatial tools and data <note place="inline">
+                        <ref target="#spatiality">First, we must acknowledge what has been holding humanists back. In 2008, Martyn Jessop of <orgName key="Kings College London" ref="http://viaf.org/viaf/128638237">King’s College</orgName>, <placeName key="London" ref="https://sws.geonames.org/2643743">London</placeName> published an article in <title level="j">Literary and Linguistic Computing</title> in which he documented what he called an unexpected <title>inhibition</title> among digital humanities scholars—a reluctance to engage deeply with geospatial tools and data <note place="inline">
                                 <bibl>Jessop 39</bibl>
                             </note>. <ref target="#education">In this piece, Jessop identifies the chief deficiencies of <abbr>GIS </abbr>es, from the point of view of the humanities, and he addresses the institutional systems that fail to support and promote their use. He notes that digital humanists are deeply engaged with place and space, and not usually daunted by a learning curve; they are, however, hesitant to embrace <abbr>GIS</abbr>.</ref> This article raises a fundamental question: Why—given the huge blossoming of activity elsewhere in <abbr>GIS</abbr>, the deep engagement of the humanities with place and space, and the general technological adventurousness of the digital humanities community—have scholars in our field been so slow to engage with maps?</ref>
                     </ref>
