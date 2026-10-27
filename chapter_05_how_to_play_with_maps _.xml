@@ -6575,6 +6575,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027165709464",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T20:57:09.464Z",
+	"dcterms:modified": "2026-10-27T20:57:09.464Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027165709464#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027165709464#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[37]/ref/ref/ref/q[3]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/4517724",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -7013,7 +7092,7 @@
                 </p>
                 <p xml:id="p1250">
                     <ref target="#authorship">
-                        <ref target="#spatiality">The map version of Henshaw’s <q><placeName key="Ohio" ref="https://sws.geonames.org/5165418">Ohio</placeName></q> is equally interesting as a study in interpretive selectivity. Two aspects of the map stand out. <ref target="#methodology">First, it appears that Henshaw may have used conflicting atlases as source images. <ref target="#education">Second, this map, above all others I have examined, seems to bear traces of a pedagogical practice, perhaps inspired by <persName key="Willard, Emma" ref="http://www.wikidata.org/entity/Q116028494">Willard’s</persName> teaching style, which otherwise might have been lost to us. I posit that someone, in all likelihood a schoolmistress, read aloud a geography textbook and directed Henshaw and her fellow students to make imaginative placements of voiced elements on the sketched maps before them. After tracing the basic contours of the map of <placeName key="Ohio" ref="https://sws.geonames.org/5165418">Ohio</placeName>, Henshaw sought to position forts and internal boundary lines based on descriptive prose she heard read aloud.</ref> Evidence of this is borne in the selection and placement of elements on the map, but her embedded texts also bear traces of the aural. The city of <placeName key="Cincinnati" ref="https://sws.geonames.org/4508722">Cincinnati</placeName> is spelled <q>Cincinata.</q> There is a town Henshaw labels as <q>Nassauville</q> which every source spells <q>Masseyville.</q> Many futile attempts to corroborate Henshaw’s spelling in text and map archives have led me to conclude that her map of <placeName key="Ohio" ref="https://sws.geonames.org/5165418">Ohio</placeName> bears evidence of mishearing. <ref target="#technology">This is perhaps a minor point, but it demonstrates how much we may be able to learn from a close and computer-assisted reading of historical maps.</ref>
+                        <ref target="#spatiality">The map version of Henshaw’s <q><placeName key="Ohio" ref="https://sws.geonames.org/5165418">Ohio</placeName></q> is equally interesting as a study in interpretive selectivity. Two aspects of the map stand out. <ref target="#methodology">First, it appears that Henshaw may have used conflicting atlases as source images. <ref target="#education">Second, this map, above all others I have examined, seems to bear traces of a pedagogical practice, perhaps inspired by <persName key="Willard, Emma" ref="http://www.wikidata.org/entity/Q116028494">Willard’s</persName> teaching style, which otherwise might have been lost to us. I posit that someone, in all likelihood a schoolmistress, read aloud a geography textbook and directed Henshaw and her fellow students to make imaginative placements of voiced elements on the sketched maps before them. After tracing the basic contours of the map of <placeName key="Ohio" ref="https://sws.geonames.org/5165418">Ohio</placeName>, Henshaw sought to position forts and internal boundary lines based on descriptive prose she heard read aloud.</ref> Evidence of this is borne in the selection and placement of elements on the map, but her embedded texts also bear traces of the aural. The city of <placeName key="Cincinnati" ref="https://sws.geonames.org/4508722">Cincinnati</placeName> is spelled <q>Cincinata.</q> There is a town Henshaw labels as <q>Nassauville</q> which every source spells <q><placeName key="Masseyville." ref="https://sws.geonames.org/4517724">Masseyville.</placeName></q> Many futile attempts to corroborate Henshaw’s spelling in text and map archives have led me to conclude that her map of <placeName key="Ohio" ref="https://sws.geonames.org/5165418">Ohio</placeName> bears evidence of mishearing. <ref target="#technology">This is perhaps a minor point, but it demonstrates how much we may be able to learn from a close and computer-assisted reading of historical maps.</ref>
                             </ref>
                         </ref>
                     </ref>
