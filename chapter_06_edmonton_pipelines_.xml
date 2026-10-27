@@ -690,6 +690,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?person_annotation_20261026211722561",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:17:22.561Z",
+	"dcterms:modified": "2026-10-27T01:17:22.561Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?person_annotation_20261026211722561#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?person_annotation_20261026211722561#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[7]/listBibl[2]/bibl/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/95322779",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?person_annotation_20261026211746395",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T01:17:46.395Z",
+	"dcterms:modified": "2026-10-27T01:17:46.395Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?person_annotation_20261026211746395#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?person_annotation_20261026211746395#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[7]/listBibl[2]/bibl[4]/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/109734232",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -938,10 +1096,10 @@
                     </listBibl>
                     <listBibl>
                         <head>Print Sources</head>
-                        <bibl xml:lang="fr-CA">Berque, <persName key="Berque, Augustin, 1942-...." ref="http://viaf.org/viaf/95322779" ana="webannotation:http://temp.lincsproject.ca/JTRe7xcYBBp">Augustin</persName>. <title level="m"><title key="Écoumène: Introduction à l’étude des milieux humains" ref="https://www.wikidata.org/wiki/Q65127236">Écoumène: Introduction à l’étude des milieux humains</title></title>. <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/vFqiNng8Q7k">Paris</placeName>: <orgName key="Éditions Belin." ref="http://viaf.org/viaf/268957823" ana="webannotation:http://temp.lincsproject.ca/bGPjAUX3jbg">Éditions Belin</orgName>, 2000.</bibl>
+                        <bibl xml:lang="fr-CA"><persName key="Berque, Augustin, 1942-...." ref="http://viaf.org/viaf/95322779">Berque</persName>, <persName key="Berque, Augustin, 1942-...." ref="http://viaf.org/viaf/95322779" ana="webannotation:http://temp.lincsproject.ca/JTRe7xcYBBp">Augustin</persName>. <title level="m"><title key="Écoumène: Introduction à l’étude des milieux humains" ref="https://www.wikidata.org/wiki/Q65127236">Écoumène: Introduction à l’étude des milieux humains</title></title>. <placeName key="Paris" ref="https://sws.geonames.org/2988507" ana="webannotation:http://temp.lincsproject.ca/vFqiNng8Q7k">Paris</placeName>: <orgName key="Éditions Belin." ref="http://viaf.org/viaf/268957823" ana="webannotation:http://temp.lincsproject.ca/bGPjAUX3jbg">Éditions Belin</orgName>, 2000.</bibl>
                         <bibl><persName key="Boutros, Alexandra, 1971-" ref="http://viaf.org/viaf/6355149068459965730007" ana="webannotation:http://temp.lincsproject.ca/hAI3grKdcz9">Boutros</persName>, <persName key="Boutros, Alexandra, 1971-" ref="http://viaf.org/viaf/6355149068459965730007" ana="webannotation:http://temp.lincsproject.ca/EcmkfWQJ9qe">Alexandra</persName>, and <persName key="Straw, Will, 1954-" ref="http://viaf.org/viaf/75456485" ana="webannotation:http://temp.lincsproject.ca/bVH45qu4Aw6" cert="high">Will Straw</persName>, eds. <title level="m"><title key="Circulation and the City: Essays on Urban Culture" ref="https://www.wikidata.org/wiki/Q136126751" ana="webannotation:http://temp.lincsproject.ca/lrSJBzbYX9R">Circulation and the City</title>: Essays on Urban Culture</title>. <placeName key="Montréal" ref="https://sws.geonames.org/6077243">Montreal</placeName> and <placeName key="Kingston" ref="https://sws.geonames.org/5992500 " ana="webannotation:http://temp.lincsproject.ca/xoQjs60t9Ys">Kingston</placeName>: <orgName key="McGill-Queen's University Press" ref="http://www.wikidata.org/entity/Q6801272" ana="webannotation:http://temp.lincsproject.ca/FHqa9j0GGGj">McGill-Queen’s University Press</orgName>, 2010.</bibl>
                         <bibl><persName key="Bruegmann, Robert" ref="http://viaf.org/viaf/46835259" ana="webannotation:http://temp.lincsproject.ca/udrAzzVemm2">Bruegmann</persName>, <persName key="Bruegmann, Robert" ref="http://viaf.org/viaf/46835259" ana="webannotation:http://temp.lincsproject.ca/rplVjcomBoT">Robert</persName>. <title level="m">Sprawl: A Compact History</title>. <placeName key="Chicago" ref="https://sws.geonames.org/4887398" ana="webannotation:http://temp.lincsproject.ca/NVrazmUvIK1">Chicago</placeName>: <orgName key="University of Chicago. Press" ref="http://viaf.org/viaf/122888939" ana="webannotation:http://temp.lincsproject.ca/mnRP8jC8Wek">University of Chicago Press</orgName>, 2006.</bibl>
-                        <bibl><persName key="Casey, Edward S., 1939-...." ref="http://viaf.org/viaf/109734232" ana="webannotation:http://temp.lincsproject.ca/rHSiYgmRwxx">Casey</persName>, Edward S.<title level="m">The Fate of Place: A Philosophical History</title>. <placeName key="Berkeley" ref="https://sws.geonames.org/5327684 " ana="webannotation:http://temp.lincsproject.ca/sMOMTJkxawi">Berkeley</placeName>: <orgName key="University of California press" ref="http://viaf.org/viaf/148948307" ana="webannotation:http://temp.lincsproject.ca/0BqIjlIjWie">University of California Press</orgName>, 1998.</bibl>
+                        <bibl><persName key="Casey, Edward S., 1939-...." ref="http://viaf.org/viaf/109734232" ana="webannotation:http://temp.lincsproject.ca/rHSiYgmRwxx">Casey</persName>, <persName key="Casey, Edward S., 1939-...." ref="http://viaf.org/viaf/109734232">Edward S</persName>.<title level="m">The Fate of Place: A Philosophical History</title>. <placeName key="Berkeley" ref="https://sws.geonames.org/5327684 " ana="webannotation:http://temp.lincsproject.ca/sMOMTJkxawi">Berkeley</placeName>: <orgName key="University of California press" ref="http://viaf.org/viaf/148948307" ana="webannotation:http://temp.lincsproject.ca/0BqIjlIjWie">University of California Press</orgName>, 1998.</bibl>
                         <bibl><persName key="Coverley, Merlin." ref="http://viaf.org/viaf/71355916" ana="webannotation:http://temp.lincsproject.ca/ZDYfSPEX1Db">Coverley</persName>, <persName key="Coverley, Merlin." ref="http://viaf.org/viaf/71355916" ana="webannotation:http://temp.lincsproject.ca/Oad2HFiBwcI">Merlin</persName>. <title level="m">Psychogeography</title>. <placeName key="London" ref="https://sws.geonames.org/2643743" ana="webannotation:http://temp.lincsproject.ca/Gyqj7ImiPVh">London</placeName>: <orgName key="Pocket Essentials (Firm)" ref="http://viaf.org/viaf/141063678" ana="webannotation:http://temp.lincsproject.ca/ZWOi65It6r3">Pocket Essentials</orgName>, 2010.</bibl>
                         <bibl><persName key="Edwards, Justin D., 1970-...." ref="http://viaf.org/viaf/116861733" ana="webannotation:http://temp.lincsproject.ca/QSiqYTw0W9J">Edwards</persName>, <persName key="Edwards, Justin D., 1970-...." ref="http://viaf.org/viaf/116861733" ana="webannotation:http://temp.lincsproject.ca/bSyS8clzM2v">Justin D.,</persName> and <persName key="Ivison, Douglas" ref="http://viaf.org/viaf/74103425" ana="webannotation:http://temp.lincsproject.ca/jdIwbqt78ht" cert="high" type="real">Douglas Ivison</persName>. <title level="m">Downtown <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/De5OjrD9IDQ">Canada</placeName>: Writing Canadian Cities</title>. <placeName key="Toronto" ref="https://sws.geonames.org/6167865" ana="webannotation:http://temp.lincsproject.ca/0nOYmWrSzHJ">Toronto</placeName>: <orgName key="University of Toronto. Press" ref="http://viaf.org/viaf/126595939" ana="webannotation:http://temp.lincsproject.ca/QknxExjPd26">University of Toronto Press</orgName>, 2005.</bibl>
                         <bibl><persName key="Goyette, Linda, 1955-...." ref="http://viaf.org/viaf/36321908" ana="webannotation:http://temp.lincsproject.ca/yzrn0K00uoN">Goyette</persName>, <persName key="Goyette, Linda, 1955-...." ref="http://viaf.org/viaf/36321908" ana="webannotation:http://temp.lincsproject.ca/Dd1NHBzl4V7">Linda</persName>, and <persName key="Roemmich, Carolina Jakeway, 1974-" ref="http://viaf.org/viaf/28937000" ana="webannotation:http://temp.lincsproject.ca/X9pCnDbPe9w">Carolina Jakeway Roemmich</persName>. <title level="m"><placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/6Q0wLnYEZW2">Edmonton</placeName> In Our Own Words</title>. <placeName key="Edmonton" ref="https://sws.geonames.org/5946768" ana="webannotation:http://temp.lincsproject.ca/TGKTMhq8Y5V">Edmonton</placeName>: <orgName key="University of Alberta Press." ref="http://viaf.org/viaf/311351545" ana="webannotation:http://temp.lincsproject.ca/PoTzWfxjFE5">University of Alberta Press</orgName>, 2004.</bibl>
