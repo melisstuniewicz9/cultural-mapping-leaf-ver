@@ -8076,6 +8076,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027181035209",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T22:10:35.209Z",
+	"dcterms:modified": "2026-10-27T22:10:35.209Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027181035209#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261027181035209#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/4930956",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -8579,7 +8658,7 @@
                 <div type="section">
                     <head>Works Cited</head>
                     <listBibl>
-                        <bibl><persName key="Arrowsmith, Aaron, 1750-1823." ref="http://viaf.org/viaf/18101110">Arrowsmith, Aaron</persName>, and Samuel Lewis. <title level="m">General Atlas</title>. Boston: Thomas and Andrews, 1812.</bibl>
+                        <bibl><persName key="Arrowsmith, Aaron, 1750-1823." ref="http://viaf.org/viaf/18101110">Arrowsmith, Aaron</persName>, and Samuel Lewis. <title level="m">General Atlas</title>. <placeName key="Boston" ref="https://sws.geonames.org/4930956">Boston</placeName>: Thomas and Andrews, 1812.</bibl>
                         <bibl>. <title level="m">The Geographic Revolution in Early America: Maps, Literacy, and National Identity</title>. <placeName key="Chapel Hill:" ref="https://sws.geonames.org/4460162">Chapel Hill:</placeName> <orgName key="University of North Carolina Press" ref="http://www.wikidata.org/entity/Q7895937">University of North </orgName>Brückner, Martin<orgName key="University of North Carolina Press" ref="http://www.wikidata.org/entity/Q7895937">Carolina Press</orgName>, 2006.</bibl>
                         <bibl><persName key="Carey, Mathew, 1760-1839" ref="http://viaf.org/viaf/6373149068460065730004">Carey, Mathew</persName>. <title level="m">Carey’s American Pocket Atlas</title>. <placeName key="Philadelphia:" ref="https://sws.geonames.org/4560349">Philadelphia:</placeName> <persName key="Mathew Carey" ref="http://viaf.org/viaf/6373149068460065730004">M. Carey</persName>, 1805.</bibl>
                         <bibl><persName key="Clay, Jenny Strauss, 1942-...." ref="http://viaf.org/viaf/26664">Clay, Jenny Strauss</persName>. <title level="a">Mapping the Catalogue of Ships</title>. <title level="m">Scholars’ Lab Blog</title>. 13 January 2012. <ref target="http://www.scholarslab.org/announcements/mapping-the-catalogue-of-ships">http://www.scholarslab.org/announcements/mapping-the-catalogue-of-ships</ref>
