@@ -7111,7 +7111,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027170426162#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[21]/ref/ref/ref/ref/ref/orgName[2]"
+			"rdf:value": "TEI/text/body/div/p[21]/ref/ref/ref/ref/ref/orgName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -7269,7 +7269,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027170503942#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[21]/ref/ref/ref/ref/ref/orgName"
+			"rdf:value": "TEI/text/body/div/p[21]/ref/ref/ref/ref/ref/orgName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -7354,6 +7354,85 @@
 	"oa:hasBody": {
 		"@type": "cwrc:RealPlace",
 		"@id": "https://sws.geonames.org/5238499",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027170851905",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T21:08:51.905Z",
+	"dcterms:modified": "2026-10-27T21:08:51.905Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027170851905#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?organization_annotation_20261027170851905#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[21]/ref/ref/ref/ref/ref/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "https://www.wikidata.org/wiki/Q5372994",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -7586,7 +7665,7 @@
                 <p xml:id="p1234">
                     <ref target="#authorship">
                         <ref target="#spatiality">In some ways, Henshaw’s book is utterly unique. <ref target="#history">
-                                <ref target="#education">But it is also a product of larger trends in the geographic education of women in <placeName key="North America" ref="https://sws.geonames.org/6255149">North America</placeName> in the early nineteenth century. <ref target="#gender_issue">Middlebury Female Academy was the first school established by famed educational reformer <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159">Emma Willard</persName>, author of <title level="m">A Plan for Improving Female Education</title>
+                                <ref target="#education">But it is also a product of larger trends in the geographic education of women in <placeName key="North America" ref="https://sws.geonames.org/6255149">North America</placeName> in the early nineteenth century. <ref target="#gender_issue"><orgName key="Middlebury Female Academy" ref="https://www.wikidata.org/wiki/Q5372994">Middlebury Female Academy</orgName> was the first school established by famed educational reformer <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159">Emma Willard</persName>, author of <title level="m">A Plan for Improving Female Education</title>
                                         <note place="inline">
                                             <bibl>1818</bibl>
                                         </note> and co-author of a seminal textbook, <title>Geography for Beginners</title>
