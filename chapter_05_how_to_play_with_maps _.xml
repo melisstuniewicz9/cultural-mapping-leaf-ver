@@ -5706,6 +5706,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027164221277",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-10-27T20:42:21.277Z",
+	"dcterms:modified": "2026-10-27T20:42:21.277Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027164221277#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027164221277#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[19]/ref/ref/ref/ref[3]/ref/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q5239292",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -5905,7 +5984,7 @@
                             <ref target="#childhood">
                                 <ref target="#spatiality">The historical example of Frances Alsop Henshaw, who was fortunate to have good teachers, functions precisely in this invitational way. In 1823, Henshaw was fourteen years old. </ref>
                                 <ref target="#class_issue">As the daughter of a reasonably well-to-do <placeName key="New England" ref="https://sws.geonames.org/11919979">New England</placeName> merchant, she attended Middlebury Female Academy, a small school in <placeName key="Vermont" ref="https://sws.geonames.org/5242283">Vermont</placeName></ref>. <ref target="#manuscript_history">
-                                    <ref target="#archival_location">There, she created a document I first encountered in the library of map collector David Rumsey. </ref>It purports to be a <q>book of penmanship,</q> but—in addition to the set copy-texts one might expect to see in a handwriting practice-book—also contains a series of hand-drawn, delicately coloured maps of what were then the nineteen <placeName key="United States." ref="https://sws.geonames.org/6252001">United States.</placeName> <ref target="#tone_or_style">Each of these maps—and this is where the penmanship exercise comes in—is paired with a geometrically designed and highly embellished prose passage, which Henshaw seems to have copied from the geography books that were available to her as a schoolgirl in the new American republic.</ref>
+                                    <ref target="#archival_location">There, she created a document I first encountered in the library of map collector <persName key="David Rumsey" ref="http://www.wikidata.org/entity/Q5239292">David Rumsey</persName>. </ref>It purports to be a <q>book of penmanship,</q> but—in addition to the set copy-texts one might expect to see in a handwriting practice-book—also contains a series of hand-drawn, delicately coloured maps of what were then the nineteen <placeName key="United States." ref="https://sws.geonames.org/6252001">United States.</placeName> <ref target="#tone_or_style">Each of these maps—and this is where the penmanship exercise comes in—is paired with a geometrically designed and highly embellished prose passage, which Henshaw seems to have copied from the geography books that were available to her as a schoolgirl in the new American republic.</ref>
                                 </ref>
                                 <note xml:id="n65" place="end">This portion of the chapter draws on research previously published in the 2010 issue of Poetess Archive Journal as <title level="a">
                                         <q>Inventing the Map</q> in the Digital Humanities: A Young Lady’s Primer.</title> Additional slides and illustrations slides may be observed in the recording of the keynote presentation at the <bibl><orgName key="Canadian Writing Research Collaboratory" ref="http://www.wikidata.org/entity/Q134008740">Canadian Writing Research Collaboratory</orgName> Conference, <orgName key="Ryerson University" ref="http://viaf.org/viaf/140971310">Ryerson University,</orgName> Toronto, October 27, 2011</bibl>, available at <ref target="http://www.cwrc.ca/cwrc_news/cwrc-conference-keynote-bethany-noviskie/">http://www.cwrc.ca/cwrc_news/cwrc-conference-keynote-bethany-noviskie/</ref>.</note>
