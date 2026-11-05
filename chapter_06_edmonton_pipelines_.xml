@@ -1085,6 +1085,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?place_annotation_20261104205244675",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T01:52:44.675Z",
+	"dcterms:modified": "2026-11-05T01:52:44.675Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?place_annotation_20261104205244675#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?place_annotation_20261104205244675#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p/ref/ref/ref/ref/ref/ref/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/5391959",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?place_annotation_20261104205313892",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T01:53:13.892Z",
+	"dcterms:modified": "2026-11-05T01:53:13.892Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?place_annotation_20261104205313892#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_06_edmonton_pipelines_.xml?place_annotation_20261104205313892#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p/ref/ref/ref/ref/ref/ref/placeName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/4525534",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -1252,7 +1410,7 @@
                                 <ref target="#non-book_media">
                                     <ref target="#spatiality">
                                         <ref target="#history">
-                                            <ref target="#technology">The <placeName key="Cleveland" ref="https://sws.geonames.org/5150529">Cleveland</placeName> Historical Map similarly spatializes local history. Finally, the mapping projects that <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/1UL0N6kNvsc">Christian Nold</persName> has initiated are particularly compelling for the way they map urban intensities (the San Francisco Emotion Map) or their opposites (the Stockport Emotion Map). <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/oIbFic2ydTQ">Nold</persName> equips community mappers with an electronic device that measures physical responses and then he sends them into city spaces. After he amasses responses, he can map the city sites that evoke particularly strong physical responses. <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/GdVhZZ7dNem">Nold</persName>’s work also has evolved into community-based mapping, and, as in the case of <placeName key="Stockport" ref="https://sws.geonames.org/2636882" ana="webannotation:http://temp.lincsproject.ca/TiJO21X1Jnu">Stockport</placeName>, helps citizens understand how and why the city might fail to elicit intensity.</ref>
+                                            <ref target="#technology">The <placeName key="Cleveland" ref="https://sws.geonames.org/5150529">Cleveland</placeName> Historical Map similarly spatializes local history. Finally, the mapping projects that <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/1UL0N6kNvsc">Christian Nold</persName> has initiated are particularly compelling for the way they map urban intensities (the <placeName key="San Francisco" ref="https://sws.geonames.org/5391959">San Francisco</placeName> Emotion Map) or their opposites (the <placeName key="Stockport" ref="https://sws.geonames.org/4525534">Stockport</placeName> Emotion Map). <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/oIbFic2ydTQ">Nold</persName> equips community mappers with an electronic device that measures physical responses and then he sends them into city spaces. After he amasses responses, he can map the city sites that evoke particularly strong physical responses. <persName key="Nold, Christian 1976-" ref="http://viaf.org/viaf/6732166007106875590006" ana="webannotation:http://temp.lincsproject.ca/GdVhZZ7dNem">Nold</persName>’s work also has evolved into community-based mapping, and, as in the case of <placeName key="Stockport" ref="https://sws.geonames.org/2636882" ana="webannotation:http://temp.lincsproject.ca/TiJO21X1Jnu">Stockport</placeName>, helps citizens understand how and why the city might fail to elicit intensity.</ref>
                                         </ref>
                                     </ref>
                                 </ref> Pipelines hopes to adapt many aspects of projects like these—their community-mindedness, their attention to narrative, their understanding of history <q>from below,</q> for instance—while mobilizing the city’s open data to make sense of this particular city, in the here and now.</ref>
