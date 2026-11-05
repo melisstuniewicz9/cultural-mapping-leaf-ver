@@ -8711,7 +8711,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261027181931230#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName[4]"
+			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName[5]"
 		}
 	},
 	"oa:hasBody": {
@@ -9264,7 +9264,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195353779#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName"
+			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -9343,7 +9343,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195415796#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName[2]"
+			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -9422,7 +9422,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195442608#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName[3]"
+			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -9501,7 +9501,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195500842#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName[5]"
+			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName[6]"
 		}
 	},
 	"oa:hasBody": {
@@ -9739,6 +9739,164 @@
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195601419#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[27]/ref/ref[2]/ref/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/54499159",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195621525",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T00:56:21.525Z",
+	"dcterms:modified": "2026-11-05T00:56:21.525Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195621525#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195621525#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[28]/ref/ref/ref/ref/ref/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/54499159",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195634204",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T00:56:34.204Z",
+	"dcterms:modified": "2026-11-05T00:56:34.204Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195634204#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?person_annotation_20261104195634204#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[26]/ref/ref/ref/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -10054,7 +10212,7 @@
                 <p xml:id="p1239">
                     <ref target="#education">
                         <ref target="#response_formal">
-                            <ref target="#spatiality">But Willard had her critics. One of them raises issues that strike at the heart of Henshaw’s exercise book and the example it offers to modern, spatially minded scholars of the interpretive humanities. In the 1840s, <persName key="Willson, Marcius, 1813-1905" ref="http://viaf.org/viaf/47145857778023020115">Marcius Willson</persName> criticized <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159">Willard’</persName>s textbook maps—which bear the traces of the subjective and personal mapmaking exercises that she undertook with her students—as being <q>insufficiently geographical</q> and <q>focused instead on human events and boundaries</q>
+                            <ref target="#spatiality">But <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159">Willard</persName> had her critics. One of them raises issues that strike at the heart of Henshaw’s exercise book and the example it offers to modern, spatially minded scholars of the interpretive humanities. In the 1840s, <persName key="Willson, Marcius, 1813-1905" ref="http://viaf.org/viaf/47145857778023020115">Marcius Willson</persName> criticized <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159">Willard’</persName>s textbook maps—which bear the traces of the subjective and personal mapmaking exercises that she undertook with her students—as being <q>insufficiently geographical</q> and <q>focused instead on human events and boundaries</q>
                                 <note place="inline">
                                     <bibl><persName key="Schulten, Susan" ref="http://viaf.org/viaf/61728848">Schulten</persName> 554</bibl>
                                 </note>. In effect, I read <persName key="Willson, Marcius, 1813-1905" ref="http://viaf.org/viaf/47145857778023020115">Willson</persName> as saying, <q>You put humanities in my geography!</q> But there is also an element to his critique that may be summarized as <q>You put space in my time!</q> <persName key="Schulten, Susan" ref="http://viaf.org/viaf/61728848">Schulten</persName> sees <persName key="Willson, Marcius, 1813-1905" ref="http://viaf.org/viaf/47145857778023020115">Willson</persName>’s publications as an attack by a rival author on Willard’s attempts to <q>reconceptualize the past on a plane rather than in a narrative</q>
@@ -10078,7 +10236,7 @@
                     <ref target="#theme_or_topic">
                         <ref target="#spatiality">Three hallmarks of <persName key="Emma Willard" ref="http://www.wikidata.org/entity/Q175615">Willard’s</persName> later geographic and visualized historical pedagogy are relevant to the spatial humanities: graphesis (or drawing as a way of knowing); perspective (both conceptual and pictorial); and a necessary, attendant privileging of individualized response—those human events and readings that so troubled Willson. <ref target="#non-book_media">
                                 <ref target="#manuscript_history">
-                                    <ref target="#education">How fortunate that Henshaw’s <q>penmanship</q> document has survived as an early product of <persName key="Emma Willard" ref="http://www.wikidata.org/entity/Q175615">Willard’s</persName> curriculum and educational philosophy—and with enough identifying information to connect Henshaw to Willard.</ref>
+                                    <ref target="#education">How fortunate that Henshaw’s <q>penmanship</q> document has survived as an early product of <persName key="Emma Willard" ref="http://www.wikidata.org/entity/Q175615">Willard’s</persName> curriculum and educational philosophy—and with enough identifying information to connect Henshaw to <persName key="Willard, Emma, 1787-1870" ref="http://viaf.org/viaf/54499159">Willard</persName>.</ref>
                                 </ref>
                             </ref>
                         </ref>
