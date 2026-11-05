@@ -10702,6 +10702,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261104200315072",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T01:03:15.072Z",
+	"dcterms:modified": "2026-11-05T01:03:15.072Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261104200315072#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261104200315072#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[36]/ref/ref/ref/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/5165418",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261104200341366",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-05T01:03:41.366Z",
+	"dcterms:modified": "2026-11-05T01:03:41.366Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261104200341366#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_05_how_to_play_with_maps%20_.xml?place_annotation_20261104200341366#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[35]/ref/ref/ref/ref/ref/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/4662168",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -11109,7 +11267,7 @@
                             <ref target="#non-book_media">
                                 <ref target="#spatiality">The textual representation of the state of Virginia shows Henshaw breaking her own rules. Recall her cardinal directions, which place north at the top margin and west in the gutter of each recto leaf. They are augmented by labels for bounding states and bodies of water: <q>Bounded North by Massachusetts,</q>
                                     <q>south by the Atlantick,</q> and so forth. These cardinal directions hold true across every one of the nineteen texts, even in cases like <placeName key="Virginia" ref="https://www.geonames.org/6254928" cert="high">Virginia<precision match="@ref" precision="high"/></placeName>, where the shape of the corresponding map prompts Henshaw to choose a landscape orientation for the page. <ref target="#tone_or_style">In the text that corresponds with her Virginia map, she offers a fairly unpoetic and disjointed selection of passages from <title level="m">Geography Made Easy</title>—capping the penmanship exercise with an elaborate ornamental cherub holding a sweeping ribbon or banner inscribed <q>Virginia.</q> But the cherub occupies the <q>northern</q> field of her page, so Henshaw is unable to position the expected <q>North by <hi rend="small-caps">maryland</hi>
-                                        </q> label appropriately. In other words, the aesthetic force of the textual ornament trumps Henshaw’s own conventions of directionality. Maryland is displaced to the west—where it crowds Kentucky toward the south, into a position where one might now seek, and fail to find, Tennessee.</ref>
+                                        </q> label appropriately. In other words, the aesthetic force of the textual ornament trumps Henshaw’s own conventions of directionality. Maryland is displaced to the west—where it crowds Kentucky toward the south, into a position where one might now seek, and fail to find, <placeName key="Tennessee" ref="https://sws.geonames.org/4662168">Tennessee</placeName>.</ref>
                                 </ref>
                             </ref>
                         </ref>
@@ -11118,7 +11276,7 @@
                 <p xml:id="p1249">
                     <ref target="#non-book_media">
                         <ref target="#authorship">
-                            <ref target="#spatiality">In the case of Ohio, Henshaw’s text lacks labelled directionality but may have been designed to echo the rectilinear north and rough diamond-like shape of the southern portions of the state. At least two different editions of <title level="m">Geography Made Easy</title>, and—by my analysis—possibly three or more source documents, seem to have gone into Henshaw’s <figure>
+                            <ref target="#spatiality">In the case of <placeName key="Ohio" ref="https://sws.geonames.org/5165418">Ohio</placeName>, Henshaw’s text lacks labelled directionality but may have been designed to echo the rectilinear north and rough diamond-like shape of the southern portions of the state. At least two different editions of <title level="m">Geography Made Easy</title>, and—by my analysis—possibly three or more source documents, seem to have gone into Henshaw’s <figure>
                                     <head>Figure 5.3</head>
                                     <graphic url="http://beta.cwrc.ca/islandora/object/islandora%3A1d06bd0c-3098-4cf8-a325-f72c51568827/datastream/JPG-DToC/view"/>
                                     <figDesc>
