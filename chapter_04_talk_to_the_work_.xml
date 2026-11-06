@@ -3218,6 +3218,243 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205300734",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:53:00.734Z",
+	"dcterms:modified": "2026-11-06T01:53:00.734Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205300734#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205300734#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[6]/ref/ref/note[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/316562735",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205357411",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:53:57.411Z",
+	"dcterms:modified": "2026-11-06T01:53:57.411Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205357411#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205357411#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[6]/ref/ref/note[2]/ref/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/316562735",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205407974",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:54:07.974Z",
+	"dcterms:modified": "2026-11-06T01:54:07.974Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205407974#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205407974#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[6]/ref/ref/note[2]/ref/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/316562735",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -3422,7 +3659,7 @@
                     <p xml:id="p1198">
                         <ref target="#technology">
                             <ref target="#intertextuality">
-                                <ref target="#intellectual_history">Although <abbr>ISTC</abbr> was released at the end of <date cert="high" when="2009">2009</date>, its implementation has been slow</ref>. This is unfortunate, as it is a promising identifier that is able to characterize relationships between works. In fact, relationships between different <abbr>ISTC </abbr>s provide as much value as the <abbr>ISTC</abbr> identifier itself, as they create connections between various life stages of a work and can facilitate the clustering of works. In the publishing world, for instance, an <abbr>ISTC</abbr> for an illustrated edition of a work and an <abbr>ISTC</abbr> for the original work can create a relationship that would easily reflect the insertion or deletion of non-textual components. Due to the flexibility of its <abbr>ONIX</abbr> (<hi rend="small-caps">on </hi>line Information eXchange)-based schema, <abbr>ISTC</abbr> can be extended to digital projects outside the commercial world, and the relationships that <abbr>ISTC</abbr> establishes would prove invaluable to humanities scholars seeking to follow texts through various permutations and adaptations. <ref target="#intertextuality">One need only think of a popular work such as <persName>Lewis Carroll</persName>’s <title level="m">Alice in Wonderland</title> to recognize the potential of such an identifier. Discovery of all the projects that make use of different elements or editions of such a work to create a new instantiation of part or all of its identity would change the face of <title level="m">Alice</title> scholarship. A determined scholar might, for instance, track the work from its original (pre-digital and pre-<abbr>ISBN</abbr>) publication through the hundreds of editions, expansions, contractions, and adaptations of <title level="m">Alice in Wonderland</title> over the past century (from annotated, critical, abridged, and illustrated editions to film script to stage play).</ref>
+                                <ref target="#intellectual_history">Although <abbr>ISTC</abbr> was released at the end of <date cert="high" when="2009">2009</date>, its implementation has been slow</ref>. This is unfortunate, as it is a promising identifier that is able to characterize relationships between works. In fact, relationships between different <abbr>ISTC </abbr>s provide as much value as the <abbr>ISTC</abbr> identifier itself, as they create connections between various life stages of a work and can facilitate the clustering of works. In the publishing world, for instance, an <abbr>ISTC</abbr> for an illustrated edition of a work and an <abbr>ISTC</abbr> for the original work can create a relationship that would easily reflect the insertion or deletion of non-textual components. Due to the flexibility of its <abbr>ONIX</abbr> (<hi rend="small-caps">on </hi>line Information eXchange)-based schema, <abbr>ISTC</abbr> can be extended to digital projects outside the commercial world, and the relationships that <abbr>ISTC</abbr> establishes would prove invaluable to humanities scholars seeking to follow texts through various permutations and adaptations. <ref target="#intertextuality">One need only think of a popular work such as Lewis Carroll’s <title level="m">Alice in Wonderland</title> to recognize the potential of such an identifier. Discovery of all the projects that make use of different elements or editions of such a work to create a new instantiation of part or all of its identity would change the face of <title level="m">Alice</title> scholarship. A determined scholar might, for instance, track the work from its original (pre-digital and pre-<abbr>ISBN</abbr>) publication through the hundreds of editions, expansions, contractions, and adaptations of <title level="m">Alice in Wonderland</title> over the past century (from annotated, critical, abridged, and illustrated editions to film script to stage play).</ref>
                             </ref>
                         </ref>
                     </p>
@@ -3432,10 +3669,10 @@
                                 <note place="inline">
                                     <bibl>see Appendix, this chapter</bibl>
                                 </note> has two distinct advantages for the humanities scholar in that is does not establish preference for one version over another, and it does not relegate the identity of a work to a specific home. Instead, the <abbr>ISTC</abbr> system connects and associates works strictly according to content. As a global unique identifier, an <abbr>ISTC</abbr> makes it clear to users which expression of the work is being used where and by whom—without prejudice. The <abbr>ISTC</abbr> also frees readers, scholars, and editors from the mistaken perception of print editions as always being the <q>source</q> or <q>original work,</q> a perception that is no longer tenable in the <date cert="high" from="2001-01-01" to="2100-12-31">twenty-first century</date>.<note xml:id="n63" place="end">
-                                    Paul Fyfe recently suggested that universal identifiers and automated resolutions are the twin arms of a new system of bibliographic control and, as such, they may resuscitate an editorial idealism, since <q>the automation of correction can displace editorial judgments into the synthetic functions of server polling or algorithms whose logic may be increasingly difficult to extract or kept private by commercial entities</q>
+                                    <persName key="Fyfe, Paul" ref="http://viaf.org/viaf/316562735">Paul Fyfe</persName> recently suggested that universal identifiers and automated resolutions are the twin arms of a new system of bibliographic control and, as such, they may resuscitate an editorial idealism, since <q>the automation of correction can displace editorial judgments into the synthetic functions of server polling or algorithms whose logic may be increasingly difficult to extract or kept private by commercial entities</q>
                                     <note place="inline">
                                         <bibl>274</bibl>
-                                    </note>. <ref target="#collaboration">At the same time, Fyfe notes, an international digital identifier suggests editorial forgiveness, where editing can become seamless in a web of copy. Thus, he connects identifiers with the invisible life cycle of a digital work and suggests that identifiers are meaningful not only in supplying metadata for a work but in assigning specific objects. For Fyfe, the work thereby is transformed from an abstraction to an object with a unique name that cannot be duplicated, even in digital reproduction.</ref>
+                                    </note>. <ref target="#collaboration">At the same time, <persName key="Fyfe, Paul" ref="http://viaf.org/viaf/316562735">Fyfe</persName> notes, an international digital identifier suggests editorial forgiveness, where editing can become seamless in a web of copy. Thus, he connects identifiers with the invisible life cycle of a digital work and suggests that identifiers are meaningful not only in supplying metadata for a work but in assigning specific objects. For <persName key="Fyfe, Paul" ref="http://viaf.org/viaf/316562735">Fyfe</persName>, the work thereby is transformed from an abstraction to an object with a unique name that cannot be duplicated, even in digital reproduction.</ref>
                                 </note>
                             </ref>
                         </ref>
