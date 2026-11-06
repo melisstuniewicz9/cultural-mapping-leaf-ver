@@ -1875,6 +1875,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261105200004259",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:00:04.259Z",
+	"dcterms:modified": "2026-11-06T01:00:04.259Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261105200004259#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261105200004259#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[3]/ref/ref/ref/ref/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/66527919",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -1953,7 +2032,7 @@
                             <ref target="#theory">Globalization theory has affected contemporary views of human agency, locality, and cultural practices within urban environments. <persName key="Smith, Michael P." ref="http://viaf.org/viaf/108768118">Michael Peter Smith</persName> insists on the more precise language of transnational urbanism; he sees <q>people’s everyday lives [as] sites of criss-crossing communication circuits</q> constituting <q>sometimes separate, sometimes overlapping, and sometimes competing terrains for the contestation, as well as the reproduction, of cultural meanings</q>
                                 <note place="inline">
                                     <bibl>127</bibl>
-                                </note>. <ref target="#theory">For <persName>Saskia Sassen</persName>, <ref target="#economics">
+                                </note>. <ref target="#theory">For <persName key="Sassen, Saskia." ref="http://viaf.org/viaf/66527919">Saskia Sassen</persName>, <ref target="#economics">
                                         <q>economic globalization has contributed to a new geography of centrality and marginality</q>
                                         <note place="inline">
                                             <bibl>Sassen 194</bibl>
