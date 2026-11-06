@@ -532,6 +532,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?place_annotation_20261105202233275",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:22:33.275Z",
+	"dcterms:modified": "2026-11-06T01:22:33.275Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?place_annotation_20261105202233275#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?place_annotation_20261105202233275#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/p[3]/ref/ref/ref[2]/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/6251999",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -594,7 +673,7 @@
                     <p xml:id="p1186">
                         <ref target="#technology">
                             <ref target="#authorship">
-                                <ref target="#theme_or_topic">Academic authors need to reconsider how they reach potential readers, and this means thinking beyond mounting content on a server in the hope that <orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/mZI8x9AHVmT">Google</orgName> users will know what to do next. In order to draw attention to one’s scholarly labour and to have one’s labour revealed in searches across the web, digital identifiers become as important as name and title.</ref> This chapter offers conceptual and pragmatic perspectives on the potential and benefits of such identifiers at the work level for digital projects in the humanities. <ref target="#genre_journalism">More specifically, it considers how the new <orgName>International Standard Text Code</orgName> (<abbr>ISTC</abbr>) system may be used to manage e-content by offering functionality and potency for securing discoverability, stability, and sustainability of archival projects, scholarly digital editions, and sole databases in the humanities. As a test case, the chapter draws on the <orgName key="Canadian Writing Research Collaboratory" ref="http://www.wikidata.org/entity/Q134008740">Canadian Writing Research Collaboratory</orgName>’s (<abbr>CWRC</abbr>) digital edition of <title key="the Canadian Bookman" ref="https://www.wikidata.org/wiki/Q5029743">the Canadian Bookman</title> (<date cert="high" from="1909" to="1941">1909–1941</date>), a specialized periodical dedicated to promoting the literary and artistic culture of Canada. The <abbr>ISTC</abbr> system not only enhances usage of the periodical, it also signifies semantic and other identities, as well as relationships between these identities. I close this chapter with suggestions for further research into the nature of digit­al work, including bibliographic versus ideational identification and the need to supply enriched metadata and proper identifiers so that readers can have comprehensive access to a work’s identity.</ref>
+                                <ref target="#theme_or_topic">Academic authors need to reconsider how they reach potential readers, and this means thinking beyond mounting content on a server in the hope that <orgName key="Google American multinational technology company, a subsidiary of Alphabet Inc." ref="http://viaf.org/viaf/124291214" ana="webannotation:http://temp.lincsproject.ca/mZI8x9AHVmT">Google</orgName> users will know what to do next. In order to draw attention to one’s scholarly labour and to have one’s labour revealed in searches across the web, digital identifiers become as important as name and title.</ref> This chapter offers conceptual and pragmatic perspectives on the potential and benefits of such identifiers at the work level for digital projects in the humanities. <ref target="#genre_journalism">More specifically, it considers how the new <orgName>International Standard Text Code</orgName> (<abbr>ISTC</abbr>) system may be used to manage e-content by offering functionality and potency for securing discoverability, stability, and sustainability of archival projects, scholarly digital editions, and sole databases in the humanities. As a test case, the chapter draws on the <orgName key="Canadian Writing Research Collaboratory" ref="http://www.wikidata.org/entity/Q134008740">Canadian Writing Research Collaboratory</orgName>’s (<abbr>CWRC</abbr>) digital edition of <title key="the Canadian Bookman" ref="https://www.wikidata.org/wiki/Q5029743">the Canadian Bookman</title> (<date cert="high" from="1909" to="1941">1909–1941</date>), a specialized periodical dedicated to promoting the literary and artistic culture of <placeName key="Canada" ref="https://sws.geonames.org/6251999">Canada</placeName>. The <abbr>ISTC</abbr> system not only enhances usage of the periodical, it also signifies semantic and other identities, as well as relationships between these identities. I close this chapter with suggestions for further research into the nature of digit­al work, including bibliographic versus ideational identification and the need to supply enriched metadata and proper identifiers so that readers can have comprehensive access to a work’s identity.</ref>
                             </ref>
                         </ref>
                     </p>
