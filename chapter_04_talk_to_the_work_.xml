@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!--<?xml-model href="http://cwrc.ca/schemas/cwrc_tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?>--><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-stylesheet type="text/css" href="https://cwrc.ca/templates/css/tei.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -375,7 +374,7 @@
                 </ab>
             </sourceDesc>
         </fileDesc>
-        <encodingDesc>
+        <xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#"/></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
             </projectDesc>
@@ -416,7 +415,7 @@
                     <hi rend="italic">Applying <abbr rend="small-caps">istc</abbr> Identifiers to the Digital Edition of the</hi>
                     <title level="j">Canadian Bookman</title> (<date cert="high" from="1909" to="1941">1909–1941</date>)</byline>
                 <docAuthor>
-                    <persName>Ravit H. David</persName>
+                    Ravit H. David
                 </docAuthor>
                 <div type="section">
                     <head>Introduction</head>
@@ -763,7 +762,10 @@
             </div>
         </body>
     </text>
-	<standOff type="annotation">
+	
+
+
+<standOff xmlns="http://www.tei-c.org/ns/1.0" type="annotation">
 		
 <xenoData>
 			
@@ -7488,7 +7490,4 @@
 </xenoData>
 	
 	
-	</standOff>
-
-
-</TEI>
+	</standOff></TEI>
