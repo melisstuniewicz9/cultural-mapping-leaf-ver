@@ -2016,7 +2016,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?organization_annotation_20261105204341218#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[5]/p[6]/ref/ref/ref[2]/orgName"
+			"rdf:value": "TEI/text/body/div/div[5]/p[6]/ref/ref/ref[2]/orgName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -2095,7 +2095,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?organization_annotation_20261105204356765#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[5]/p[6]/ref/ref/ref[2]/orgName[3]"
+			"rdf:value": "TEI/text/body/div/div[5]/p[6]/ref/ref/ref[2]/orgName[4]"
 		}
 	},
 	"oa:hasBody": {
@@ -2174,7 +2174,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105204413632#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[5]/p[6]/ref/ref/ref[3]/title[3]"
+			"rdf:value": "TEI/text/body/div/div[5]/p[6]/ref/ref/title[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -2253,12 +2253,170 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?organization_annotation_20261105204427261#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[5]/p[6]/ref/ref/ref[3]/orgName"
+			"rdf:value": "TEI/text/body/div/div[5]/p[6]/ref/ref/orgName"
 		}
 	},
 	"oa:hasBody": {
 		"@type": "org:Organization",
 		"@id": "http://www.wikidata.org/entity/Q134008740",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?organization_annotation_20261105204454724",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:44:54.724Z",
+	"dcterms:modified": "2026-11-06T01:44:54.724Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?organization_annotation_20261105204454724#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?organization_annotation_20261105204454724#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p[6]/ref/ref/ref[2]/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/153502342",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105204518232",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:45:18.232Z",
+	"dcterms:modified": "2026-11-06T01:45:18.232Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105204518232#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105204518232#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p[6]/ref/ref/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://www.wikidata.org/wiki/Q5029743",
 		"dc:format": "text/plain"
 	},
 	"as:generator": {
@@ -2537,8 +2695,8 @@
                     <p xml:id="p1205">
                         <ref target="#technology">
                             <ref target="#genre_journalism">
-                                <ref target="#methodology">Before this in-depth identification of the periodical can take place, however, a full run of the journal had to be located and the paper issues scanned with optical character recognition (<abbr rend="small-caps">ocr</abbr>) software to convert them into workable files</ref>. <ref target="#spatiality">Some issues of the <title level="j">Canadian Bookman</title> were located at the Thomas Fisher Rare Book Library of the <orgName key="University of Toronto." ref="http://viaf.org/viaf/130333233">University of Toronto</orgName> and others were found at the <orgName>E.J. Pratt Library of <orgName key="Victoria University" ref="http://www.wikidata.org/entity/Q3551503" ana="webannotation:http://temp.lincsproject.ca/zm1DOxOgNVW">Victoria University</orgName></orgName> in the <orgName key="University of Toronto." ref="http://viaf.org/viaf/130333233">University of Toronto</orgName>.</ref>
-                                <ref target="#archive">After librarians closely supervised the scanning of the fragile paper issues of the <title level="j">Canadian Bookman</title>, the journal was mounted on the <title level="m"><orgName key="Internet archive" ref="http://viaf.org/viaf/123343900" ana="webannotation:http://temp.lincsproject.ca/Dwa7yBkjWy1">Internet Archive</orgName></title> website (http://archive.org) where only those issues that are out of copyright are available. The <orgName key="Canadian Writing Research Collaboratory" ref="http://www.wikidata.org/entity/Q134008740">CWRC</orgName> project aims to put the full run of the <title key="Canadian Bookman" ref="https://www.wikidata.org/wiki/Q5029743">Canadian Bookman</title> online, but there are ongoing Canadian copyright considerations for many of the issues, and all issues from <date cert="high" from="1923" to="1941">1923 to 1941</date> have been dark archived (i.e., the content has been preserved but has not been granted public access) until copyright is secured.</ref>
+                                <ref target="#methodology">Before this in-depth identification of the periodical can take place, however, a full run of the journal had to be located and the paper issues scanned with optical character recognition (<abbr rend="small-caps">ocr</abbr>) software to convert them into workable files</ref>. <ref target="#spatiality">Some issues of the <title level="j">Canadian Bookman</title> were located at the <orgName key="Thomas Fisher Rare Book Library" ref="http://viaf.org/viaf/153502342">Thomas Fisher Rare Book Library</orgName> of the <orgName key="University of Toronto." ref="http://viaf.org/viaf/130333233">University of Toronto</orgName> and others were found at the E.J. Pratt Library of <orgName key="Victoria University" ref="http://www.wikidata.org/entity/Q3551503" ana="webannotation:http://temp.lincsproject.ca/zm1DOxOgNVW">Victoria University</orgName> in the <orgName key="University of Toronto." ref="http://viaf.org/viaf/130333233">University of Toronto</orgName>.</ref>
+                                After librarians closely supervised the scanning of the fragile paper issues of the <title key="Canadian Bookman," ref="https://www.wikidata.org/wiki/Q5029743">Canadian Bookman,</title> the journal was mounted on the <title level="m"><orgName key="Internet archive" ref="http://viaf.org/viaf/123343900" ana="webannotation:http://temp.lincsproject.ca/Dwa7yBkjWy1">Internet Archive</orgName></title> website (http://archive.org) where only those issues that are out of copyright are available. The <orgName key="Canadian Writing Research Collaboratory" ref="http://www.wikidata.org/entity/Q134008740">CWRC</orgName> project aims to put the full run of the <title key="Canadian Bookman" ref="https://www.wikidata.org/wiki/Q5029743">Canadian Bookman</title> online, but there are ongoing Canadian copyright considerations for many of the issues, and all issues from <date cert="high" from="1923" to="1941">1923 to 1941</date> have been dark archived (i.e., the content has been preserved but has not been granted public access) until copyright is secured.
                             </ref>
                         </ref>
                     </p>
