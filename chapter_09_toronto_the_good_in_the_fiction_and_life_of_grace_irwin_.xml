@@ -1006,6 +1006,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261105195037493",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T00:50:37.493Z",
+	"dcterms:modified": "2026-11-06T00:50:37.493Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261105195037493#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261105195037493#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p/ref/ref/ref/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/9972749",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -1049,13 +1128,13 @@
                 <p xml:id="p1340">
                     <ref target="#spatiality">
                         <ref target="#theme_or_topic">Stories and theories about the city have created their own crossroads of understanding. <ref target="#genre_novel">
-                                <ref target="#history">Attempts to analyze the importance of the <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName> city­scape from the <date cert="high" from="1920-01-01" to="1959-12-31">1920s to the 1950s</date> in five novels by lifelong <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName> resident <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735">Grace Irwin</persName> necessitate some acknowledgement of the varied array of registers and metrics reflecting multiple perspectives and changing social practice.</ref> A re-entry to <date cert="high" from="1900" to="1955">early twentieth-century</date> <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName>, before Metro and Greater Toronto Area designations, might be managed by working back from current conceptualizations of urban place and space. Since interdisciplinary urban studies, like its subject, have experienced explosive growth since the <date cert="high" when="1960-01-01" to="1969-12-01">1960s</date>, such a look backward could also help to chart both the divides and some interconnections between then and now.</ref>
+                                <ref target="#history">Attempts to analyze the importance of the <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName> city­scape from the <date cert="high" from="1920-01-01" to="1959-12-31">1920s to the 1950s</date> in five novels by lifelong <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName> resident <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735">Grace Irwin</persName> necessitate some acknowledgement of the varied array of registers and metrics reflecting multiple perspectives and changing social practice.</ref> A re-entry to <date cert="high" from="1900" to="1955">early twentieth-century</date> <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName>, before Metro and <placeName key="Greater Toronto Area" ref="https://sws.geonames.org/9972749">Greater Toronto Area</placeName> designations, might be managed by working back from current conceptualizations of urban place and space. Since interdisciplinary urban studies, like its subject, have experienced explosive growth since the <date cert="high" when="1960-01-01" to="1969-12-01">1960s</date>, such a look backward could also help to chart both the divides and some interconnections between then and now.</ref>
                         </ref>
                     </ref>
                 </p>
                 <p xml:id="p1341">
                     <ref target="#spatiality">
-                        <ref target="#theory">In the realms of the scalar geographical imagination, <persName>Raymond Williams</persName>’s formula for the city as <q>the physical embodiment of a decisive modern consciousness</q>
+                        <ref target="#theory">In the realms of the scalar geographical imagination, Raymond Williams’s formula for the city as <q>the physical embodiment of a decisive modern consciousness</q>
                             <note place="inline">
                                 <bibl>239</bibl>
                             </note> often leads to a series of polarizations—between <q>core and periphery, metropolis and hinterland, or centre and margin</q>
