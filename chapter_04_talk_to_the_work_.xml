@@ -4719,6 +4719,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105210608899",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T02:06:08.899Z",
+	"dcterms:modified": "2026-11-06T02:06:08.899Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105210608899#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105210608899#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[3]/ref/note/persName[2]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/11736286",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -4807,7 +4886,7 @@
                     </p>
                     <p xml:id="p1189">
                         <ref target="#technology">An identifier is an important feature of any model of information ontology.<note xml:id="n59" place="end">
-                                <persName><persName key="Warwick, Claire." ref="http://viaf.org/viaf/288190614" ana="webannotation:http://temp.lincsproject.ca/ck6oYmkFqsc">Warwick</persName>, <persName key="Warwick, Claire." ref="http://viaf.org/viaf/288190614" ana="webannotation:http://temp.lincsproject.ca/gezxKLOcITY">Claire</persName></persName>, <persName>Melissa Terras</persName>, <persName>Paul Huntington</persName>, and <persName>Nikoleta Pappa</persName>, <title level="a">If You Build It Will They Come? The <hi rend="small-caps">lairah</hi> Study: <title key="If You Build It Will They Come? The LAIRAH Study: Quantifying the Use of Online Resources in the Arts and Humanities through Statistical Analysis of User Log Data" ref="https://www.wikidata.org/wiki/Q57195616" ana="webannotation:http://temp.lincsproject.ca/v1zV65hikBo">Quantifying the Use of Online Resources in the Arts and Humanities</title> through Statistical Analysis of User Log Data,</title>
+                                <persName><persName key="Warwick, Claire." ref="http://viaf.org/viaf/288190614" ana="webannotation:http://temp.lincsproject.ca/ck6oYmkFqsc">Warwick</persName>, <persName key="Warwick, Claire." ref="http://viaf.org/viaf/288190614" ana="webannotation:http://temp.lincsproject.ca/gezxKLOcITY">Claire</persName></persName>, <persName><persName key="Terras, Melissa M." ref="http://viaf.org/viaf/11736286">Melissa Terras</persName></persName>, <persName>Paul Huntington</persName>, and <persName>Nikoleta Pappa</persName>, <title level="a">If You Build It Will They Come? The <hi rend="small-caps">lairah</hi> Study: <title key="If You Build It Will They Come? The LAIRAH Study: Quantifying the Use of Online Resources in the Arts and Humanities through Statistical Analysis of User Log Data" ref="https://www.wikidata.org/wiki/Q57195616" ana="webannotation:http://temp.lincsproject.ca/v1zV65hikBo">Quantifying the Use of Online Resources in the Arts and Humanities</title> through Statistical Analysis of User Log Data,</title>
                                 <title level="j">Literary and Linguistic Computing </title>23.1 (<date cert="high" when="2008">2008</date>): 85–1021. For further discussion of identity conditions, see <bibl>
                                     <persName key="Renear, Allen" ref="http://viaf.org/viaf/311203806">Renear</persName> and <persName>Dubin</persName> 183</bibl>; and <bibl>
                                     <persName>Guarino</persName> 221</bibl>.</note> First, and most important, when international systems—such as the digital object identifier (<abbr>DOI</abbr>) system—are used to assign identifiers to digitized works, infrastructure administrators and technical staff no longer struggle to unify metadata standards that originate from different resources and are created by different people using different schemas. In many cases, such as 
