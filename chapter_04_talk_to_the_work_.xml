@@ -1322,6 +1322,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105204033466",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:40:33.466Z",
+	"dcterms:modified": "2026-11-06T01:40:33.466Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105204033466#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105204033466#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p[8]/ref/ref/ref/ref/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://www.wikidata.org/wiki/Q5029743",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -1606,7 +1685,7 @@
                         <ref target="#technology">
                             <ref target="#genre_journalism">
                                 <ref target="#editions">
-                                    <ref target="#theme_or_topic">Several questions arise from these digitizations of <title level="j"><orgName key="Canadian Author &amp; Bookman" ref="https://www.wikidata.org/wiki/Q5029743" ana="webannotation:http://temp.lincsproject.ca/LYkoJ8K3XXP">Canadian Bookman</orgName></title>. One must ask, for example, whether these scanned versions should be registered as the original work. There is no easy answer to this probing question. If paratexts inform the work—as I believe they do—scanning and presenting on the web only those periodical issues that are free of copyright shifts the work away from its original, print-based state. But in what way has the periodical been derived from the original? Is it in a manner that justifies a different identifier? Does <q>original</q> refer to an individual issue (or the texts within that issue) or the complete run of <title key="Canadian Bookman" ref="https://www.wikidata.org/wiki/Q5029743">Canadian Bookman</title>? This matter is complicated further by the fact that a significant amount of content in the full run has Canadian copyright issues that may prevent its inclusion in the final digital edition. Moreover, serials differ from monographs, and one may wonder whether separate registration of each issue accurately reflects the intention of its editors (both the editors of the original print run and the current digitization). In other words, how a work is divided and identified has much to do with editorial considerations and not only with the management of digital content.</ref>
+                                    <ref target="#theme_or_topic">Several questions arise from these digitizations of <title key="Canadian Bookman" ref="https://www.wikidata.org/wiki/Q5029743">Canadian Bookman</title>. One must ask, for example, whether these scanned versions should be registered as the original work. There is no easy answer to this probing question. If paratexts inform the work—as I believe they do—scanning and presenting on the web only those periodical issues that are free of copyright shifts the work away from its original, print-based state. But in what way has the periodical been derived from the original? Is it in a manner that justifies a different identifier? Does <q>original</q> refer to an individual issue (or the texts within that issue) or the complete run of <title key="Canadian Bookman" ref="https://www.wikidata.org/wiki/Q5029743">Canadian Bookman</title>? This matter is complicated further by the fact that a significant amount of content in the full run has Canadian copyright issues that may prevent its inclusion in the final digital edition. Moreover, serials differ from monographs, and one may wonder whether separate registration of each issue accurately reflects the intention of its editors (both the editors of the original print run and the current digitization). In other words, how a work is divided and identified has much to do with editorial considerations and not only with the management of digital content.</ref>
                                 </ref>
                             </ref>
                         </ref>
