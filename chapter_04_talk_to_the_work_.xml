@@ -4245,6 +4245,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105210027383",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T02:00:27.383Z",
+	"dcterms:modified": "2026-11-06T02:00:27.383Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105210027383#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105210027383#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p/ref/ref[2]/ref/ref/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/261690065",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -4393,7 +4472,7 @@
                                     <q>data,</q> and <q>document,</q> see Buckland.</note>
                             </ref> Indeed, a digital project may involve more than one print book, more than one work (for example, a digitized print book or a born-digital text), or a cross-media conversion of a text. <ref target="#theory">
                                 <ref target="#textual_agency">
-                                    <ref target="#spatiality">In his <date cert="high" when="2001">2001</date> publication, <title level="m">The Nature of <q>A Work</q>: Implications for the Organization of Knowledge</title>, <persName>Richard P. Smiraglia</persName> uses semiotics to advance the understanding of the social role of works and, building on <persName>Birger Hjørland</persName>’s epistemological stances, he delineates the spatial separation between <q>text,</q>
+                                    <ref target="#spatiality">In his <date cert="high" when="2001">2001</date> publication, <title level="m">The Nature of <q>A Work</q>: Implications for the Organization of Knowledge</title>, Richard P. <persName key="Smiraglia, Richard P., 1952-...." ref="http://viaf.org/viaf/261690065">Smiraglia</persName> uses semiotics to advance the understanding of the social role of works and, building on <persName>Birger Hjørland</persName>’s epistemological stances, he delineates the spatial separation between <q>text,</q>
                                         <q>document,</q> and <q>work</q>
                                     </ref>: <q>A text is the set of words that constitute a writing. A text is not the same as a document, which is the physical container (an item) on which the text is recorded….A work is the set of ideas created probably by an author or perhaps a composer, or other artist, set into a document using text, with the intention of being communicated to a receiver….A work may have many texts and may appear in many different documents</q>
                                     <note place="inline">
