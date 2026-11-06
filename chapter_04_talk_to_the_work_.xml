@@ -3929,6 +3929,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205900546",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:59:00.546Z",
+	"dcterms:modified": "2026-11-06T01:59:00.546Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205900546#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205900546#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[8]/listBibl/bibl[7]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/37147662977360551572",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205918957",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:59:18.957Z",
+	"dcterms:modified": "2026-11-06T01:59:18.957Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205918957#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205918957#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[4]/ref/note/bibl/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/37147662977360551572",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -4127,7 +4285,7 @@
                     <p xml:id="p1197">
                         <ref target="#manuscript history">The <abbr>ISTC</abbr> standard is governed in a manner similar to <abbr>ISBN</abbr>. The <orgName>International <abbr>ISTC</abbr> Agency</orgName> licenses registration agencies to manage the allocation of identifiers. One notable identifier is the <q>derivation</q> field. For the purposes of assigning an <abbr>ISTC</abbr> to a work, a derivation (or a derived work) is one that is sufficiently different to be distinguishable from manifestations of the work from which it is derived. For instance, a numbered edition of an original work (a second edition, for example) is a derivation. There are various derivation types: abridged, annotated, compiled, critical, excerpted, expurgated, nontext added or revised, revised, translated, adapted, unspecified <note place="inline">
                                 <bibl>
-                                    <persName>Holdsworth</persName> 13–14</bibl>
+                                    <persName key="Holdsworth, Michael" ref="http://viaf.org/viaf/37147662977360551572">Holdsworth</persName> 13–14</bibl>
                             </note>.</ref>
                     </p>
                     <p xml:id="p1198">
@@ -4283,7 +4441,7 @@
                         <bibl><title key="Genette, Gérard, 1930-2018." ref="http://viaf.org/viaf/34457081" ana="webannotation:http://temp.lincsproject.ca/k9vN2swMfJq">Genette</title>, <persName key="Genette, Gérard, 1930-2018." ref="http://viaf.org/viaf/34457081" ana="webannotation:http://temp.lincsproject.ca/6cnwRGLgqVr">Gerard</persName>. <title level="m">Paratexts: Thresholds of Interpretation</title>. Trans. <persName key="Lewin, Jane E." ref="http://viaf.org/viaf/208798270" ana="webannotation:http://temp.lincsproject.ca/WJ12eQW9uTV">Jane E. Lewin</persName>. <placeName key="Cambridge" ref="https://sws.geonames.org/2653941  " ana="webannotation:http://temp.lincsproject.ca/uXYlYH0cnZy">Cambridge</placeName>: <orgName key="Cambridge university press" ref="http://viaf.org/viaf/127979069" ana="webannotation:http://temp.lincsproject.ca/SIrbUclNrlB">Cambridge University Press</orgName>, 1987.</bibl>
                         <bibl>Guarino, <persName key="Guarino, N. Nicola" ref="http://viaf.org/viaf/2399149108444868780003" ana="webannotation:http://temp.lincsproject.ca/ZLBnGiii5Wm">Nicola</persName>. <title level="a">The Role of Identity Conditions in Ontology Design.</title>
                             <title level="m">Proceedings of the International Conference on Spatial Information Theory: Cognitive and Computational Foundations of Geographic Information Science</title>. Ed. Christian Freska and David M. Mark. <placeName key="Berlin" ref="https://www.geonames.org/2950159/berlin.html" ana="webannotation:http://temp.lincsproject.ca/gjw7rGj57Dc">Berlin</placeName>: <orgName key="Springer-Verlag" ref="http://viaf.org/viaf/134381129" ana="webannotation:http://temp.lincsproject.ca/z1ATyQagAN5">Springer-Verlag</orgName>, 1999. 221–34.</bibl>
-                        <bibl>Holdsworth, Michael. <title level="m">The International Standard Text Code (<abbr rend="sc-italic">istc</abbr>): A Work in Progress. A Supply Chain Perspective</title>. <orgName key="Book industry study group" ref="http://viaf.org/viaf/143148501" ana="webannotation:http://temp.lincsproject.ca/4WiIZqKhbbO">Book Industry Study Group</orgName> and Book Industry Communication. March 2010. <ref target="http://www.bic.org.uk/files/pdfs/100401%20ISTC%20for%20BIC-BISG%20bic%20Final%20corrected.pdf">http://www.bic.org.uk/files/pdfs/100401%20ISTC%20for%20BIC-BISG%20bic%20Final%20corrected.pdf</ref>
+                        <bibl><persName key="Holdsworth, Michael" ref="http://viaf.org/viaf/37147662977360551572">Holdsworth, Michael.</persName> <title level="m">The International Standard Text Code (<abbr rend="sc-italic">istc</abbr>): A Work in Progress. A Supply Chain Perspective</title>. <orgName key="Book industry study group" ref="http://viaf.org/viaf/143148501" ana="webannotation:http://temp.lincsproject.ca/4WiIZqKhbbO">Book Industry Study Group</orgName> and Book Industry Communication. March 2010. <ref target="http://www.bic.org.uk/files/pdfs/100401%20ISTC%20for%20BIC-BISG%20bic%20Final%20corrected.pdf">http://www.bic.org.uk/files/pdfs/100401%20ISTC%20for%20BIC-BISG%20bic%20Final%20corrected.pdf</ref>
                         </bibl>
                         <bibl>
                             <orgName>International <abbr>ISBN</abbr> Agency</orgName>. <title level="m">Summary of Business Requirements Study on <abbr rend="sc-italic">isbns</abbr> &amp; E-books</title>. International <abbr>ISBN</abbr> Agency. December 2010. <ref target="http://api.ning.com/files/LyejPys2drPkZNQ1Pa59D*u-jaHaH24zdVRH3gvMXRmdABiCvPXYKt2bj*qgs*o4JjjGrNDMNs4IFTFV5ES9N*I8gw5PDYGQ/isbnebooksstudypublicsummary110105.pdf">http://api.ning.com/files/LyejPys2drPkZNQ1Pa59D*u-jaHaH24zdVRH3gvMXRmdABiCvPXYKt2bj*qgs*o4JjjGrNDMNs4IFTFV5ES9N*I8gw5PDYGQ/isbnebooksstudypublicsummary110105.pdf</ref>
