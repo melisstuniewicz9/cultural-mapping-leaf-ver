@@ -4640,6 +4640,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?place_annotation_20261105210500343",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T02:05:00.343Z",
+	"dcterms:modified": "2026-11-06T02:05:00.343Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?place_annotation_20261105210500343#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?place_annotation_20261105210500343#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[3]/ref/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/6251999",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -4733,7 +4812,7 @@
                                     <persName key="Renear, Allen" ref="http://viaf.org/viaf/311203806">Renear</persName> and <persName>Dubin</persName> 183</bibl>; and <bibl>
                                     <persName>Guarino</persName> 221</bibl>.</note> First, and most important, when international systems—such as the digital object identifier (<abbr>DOI</abbr>) system—are used to assign identifiers to digitized works, infrastructure administrators and technical staff no longer struggle to unify metadata standards that originate from different resources and are created by different people using different schemas. In many cases, such as 
                                 <orgName key="Canadian Writing Research Collaboratory" ref="http://www.wikidata.org/entity/Q134008740">CWRC</orgName>
-                            —an online infrastructure project designed to enable unprecedented avenues for digital studies in and about Canada—the platform hosts projects from Canadian universities in both official languages, English and French. Normalization of <abbr>CWRC</abbr>’s metadata likely would require the involvement of professional cataloguers who were willing compromisers. In fact, an international object identifying system, under which all contributors may register their content, would be a more efficient way to overcome metadata differences.</ref>
+                            —an online infrastructure project designed to enable unprecedented avenues for digital studies in and about <placeName key="Canada" ref="https://sws.geonames.org/6251999">Canada</placeName>—the platform hosts projects from Canadian universities in both official languages, English and French. Normalization of <abbr>CWRC</abbr>’s metadata likely would require the involvement of professional cataloguers who were willing compromisers. In fact, an international object identifying system, under which all contributors may register their content, would be a more efficient way to overcome metadata differences.</ref>
                     </p>
                     <p xml:id="p1190">
                         <ref target="#technology">
