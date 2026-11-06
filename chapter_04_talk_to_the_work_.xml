@@ -3517,7 +3517,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205439766#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[4]/p[5]/ref/ref/ref[2]/persName"
+			"rdf:value": "TEI/text/body/div/div[4]/p[5]/ref/ref/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -3596,7 +3596,86 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105205508386#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/div[4]/p[5]/ref/ref/ref[2]/title"
+			"rdf:value": "TEI/text/body/div/div[4]/p[5]/ref/ref/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://viaf.org/viaf/185732599",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105205537415",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:55:37.415Z",
+	"dcterms:modified": "2026-11-06T01:55:37.415Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105205537415#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105205537415#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[4]/p[5]/ref/ref/title[3]"
 		}
 	},
 	"oa:hasBody": {
@@ -3817,7 +3896,7 @@
                     <p xml:id="p1198">
                         <ref target="#technology">
                             <ref target="#intertextuality">
-                                <ref target="#intellectual_history">Although <abbr>ISTC</abbr> was released at the end of <date cert="high" when="2009">2009</date>, its implementation has been slow</ref>. This is unfortunate, as it is a promising identifier that is able to characterize relationships between works. In fact, relationships between different <abbr>ISTC </abbr>s provide as much value as the <abbr>ISTC</abbr> identifier itself, as they create connections between various life stages of a work and can facilitate the clustering of works. In the publishing world, for instance, an <abbr>ISTC</abbr> for an illustrated edition of a work and an <abbr>ISTC</abbr> for the original work can create a relationship that would easily reflect the insertion or deletion of non-textual components. Due to the flexibility of its <abbr>ONIX</abbr> (<hi rend="small-caps">on </hi>line Information eXchange)-based schema, <abbr>ISTC</abbr> can be extended to digital projects outside the commercial world, and the relationships that <abbr>ISTC</abbr> establishes would prove invaluable to humanities scholars seeking to follow texts through various permutations and adaptations. <ref target="#intertextuality">One need only think of a popular work such as <persName key="Carroll, Lewis, 1832-1898" ref="http://viaf.org/viaf/66462036">Lewis Carroll</persName>’s <title key="Carroll, Lewis, 1832-1898. | Alice's adventures in Wonderland. | German" ref="http://viaf.org/viaf/185732599">Alice in Wonderland</title> to recognize the potential of such an identifier. Discovery of all the projects that make use of different elements or editions of such a work to create a new instantiation of part or all of its identity would change the face of <title level="m">Alice</title> scholarship. A determined scholar might, for instance, track the work from its original (pre-digital and pre-<abbr>ISBN</abbr>) publication through the hundreds of editions, expansions, contractions, and adaptations of <title level="m">Alice in Wonderland</title> over the past century (from annotated, critical, abridged, and illustrated editions to film script to stage play).</ref>
+                                <ref target="#intellectual_history">Although <abbr>ISTC</abbr> was released at the end of <date cert="high" when="2009">2009</date>, its implementation has been slow</ref>. This is unfortunate, as it is a promising identifier that is able to characterize relationships between works. In fact, relationships between different <abbr>ISTC </abbr>s provide as much value as the <abbr>ISTC</abbr> identifier itself, as they create connections between various life stages of a work and can facilitate the clustering of works. In the publishing world, for instance, an <abbr>ISTC</abbr> for an illustrated edition of a work and an <abbr>ISTC</abbr> for the original work can create a relationship that would easily reflect the insertion or deletion of non-textual components. Due to the flexibility of its <abbr>ONIX</abbr> (<hi rend="small-caps">on </hi>line Information eXchange)-based schema, <abbr>ISTC</abbr> can be extended to digital projects outside the commercial world, and the relationships that <abbr>ISTC</abbr> establishes would prove invaluable to humanities scholars seeking to follow texts through various permutations and adaptations. One need only think of a popular work such as <persName key="Carroll, Lewis, 1832-1898" ref="http://viaf.org/viaf/66462036">Lewis Carroll</persName>’s <title key="Carroll, Lewis, 1832-1898. | Alice's adventures in Wonderland. | German" ref="http://viaf.org/viaf/185732599">Alice in Wonderland</title> to recognize the potential of such an identifier. Discovery of all the projects that make use of different elements or editions of such a work to create a new instantiation of part or all of its identity would change the face of <title level="m">Alice</title> scholarship. A determined scholar might, for instance, track the work from its original (pre-digital and pre-<abbr>ISBN</abbr>) publication through the hundreds of editions, expansions, contractions, and adaptations of <title key="Carroll, Lewis, 1832-1898. | Alice's adventures in Wonderland. | German" ref="http://viaf.org/viaf/185732599">Alice in Wonderland</title> over the past century (from annotated, critical, abridged, and illustrated editions to film script to stage play).
                             </ref>
                         </ref>
                     </p>
