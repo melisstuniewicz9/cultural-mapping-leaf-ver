@@ -3692,6 +3692,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205625873",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:56:25.873Z",
+	"dcterms:modified": "2026-11-06T01:56:25.873Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205625873#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?person_annotation_20261105205625873#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[2]/p[5]/ref/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/55311010",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -3795,9 +3874,9 @@
                         <ref target="#technology">The importance of unique identification has now been recognized by the digital preservation community <note place="inline">
                                 <bibl>
                                     <persName><orgName key="Jones, Maggie" ref="http://viaf.org/viaf/23049473" ana="webannotation:http://temp.lincsproject.ca/sQVybuUWLLN">Jones</orgName></persName> and <persName>Beagrie</persName> 98</bibl>
-                            </note>, and the key to digital preservation lies in interoperability across media or formats, technology platforms, and linguistic and semantic barriers. An international system of identification, then, is a way to ensure preservation. For instance, if <orgName>
-                                <abbr>CWRC</abbr>
-                            </orgName>’s infrastructure is a project’s home, then registering the works of the project through an international system of <abbr>DOI </abbr>s with an external agency would be a major step towards preservation by ensuring consistency of the digital object identity, format, and size. While the <abbr>DOI</abbr> would have no connection with the actual content of the work, it can and should testify to the integrity of the files. Thus, an identifier’s meaning is what <persName>Matthew G. Kirschenbaum</persName> and his co-authors define as <q>a further layer of computational abstraction that we can leverage against the first in order to reach a more informed evaluation about the state of the digital materials in question</q>
+                            </note>, and the key to digital preservation lies in interoperability across media or formats, technology platforms, and linguistic and semantic barriers. An international system of identification, then, is a way to ensure preservation. For instance, if 
+                                CWRC
+                            ’s infrastructure is a project’s home, then registering the works of the project through an international system of <abbr>DOI </abbr>s with an external agency would be a major step towards preservation by ensuring consistency of the digital object identity, format, and size. While the <abbr>DOI</abbr> would have no connection with the actual content of the work, it can and should testify to the integrity of the files. Thus, an identifier’s meaning is what <persName key="Kirschenbaum, Matthew G." ref="http://viaf.org/viaf/55311010">Matthew G. Kirschenbaum</persName> and his co-authors define as <q>a further layer of computational abstraction that we can leverage against the first in order to reach a more informed evaluation about the state of the digital materials in question</q>
                             <note place="inline">
                                 <bibl> 8</bibl>
                             </note>. Indeed, persistence is synonymous with future interoperability. In other words, any data put online should be able to identify a work, its creator, and its content, and provide a means to access it or some service about it both in the present and future <note place="inline">
