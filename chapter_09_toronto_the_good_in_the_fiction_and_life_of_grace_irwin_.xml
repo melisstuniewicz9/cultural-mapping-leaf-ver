@@ -2428,6 +2428,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261105200735188",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:07:35.188Z",
+	"dcterms:modified": "2026-11-06T01:07:35.188Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261105200735188#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261105200735188#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[4]/ref/ref/ref/placeName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "https://sws.geonames.org/6167865",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -2526,7 +2605,7 @@
                                 <ref target="#class_issue">Through the experiences and ruminations of her fictional protagonists, <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735">Grace Irwin</persName> clothes concepts of place and space, the challenges of openness and modernity, and class-enabled or -restricted occasions for voice or silence, in human encounters with <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName>.</ref> Although transnational globality is not a prominent feature of her <date cert="high" from="1900-01-01" to="1970-12-31">early and mid-twentieth-century</date> city, <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735">Irwin’s</persName> <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName> embodies both the <q>identity-endowing</q>
                                 <note place="inline">
                                     <bibl>Ball 185</bibl>
-                                </note> specificity of place and the liminality of space through which her characters move, question, and discover themselves. Aware of the fragmentary, isolated, atomistic quality of city life, her perception of Toronto does not draw on the demi-monde scurrility of <persName>Christopher Saint George Clark</persName>’s <date cert="high" from="1850" to="1899-12-31">late nineteenth-century</date> exposé, <title level="m">Of Toronto the Good: A Social Study</title>. <ref target="#social_issue">
+                                </note> specificity of place and the liminality of space through which her characters move, question, and discover themselves. Aware of the fragmentary, isolated, atomistic quality of city life, her perception of <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName> does not draw on the demi-monde scurrility of <persName>Christopher Saint George Clark</persName>’s <date cert="high" from="1850" to="1899-12-31">late nineteenth-century</date> exposé, <title level="m">Of Toronto the Good: A Social Study</title>. <ref target="#social_issue">
                                     <ref target="#representation_of_women">Cataloguing <q>unwholesome truths</q> and familiar with the <q>shabby tumble-down houses</q> where <q>the poor were obliged to live,</q> <persName key="Clark, C.S" ref="http://viaf.org/viaf/104482081" ana="webannotation:http://temp.lincsproject.ca/gndbyLZkItV">Clark</persName> delighted in poking a finger in the eye of righteousness, asserting the omnipresence of street walkers: <q>on every street in the city…I have been solicited</q>
                                         <note place="inline">
                                             <bibl><persName key="Clark, C.S" ref="http://viaf.org/viaf/104482081" ana="webannotation:http://temp.lincsproject.ca/F0fKlkVAp45">Clark</persName> 209, 3, 131</bibl>
