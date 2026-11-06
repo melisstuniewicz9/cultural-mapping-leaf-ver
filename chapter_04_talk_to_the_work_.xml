@@ -2665,6 +2665,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105204900397",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-06T01:49:00.397Z",
+	"dcterms:modified": "2026-11-06T01:49:00.397Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105204900397#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_04_talk_to_the_work_.xml?work_annotation_20261105204900397#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div[5]/p[2]/ref/ref/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "https://www.wikidata.org/wiki/Q5029743",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -2897,9 +2976,9 @@
                     </p>
                     <p xml:id="p1201">
                         <ref target="#technology">
-                            <ref target="#genre_journalism">The <title level="j"><orgName key="Canadian Author &amp; Bookman" ref="https://www.wikidata.org/wiki/Q5029743" ana="webannotation:http://temp.lincsproject.ca/deh8hDIZSsA">Canadian Bookman</orgName></title> digital edition project is hosted by <orgName>
-                                    <abbr>CWRC</abbr>
-                                </orgName> and uses <abbr>ISTC</abbr> registration to accomplish two primary objectives. The first objective is to enable cross-platform discovery of the project, in which readers are exposed to related projects and other digital copies of the <title level="j">Canadian Bookman</title> available on the web. The second objective of <abbr>ISTC</abbr> registration is to describe the serial’s paratextual elements, specifically advertisements, in order to move beyond basic encoding strategies to represent the relationship between works and advertisements.</ref>
+                            <ref target="#genre_journalism">The <title key="Canadian Bookman" ref="https://www.wikidata.org/wiki/Q5029743">Canadian Bookman</title> digital edition project is hosted by 
+                                    CWRC
+                                 and uses <abbr>ISTC</abbr> registration to accomplish two primary objectives. The first objective is to enable cross-platform discovery of the project, in which readers are exposed to related projects and other digital copies of the <title level="j">Canadian Bookman</title> available on the web. The second objective of <abbr>ISTC</abbr> registration is to describe the serial’s paratextual elements, specifically advertisements, in order to move beyond basic encoding strategies to represent the relationship between works and advertisements.</ref>
                         </ref>
                     </p>
                     <p xml:id="p1202">
@@ -2910,7 +2989,7 @@
                                     <bibl>56</bibl>
                                 </note> transmit meaning, 
                                     <orgName key="Canadian Writing Research Collaboratory" ref="http://www.wikidata.org/entity/Q134008740">CWRC</orgName>
-                                ’s <title level="j"><orgName key="Canadian Author &amp; Bookman" ref="https://www.wikidata.org/wiki/Q5029743" ana="webannotation:http://temp.lincsproject.ca/nFZUc8lIh9u">Canadian Bookman</orgName></title> project contends that advertisements exceed their commercial dimension to become an intrinsic textual feature of the periodical.</ref>
+                                ’s <title level="j"><orgName key="Canadian Author &amp; Bookman" ref="https://www.wikidata.org/wiki/Q5029743" ana="webannotation:http://temp.lincsproject.ca/nFZUc8lIh9u"/></title> project contends that advertisements exceed their commercial dimension to become an intrinsic textual feature of the periodical.</ref>
                         </ref>
                     </p>
                     <p xml:id="p1203">
