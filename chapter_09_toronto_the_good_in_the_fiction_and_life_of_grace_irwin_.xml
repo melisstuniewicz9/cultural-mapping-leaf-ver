@@ -4877,6 +4877,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?work_annotation_20261106214319162",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-07T02:43:19.162Z",
+	"dcterms:modified": "2026-11-07T02:43:19.162Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?work_annotation_20261106214319162#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?work_annotation_20261106214319162#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl[18]/title"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "bf:Title",
+		"@id": "http://www.wikidata.org/entity/Q139992394",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -5495,9 +5574,9 @@
                         <bibl><persName key="Neatby, Hilda, 1904-1975" ref="http://viaf.org/viaf/69761477" ana="webannotation:http://temp.lincsproject.ca/7phfcYKmYK8">Neatby</persName>, <persName key="Neatby, Hilda, 1904-1975" ref="http://viaf.org/viaf/69761477" ana="webannotation:http://temp.lincsproject.ca/GYluO2TZWoJ">Hilda</persName>. <title level="m">So Little for the Mind: An Indictment of Canadian Education</title>. <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName>: <persName key="Irwin, C.H." ref="http://viaf.org/viaf/12676484">Clarke, Irwin</persName>, 1953.</bibl>
                         <bibl><persName key="Ricœur, Paul, 1913-2005" ref="http://viaf.org/viaf/108266369">Ricoeur</persName>, <persName key="Ricœur, Paul, 1913-2005" ref="http://viaf.org/viaf/108266369" ana="webannotation:http://temp.lincsproject.ca/ukgB3Fr3xio">Paul</persName>. <title key="Time and Narrative" ref="https://www.wikidata.org/wiki/Q138039667">Time and Narrative</title>. Vol. 3. Trans. <persName key="Blamey, Kathleen." ref="http://viaf.org/viaf/24318319" ana="webannotation:http://temp.lincsproject.ca/LqHjcBP0jPw">Kathleen Blamey</persName> and <persName key="Pellauer, David" ref="http://viaf.org/viaf/61481873" ana="webannotation:http://temp.lincsproject.ca/STg0KY4Nael">David Pellauer</persName>. <placeName key="Chicago" ref="https://sws.geonames.org/4887398" ana="webannotation:http://temp.lincsproject.ca/bC6hpLNYGXE">Chicago</placeName>: <orgName key="University of Chicago. Press" ref="http://viaf.org/viaf/122888939" ana="webannotation:http://temp.lincsproject.ca/eIgkY7YSl6b">University of Chicago Press</orgName>, 1985.</bibl>
                         <bibl><persName key="Sassen, Saskia." ref="http://viaf.org/viaf/66527919" ana="webannotation:http://temp.lincsproject.ca/o1xLQhFfHUi">Sassen</persName>, <persName key="Sassen, Saskia." ref="http://viaf.org/viaf/66527919" ana="webannotation:http://temp.lincsproject.ca/ptQEwmIkVQX">Saskia</persName>. <title key="Cities in a World Economy" ref="http://www.wikidata.org/entity/Q139885987">Cities in a World Economy</title>. 3rd ed. <placeName key="Thousand Oaks" ref="https://sws.geonames.org/5402406      " ana="webannotation:http://temp.lincsproject.ca/b8Eo6TeIPkT">Thousand Oaks</placeName>, <placeName key="California" ref="https://sws.geonames.org/5332921  " ana="webannotation:http://temp.lincsproject.ca/HHp73rqwhMj">CA</placeName>: <orgName key="Pine Forge Press." ref="http://viaf.org/viaf/144396781" ana="webannotation:http://temp.lincsproject.ca/Vr5yfRnsRkq">Pine Forge Press</orgName>, <orgName key="Sage Publishing" ref="http://www.wikidata.org/entity/Q251266" ana="webannotation:http://temp.lincsproject.ca/zBjz9Mpq23k">Sage Publications</orgName>, 2006.</bibl>
-                        <bibl><persName key="Shakespeare, William, 1564-1616." ref="http://viaf.org/viaf/96994048" ana="webannotation:http://temp.lincsproject.ca/quzchslcxU0">Shakespeare</persName>, <persName key="Shakespeare, William, 1564-1616." ref="http://viaf.org/viaf/96994048" ana="webannotation:http://temp.lincsproject.ca/zGYAjmzD0B8">William</persName>. <title level="m">Henry V</title>. Ed. <persName key="Bevington, David M." ref="http://viaf.org/viaf/108386749" ana="webannotation:http://temp.lincsproject.ca/s7lQ7CFHQk4">David Bevington</persName>. 6th ed. <placeName key="New York City" ref="https://sws.geonames.org/5128581" ana="webannotation:http://temp.lincsproject.ca/qPUVMFzVjF5">New York</placeName>: <orgName key="Longman (Firm)" ref="http://viaf.org/viaf/316750509" ana="webannotation:http://temp.lincsproject.ca/qcM5YpQQlkA">Pearson Longman</orgName>, 2009.</bibl>
-                        <bibl><persName key="Smith, Michael P." ref="http://viaf.org/viaf/108768118" ana="webannotation:http://temp.lincsproject.ca/GBMaZlAYgVi">Smith</persName>, <persName key="Smith, Michael P." ref="http://viaf.org/viaf/108768118" ana="webannotation:http://temp.lincsproject.ca/iXWyd0gZ5JW">Michael Peter</persName>. <title level="m">Transnational Urbanism: Locating Globalization</title>. <placeName key="Malden" ref="https://sws.geonames.org/4942939" ana="webannotation:http://temp.lincsproject.ca/SMjQPH0vmuw">Malden</placeName>, <title key="Massachusetts" ref="https://sws.geonames.org/6254926" ana="webannotation:http://temp.lincsproject.ca/7MlvlOyhJsk">MA</title>: <orgName key="Blackwell Publishing Ltd." ref="http://viaf.org/viaf/135219350" ana="webannotation:http://temp.lincsproject.ca/jGPYZoa3ScC">Blackwell</orgName>, 2001.</bibl>
-                        <bibl><persName key="Squier, Susan Merrill" ref="http://viaf.org/viaf/19802113" ana="webannotation:http://temp.lincsproject.ca/ticxJL8ZDfm">Squier</persName>, <persName key="Squier, Susan Merrill" ref="http://viaf.org/viaf/19802113" ana="webannotation:http://temp.lincsproject.ca/GYbsdguXAE7">Susan Merrill</persName>, ed. Introduction. Women Writers and the City: Essays in Feminist Literary Criticism. <placeName key="Knoxville" ref="http://www.wikidata.org/entity/Q185582" ana="webannotation:http://temp.lincsproject.ca/HIVS0yDBf3p">Knoxville</placeName>: <orgName key="University of Tennessee Press." ref="http://viaf.org/viaf/311353831" ana="webannotation:http://temp.lincsproject.ca/phhsN0R2peW">University of Tennessee Press</orgName>, 1984. 3–10.</bibl>
+                        <bibl><persName key="Shakespeare, William, 1564-1616." ref="http://viaf.org/viaf/96994048" ana="webannotation:http://temp.lincsproject.ca/quzchslcxU0">Shakespeare</persName>, <persName key="Shakespeare, William, 1564-1616." ref="http://viaf.org/viaf/96994048" ana="webannotation:http://temp.lincsproject.ca/zGYAjmzD0B8">William</persName>. Henry V. Ed. <persName key="Bevington, David M." ref="http://viaf.org/viaf/108386749" ana="webannotation:http://temp.lincsproject.ca/s7lQ7CFHQk4">David Bevington</persName>. 6th ed. <placeName key="New York City" ref="https://sws.geonames.org/5128581" ana="webannotation:http://temp.lincsproject.ca/qPUVMFzVjF5">New York</placeName>: <orgName key="Longman (Firm)" ref="http://viaf.org/viaf/316750509" ana="webannotation:http://temp.lincsproject.ca/qcM5YpQQlkA">Pearson Longman</orgName>, 2009.</bibl>
+                        <bibl><persName key="Smith, Michael P." ref="http://viaf.org/viaf/108768118" ana="webannotation:http://temp.lincsproject.ca/GBMaZlAYgVi">Smith</persName>, <persName key="Smith, Michael P." ref="http://viaf.org/viaf/108768118" ana="webannotation:http://temp.lincsproject.ca/iXWyd0gZ5JW">Michael Peter</persName>. <title key="Transnational urbanism: locating globalization" ref="http://www.wikidata.org/entity/Q139992394">Transnational Urbanism: Locating Globalization</title>. <placeName key="Malden" ref="https://sws.geonames.org/4942939" ana="webannotation:http://temp.lincsproject.ca/SMjQPH0vmuw">Malden</placeName>, <title key="Massachusetts" ref="https://sws.geonames.org/6254926" ana="webannotation:http://temp.lincsproject.ca/7MlvlOyhJsk">MA</title>: <orgName key="Blackwell Publishing Ltd." ref="http://viaf.org/viaf/135219350" ana="webannotation:http://temp.lincsproject.ca/jGPYZoa3ScC">Blackwell</orgName>, 2001.</bibl>
+                        <bibl><persName key="Squier, Susan Merrill" ref="http://viaf.org/viaf/19802113" ana="webannotation:http://temp.lincsproject.ca/ticxJL8ZDfm">Squier</persName>, <persName key="Squier, Susan Merrill" ref="http://viaf.org/viaf/19802113" ana="webannotation:http://temp.lincsproject.ca/GYbsdguXAE7">Susan Merrill</persName>, ed. Introduction. <title level="m">Women Writers and the City: Essays in Feminist Literary Criticism</title>. <placeName key="Knoxville" ref="http://www.wikidata.org/entity/Q185582" ana="webannotation:http://temp.lincsproject.ca/HIVS0yDBf3p">Knoxville</placeName>: <orgName key="University of Tennessee Press." ref="http://viaf.org/viaf/311353831" ana="webannotation:http://temp.lincsproject.ca/phhsN0R2peW">University of Tennessee Press</orgName>, 1984. 3–10.</bibl>
                         <bibl><persName key="Watt, Frank William, 1927-" ref="http://viaf.org/viaf/94524065" ana="webannotation:http://temp.lincsproject.ca/UgQ8rMQNNPQ">Watt</persName>, <persName key="F.W, Watt" ref="http://viaf.org/viaf/94524065">F.W</persName>. <title level="a">Fiction.</title>
                             <title level="j"><orgName key="University of Toronto Quarterly" ref="http://www.wikidata.org/entity/Q7896494" ana="webannotation:http://temp.lincsproject.ca/aT5OLmJ9e4E">University of Toronto Quarterly</orgName></title> 30.4 (1960–61): 401–16.</bibl>
                         <bibl><persName key="Williams, Raymond, 1921-1988." ref="http://viaf.org/viaf/87380498" ana="webannotation:http://temp.lincsproject.ca/ljEWjeNvpo3">Williams</persName>, <persName key="Williams, Raymond, 1921-1988." ref="http://viaf.org/viaf/87380498" ana="webannotation:http://temp.lincsproject.ca/92BRHSgXRKF">Raymond</persName>. <title level="m">The Country and the City</title>. <placeName key="London" ref="https://sws.geonames.org/2643743">London</placeName>: <orgName key="Chatto &amp; Windus." ref="http://viaf.org/viaf/131167970" ana="webannotation:http://temp.lincsproject.ca/XOpleA6eFIj">Chatto and Windus</orgName>, 1973.</bibl>
