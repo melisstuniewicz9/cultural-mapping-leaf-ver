@@ -3218,6 +3218,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261106212842680",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-07T02:28:42.680Z",
+	"dcterms:modified": "2026-11-07T02:28:42.680Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261106212842680#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261106212842680#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl[5]/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/117350735",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -3823,7 +3902,7 @@
                         <bibl><persName key="Gilbert, Pamela K." ref="http://viaf.org/viaf/232646045" ana="webannotation:http://temp.lincsproject.ca/OGD4kSaD4v7">Gilbert</persName>, <persName key="Gilbert, Pamela K." ref="http://viaf.org/viaf/232646045" ana="webannotation:http://temp.lincsproject.ca/cbaDQqvkzCG">Pamela K.</persName> <title level="a">Sex and the City: English Studies and the Spatial Turn.</title>
                             <title level="m">The Spatial Turn: Interdisciplinary Perspectives</title>. Ed. <persName key="Warf, Barney, 1956-...." ref="http://viaf.org/viaf/29646209" ana="webannotation:http://temp.lincsproject.ca/kwY1QW3mxbM">Barney Warf</persName> and <persName key="Arias, Santa." ref="http://viaf.org/viaf/38729216" ana="webannotation:http://temp.lincsproject.ca/s8v4F8MXlXf">Santa Arias</persName>. <placeName key="New York City" ref="https://sws.geonames.org/5128581" ana="webannotation:http://temp.lincsproject.ca/0fr9PxTr9m8">New York</placeName>: <orgName key="Routledge" ref="http://viaf.org/viaf/146326081" ana="webannotation:http://temp.lincsproject.ca/1iQmDWEBciv">Routledge</orgName>, 2009. 102–21.</bibl>
                         <bibl><persName key="Grosz, Elizabeth, 1952-...." ref="http://viaf.org/viaf/41898918" ana="webannotation:http://temp.lincsproject.ca/MZARD2TNQNW">Grosz</persName>, <persName key="Grosz, Elizabeth, 1952-...." ref="http://viaf.org/viaf/41898918" ana="webannotation:http://temp.lincsproject.ca/2T1NDaK2RUh">Elizabeth</persName>. <title level="m">Space, Time, and Perversion: Essays on the Politics of Bodies</title>. <placeName key="New York City" ref="https://sws.geonames.org/5128581" ana="webannotation:http://temp.lincsproject.ca/IhBSVwx664k">New York</placeName>: <orgName key="Routledge" ref="http://viaf.org/viaf/146326081" ana="webannotation:http://temp.lincsproject.ca/Mh8rF95RLUN">Routledge</orgName>, 1995.</bibl>
-                        <bibl>Irwin, <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735" ana="webannotation:http://temp.lincsproject.ca/1rQdGaOIrxk">Grace</persName>. <title level="m">Andrew Connington</title>. Toronto: McClelland and Stewart, 1954.</bibl>
+                        <bibl><persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735">Irwin</persName>, <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735" ana="webannotation:http://temp.lincsproject.ca/1rQdGaOIrxk">Grace</persName>. <title level="m">Andrew Connington</title>. Toronto: McClelland and Stewart, 1954.</bibl>
                         <bibl>. <title level="m">Compensation</title>. <placeName key="Belleville" ref="https://sws.geonames.org/5897884       " ana="webannotation:http://temp.lincsproject.ca/MwLI5AQVTgj">Belleville</placeName>, <placeName key="Ontario" ref="http://www.wikidata.org/entity/Q1904" ana="webannotation:http://temp.lincsproject.ca/3iopxQpGTbV">ON</placeName>: Epic Press, 2003.</bibl>
                         <bibl>. <title level="m">Contend with Horses</title>. Toronto: McClelland and Stewart, 1969.</bibl>
                         <bibl>. <title level="m">In Little Place</title>. <placeName key="Grand Rapids" ref="https://sws.geonames.org/4994359" ana="webannotation:http://temp.lincsproject.ca/Af1U5Pp79m4">Grand Rapids</placeName>, <placeName key="Michigan" ref="https://sws.geonames.org/5001836" ana="webannotation:http://temp.lincsproject.ca/EL8jOliK00P">MI</placeName>: <orgName key="Wm. B. Eerdmans Publishing Co." ref="http://viaf.org/viaf/126651989" ana="webannotation:http://temp.lincsproject.ca/UI2JIskHjaV">W.B. Eerdmans Publishing Company</orgName>, 1959.</bibl>
