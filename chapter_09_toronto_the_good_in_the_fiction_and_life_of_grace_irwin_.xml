@@ -5114,6 +5114,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261106214738348",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-07T02:47:38.348Z",
+	"dcterms:modified": "2026-11-07T02:47:38.348Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261106214738348#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261106214738348#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[21]/ref/ref/ref/ref/ref[3]/persName[3]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/109322990",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261106214751199",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-07T02:47:51.199Z",
+	"dcterms:modified": "2026-11-07T02:47:51.199Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261106214751199#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261106214751199#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[21]/ref/ref/ref/ref/ref[3]/persName[4]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://viaf.org/viaf/108266369",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -5701,7 +5859,7 @@
                                             <bibl>Young 13</bibl>
                                         </note> from which <persName>Phyllis Brett Young</persName>’s heroine in <title level="m">The Torontonians</title> dreams of escape. For today’s reader many topographical references also highlight what has changed: department stores have disappeared; the <orgName>
                                             CBC
-                                        </orgName> has a new gleaming location on <placeName>Front Street West</placeName>; and the <orgName>Royal Ontario Museum</orgName> now literally juts onto <placeName>Bloor Street</placeName>. What Irwin captures, I suggest, is a Toronto few of her millions of residents would recognize today. <ref target="#religion">The modern consciousness of her Torontonian protagonists has a distinctive theological and apologetic cast. Within the confessional debates and church interiors of her novels there is limited recognition of coeval others.</ref> Communication circuits involve a range of ethical and pedagogical topics. <ref target="#intertextuality">Rather than simply reifying her work as glimpses of a past, it is worth considering how they amplify and thicken our understanding of boom and growth. Moreover, rather than positioning Irwin as the baseline against which to measure the urban consciousness of <persName>Young</persName>, <persName>Gwendolyn MacEwen</persName>, or <persName>Margaret Atwood</persName>, it might be time to adjust and re-apply the criteria of the interplay of diversity and the multiplicity and openness of place to resuscitate awareness of the career of this independent, strong-minded individual of great, unswerving conviction. If interest exists in what <persName>Ricoeur</persName> labelled a horizon of expectations, which <q>tends toward the breaking open of perspectives</q>
+                                        </orgName> has a new gleaming location on <placeName>Front Street West</placeName>; and the <orgName>Royal Ontario Museum</orgName> now literally juts onto <placeName>Bloor Street</placeName>. What Irwin captures, I suggest, is a Toronto few of her millions of residents would recognize today. <ref target="#religion">The modern consciousness of her Torontonian protagonists has a distinctive theological and apologetic cast. Within the confessional debates and church interiors of her novels there is limited recognition of coeval others.</ref> Communication circuits involve a range of ethical and pedagogical topics. <ref target="#intertextuality">Rather than simply reifying her work as glimpses of a past, it is worth considering how they amplify and thicken our understanding of boom and growth. Moreover, rather than positioning Irwin as the baseline against which to measure the urban consciousness of <persName>Young</persName>, <persName>Gwendolyn MacEwen</persName>, or <persName key="Atwood, Margaret, 1939-...." ref="http://viaf.org/viaf/109322990">Margaret Atwood</persName>, it might be time to adjust and re-apply the criteria of the interplay of diversity and the multiplicity and openness of place to resuscitate awareness of the career of this independent, strong-minded individual of great, unswerving conviction. If interest exists in what <persName key="Ricœur, Paul, 1913-2005" ref="http://viaf.org/viaf/108266369">Ricoeur</persName> labelled a horizon of expectations, which <q>tends toward the breaking open of perspectives</q>
                                         <note place="inline">
                                             <bibl>209</bibl>
                                         </note>, then perhaps the understudied hermeneutic architecture of Irwin’s Toronto the Good warrants exploration.</ref>
