@@ -4166,6 +4166,85 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261106213428695",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-07T02:34:28.695Z",
+	"dcterms:modified": "2026-11-07T02:34:28.695Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261106213428695#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261106213428695#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/div/listBibl/bibl/placeName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:RealPlace",
+		"@id": "http://viaf.org/viaf/108266369",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -4766,7 +4845,7 @@
                     <head>works cited</head>
                     <listBibl>
                         <bibl><persName key="Ball, John Clement, 1960-...." ref="http://viaf.org/viaf/71644128" ana="webannotation:http://temp.lincsproject.ca/Zq8HeBaJL29">Ball</persName>, <persName key="Ball, John Clement, 1960-...." ref="http://viaf.org/viaf/71644128" ana="webannotation:http://temp.lincsproject.ca/2w09ifcvASv">John Clement</persName>. <title level="a">Duelling and Dwelling in Toronto and London: Transnational Urbanism in Catherine Bush’s <title level="m">The Rules of Engagement</title>.</title>
-                            <title level="m">Downtown <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/V6ibW366QFL">Canada</placeName>: <title key="Downtown Canada: Writing Canadian Cities" ref="https://www.wikidata.org/wiki/Q136065727" ana="webannotation:http://temp.lincsproject.ca/lS5XOgn9Tzc">Writing Canadian Cities</title>.</title> Ed. <persName key="Edwards, Justin D., 1970-...." ref="http://viaf.org/viaf/116861733" ana="webannotation:http://temp.lincsproject.ca/vBuT5L1T2yf">Justin Edwards</persName> and <persName key="Ivison, Douglas" ref="http://viaf.org/viaf/74103425" ana="webannotation:http://temp.lincsproject.ca/NzKsKyUPEOT">Douglas Ivison</persName>. Toronto: <orgName key="University of Toronto. Press" ref="http://viaf.org/viaf/126595939" ana="webannotation:http://temp.lincsproject.ca/M8X5GHTgrDn">University of Toronto Press</orgName>, 2005. 183–96.</bibl>
+                            <title level="m">Downtown <placeName key="Canada" ref="https://sws.geonames.org/6251999" ana="webannotation:http://temp.lincsproject.ca/V6ibW366QFL">Canada</placeName>: <title key="Downtown Canada: Writing Canadian Cities" ref="https://www.wikidata.org/wiki/Q136065727" ana="webannotation:http://temp.lincsproject.ca/lS5XOgn9Tzc">Writing Canadian Cities</title>.</title> Ed. <persName key="Edwards, Justin D., 1970-...." ref="http://viaf.org/viaf/116861733" ana="webannotation:http://temp.lincsproject.ca/vBuT5L1T2yf">Justin Edwards</persName> and <persName key="Ivison, Douglas" ref="http://viaf.org/viaf/74103425" ana="webannotation:http://temp.lincsproject.ca/NzKsKyUPEOT">Douglas Ivison</persName>. <placeName key="Toronto" ref="http://viaf.org/viaf/108266369">Toronto</placeName>: <orgName key="University of Toronto. Press" ref="http://viaf.org/viaf/126595939" ana="webannotation:http://temp.lincsproject.ca/M8X5GHTgrDn">University of Toronto Press</orgName>, 2005. 183–96.</bibl>
                         <bibl><persName key="Clark, C.S" ref="http://viaf.org/viaf/104482081" ana="webannotation:http://temp.lincsproject.ca/i1cs64xhvEo">Clark</persName>, C.S. <title level="m">Of Toronto the Good: A Social Study</title>. <placeName key="Montréal" ref="https://sws.geonames.org/6077243" ana="webannotation:http://temp.lincsproject.ca/aJtmZDvFXum">Montreal</placeName>: Toronto Publishing Company, 1898.</bibl>
                         <bibl><persName key="Gilbert, Pamela K." ref="http://viaf.org/viaf/232646045" ana="webannotation:http://temp.lincsproject.ca/OGD4kSaD4v7">Gilbert</persName>, <persName key="Gilbert, Pamela K." ref="http://viaf.org/viaf/232646045" ana="webannotation:http://temp.lincsproject.ca/cbaDQqvkzCG">Pamela K.</persName> <title level="a">Sex and the City: English Studies and the Spatial Turn.</title>
                             <title level="m">The Spatial Turn: Interdisciplinary Perspectives</title>. Ed. <persName key="Warf, Barney, 1956-...." ref="http://viaf.org/viaf/29646209" ana="webannotation:http://temp.lincsproject.ca/kwY1QW3mxbM">Barney Warf</persName> and <persName key="Arias, Santa." ref="http://viaf.org/viaf/38729216" ana="webannotation:http://temp.lincsproject.ca/s8v4F8MXlXf">Santa Arias</persName>. <placeName key="New York City" ref="https://sws.geonames.org/5128581" ana="webannotation:http://temp.lincsproject.ca/0fr9PxTr9m8">New York</placeName>: <orgName key="Routledge" ref="http://viaf.org/viaf/146326081" ana="webannotation:http://temp.lincsproject.ca/1iQmDWEBciv">Routledge</orgName>, 2009. 102–21.</bibl>
