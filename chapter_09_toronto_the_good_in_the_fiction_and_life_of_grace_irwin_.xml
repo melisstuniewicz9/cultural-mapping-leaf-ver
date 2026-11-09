@@ -2935,7 +2935,6 @@
 	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261105201108792",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-06T01:11:08.792Z",
-	"dcterms:modified": "2026-11-06T01:11:08.792Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/melisstuniewicz9",
 		"@type": [
@@ -2962,7 +2961,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?place_annotation_20261105201108792#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[5]/ref/ref/ref/ref[2]/placeName"
+			"rdf:value": "TEI/text/body/div/p[5]/ref/ref/ref/placeName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -3014,7 +3013,6 @@
 	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261105201155971",
 	"type": "oa:Annotation",
 	"dcterms:created": "2026-11-06T01:11:55.971Z",
-	"dcterms:modified": "2026-11-06T01:11:55.971Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/melisstuniewicz9",
 		"@type": [
@@ -3041,7 +3039,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?person_annotation_20261105201155971#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/p[5]/ref/ref/ref/ref[2]/persName"
+			"rdf:value": "TEI/text/body/div/p[5]/ref/ref/ref/persName[2]"
 		}
 	},
 	"oa:hasBody": {
@@ -7087,6 +7085,164 @@
 	}
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?organization_annotation_20261109120255266",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-09T17:02:55.266Z",
+	"dcterms:modified": "2026-11-09T17:02:55.266Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?organization_annotation_20261109120255266#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?organization_annotation_20261109120255266#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/ref/ref/ref/ref/ref/ref/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/152755326",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?organization_annotation_20261109120347210",
+	"type": "oa:Annotation",
+	"dcterms:created": "2026-11-09T17:03:47.210Z",
+	"dcterms:modified": "2026-11-09T17:03:47.210Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/melisstuniewicz9",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Melissa Tuniewicz"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?organization_annotation_20261109120347210#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "4.3.2"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/melisstuniewicz9/cultural-mapping-leaf-ver/main/chapter_09_toronto_the_good_in_the_fiction_and_life_of_grace_irwin_.xml?organization_annotation_20261109120347210#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/p[5]/ref/ref/ref/orgName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "org:Organization",
+		"@id": "http://viaf.org/viaf/153147334",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "4.3.2"
+	}
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
             <projectDesc>
                 <p/>
@@ -7223,7 +7379,7 @@
                             <ref target="#genre_novel">
                                 <ref target="#editions">
                                     <ref target="#translation">
-                                        <ref target="#language">Clergyman Andrew Connington is the central figure of three of <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735">Irwin’s</persName> novels, <title level="m">Least of All Saints</title>, <title level="m">Andrew Connington</title>, and <title level="m">Contend with Horses</title>, all published by McClelland and Stewart and translated into German.</ref>
+                                        <ref target="#language">Clergyman Andrew Connington is the central figure of three of <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735">Irwin’s</persName> novels, <title level="m">Least of All Saints</title>, <title level="m">Andrew Connington</title>, and <title level="m">Contend with Horses</title>, all published by <orgName key="McClelland and Stewart" ref="http://viaf.org/viaf/152755326">McClelland and Stewart</orgName> and translated into German.</ref>
                                     </ref>
                                 </ref> <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735">Irwin</persName> fashions Connington’s <date cert="high" from="1920-01-01" to="1929-12-31">1920s</date>
                                 <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName> as an observant, dialogic milieu—<q>there was nothing peculiar about church attendance in <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName></q>
@@ -7238,7 +7394,7 @@
                                 <note place="inline">
                                     <bibl>
                                         <hi rend="italic">Least of All Saints</hi> 218</bibl>
-                                </note>. <ref target="#spatiality">Despite this tension between attendance and ebbing belief, the <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName> of churches, compendious theological debate at <orgName>Emmanuel College</orgName>, and the domestic life of an ejected pastor, who is also a husband, parent, and eventually widower, is not a satirical indictment of clergy; rather, <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735">Irwin’s</persName> Connington novels are a deeply attentive, engaged exploration of the shaping, testing, and expansion of a clerical vocation within the shifting geographies of centre and margin of an altered urban milieu.</ref>
+                                </note>. Despite this tension between attendance and ebbing belief, the <placeName key="Toronto" ref="https://sws.geonames.org/6167865">Toronto</placeName> of churches, compendious theological debate at <orgName key="Emmanuel College (Toronto)" ref="http://viaf.org/viaf/153147334">Emmanuel College,</orgName> and the domestic life of an ejected pastor, who is also a husband, parent, and eventually widower, is not a satirical indictment of clergy; rather, <persName key="Irwin, Grace, 1907-" ref="http://viaf.org/viaf/117350735">Irwin’s</persName> Connington novels are a deeply attentive, engaged exploration of the shaping, testing, and expansion of a clerical vocation within the shifting geographies of centre and margin of an altered urban milieu.
                             </ref>
                         </ref>
                     </ref>
